@@ -1,0 +1,22 @@
+https://www.rp-photonics.com/nonlinear_crystal_materials.html
+PPKTP Crystal
+#History
+- Before PPKTP - Type II _BBO_ (Beta Barium borate crystal https://www.rp-photonics.com/nonlinear_crystal_materials.html) bulk crystal generated orthogonally polarized photon pairs
+
+25 mm PPKTP crystal
+	- Collinear configuration -> Larger fraction of entangled photons
+														-> Higher brightness
+- The problem to solve:
+	Spatically separating the collinear downconverted modes
+-- Solution?: Dichromic mirrors(https://www.rp-photonics.com/dichroic_mirrors.html) => High spectral brightness
+-- Solution #1:
+	 Beamsplitter (BS) => 50% loss in _coincidences_
+-- Solution #2: 
+		Interferometrically combine the outpus of 2 downconverters ona polarising BS (PBS)
+		Bidirectionally pumped PPKTP crstal in a _Mach-Zender interferometer_
+		Sensitive to vibrations -> Visibility <90% with phase stabilisation
+-- Solution #3: 
+		Type I BBO Crystals output combined in sagnac interferometer -> Stable but low count rates and visibility
+-- Solution #4:
+	 Solution #2 + Solution #3 = Bidirectionally pumped type II PPKTP crystal in a polarizing _Segnac interferometer_ 
+

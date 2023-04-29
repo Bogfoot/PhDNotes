@@ -1,0 +1,14 @@
+#My PhD notes
+
+{https://www.nature.com/articles/ncomms1147}[Efficient quantum state entanglement]
+* {:notes/PHD/PPKTP(LN):}[PPKTP(LN) Crystal]
+* {https://www.rp-photonics.com/nonlinear_crystal_materials.html}[Nonlinear Crystal Materials]
+** {https://en.wikipedia.org/wiki/Potassium_titanyl_phosphate}[KTP]
+**	{https://en.wikipedia.org/wiki/Monopotassium_phosphate}[KDP/DKDP]
+* Quantum encription - Quantum Key Distribution (QKD)
+- Data encoded by quantu encription _can't_ be _copied_ or _read_(/{https://en.wikipedia.org/wiki/No-cloning_theorem}[no-cloning theorem]/ NCT)
+- NCT 
+-- Copying or reading changes it's state
+-- Identical copying an unknown quantum state without causing irreversible changes to it is impossible
+* {:notes/PHD/SPDC:}[- Spontanious Parametric DownConversion]
+	{https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion}[SPDC] 

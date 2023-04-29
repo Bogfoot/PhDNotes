@@ -1,0 +1,16 @@
+* {https://en.wikipedia.org/wiki/Potassium_titanyl_phosphate}[KTP]
+		- Potassium titanyl phosphite
+	--- non-liear optics material for frequency doubling via diode pumped solid state laser
+		- Transmissive for 350-2700 nm, opaque >4500 nm
+----- Used for 2nd harmonic generation (SHG) \approx 3x _KDP_
+		- optical parametric oscillator \approx IR \approx 4 \mu m
+		- Periodically poled KTP: Type 0, 1, 2 frequency conversion $|_{730...3500 nm}$	
+		- Switched domain regions ^.^.^.^.^.^.^.^
+		- wavelength tailored for efficient SHG, sum-frequency generation (\sigma\nu G)
+		- Based o quasi-phase matching by periodic poling of ferroelectic domains
+* {https://en.wikipedia.org/wiki/Monopotassium_phosphate}[KDP/DKDP]
+		- (Deutered) potassium dihidrogen phosphite
+		- SHG, THG(3),... for Nd:YAG & ND:YLF lasers
+		- Electro optica applications (Q-switches)
+
+* {https://www.thorlabs.com/catalogpages/693.pdf}[PPLL]

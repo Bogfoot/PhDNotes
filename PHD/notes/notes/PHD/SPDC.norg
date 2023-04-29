@@ -1,0 +1,23 @@
+SPDC - Spontanious Parametric DownConversion
+|-----------------------------|
+| \^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.\^\.|
+|_____________________________|
+
+Photon pump, p => Signal (s), Idler (i); \omega_p = \omega_s + \omega_i
+																				 K_p = K_s + K_i + \frac{2\pi}{\Lambda}
+K_p = K_p (\lambda_p, (n_p,T))
+K_i = K_i (\lambda_i, (n_i,T))
+K_s = K_s (\lambda_s, (n_s,T))
+\Lambda = \Lambda(T)
+
+Optimization
+R_C - Coincidence rate
+\eta_C - Coupling ratio: Coincidences to single photons
+\eta_C = \frac{R_C}{\sqrt{R_iR_s}}; i,s - single photons
+M^2 - Quality factor for DownConversion and its overlap with fiber modes
+
+- One photon (\lambda_1, \nu_1, E_1) => two photons (\lambda_2, \nu_2, E_2); E_2 < E_1
+- the photons generate are used for encription keys
+- Photon measurement with _passive polarization amplifiers_ and _avalanche photo diodes_
+- Key generation process:
+	Polarisation measurements => processed => forwarded to PC => key generation
