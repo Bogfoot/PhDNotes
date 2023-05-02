@@ -21,3 +21,22 @@ M^2 - Quality factor for DownConversion and its overlap with fiber modes
 - Photon measurement with _passive polarization amplifiers_ and _avalanche photo diodes_
 - Key generation process:
 	Polarisation measurements => processed => forwarded to PC => key generation
+
+* \int\epsilon_0(\chi^{(2)}(r) : E^+ (r,t) E^+ (r,t) E^- (r,t) + H.C.) d^3r
+	\chi^{(2)}(r) - Non-linear susceptibility tensor
+	E^+ (r,t) = E^- (r,t)\^{\dagger} - positive frek. part of the electric field
+	E^+ (r,t) = \int_0^{\infty} d\omega \sqrt{\frac{\hbar\omega}{2\epsilon_0}} E_{\omega}(r)exp(-i \omega t) \hat{a}\_{\omega}(t) + ...
+	E_{\omega}(r) = Electfic field function for the Gaussian mode \gamma = \omega
+  \hat{a}\_{\omega}(t) - Photon creation op. in that mode
+
+* Creation of single pair
+	\ket{\psi_{SPDC}} = -\frac{i}{\hbar} \int_{-\infty}^{\infty} dt \hat{H}(t) \ket{initial state}
+  \ket{\psi_{SPDC}} = -i \int_{0}^{\infty} d\omega_s d\omega_i \psi(\omega_s, \omega_i}  \hat{a}_{\omega_s}^{\dagger} \hat{a}_{\omega_i}^{\dagger} \ket{vacuum}
+	SPDC aplitude - \psi (\omega_s, \omega_i) = \sqrt{\frac{2\pi^2\hbarN_p}{\epsilon_0 \lambda_p \lambda_s \lambda_i}} s(\omega_p) O(\omega_s, \omega_i) : Material may be ferroelectrically polled so tha \chi^{(2)}(r) alternates sign with spacial period \Lambda (PPLN/PPKTP)
+	\lambda_j = \frac{2\pi c}{\omega_j}; j = p, s, i ; free space \lambda
+   \omega_p = \omega_s + \omega_i
+	\hat{a}\_{\omega_p} = \sqrt{N_p} s(\omega_p); s(\omega_p) = Spectral pump amplitude
+	N_p = <Number of pump photons> 
+	O(\omega_s, \omega_i) = \int_{medium} \chi^{(2)} : E_{\omega_p} (r) E_{\omega_s}^*(r) E_{\omega_i}^*(r) d^3r  - Spacial overlap of the pump,, signal and idler modes : medium - Bulk material of length L centered at origin
+
+* Modes of consideration
