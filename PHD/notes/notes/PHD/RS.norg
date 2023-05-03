@@ -1,0 +1,15 @@
+- The "half-silvered" mirror is just a crummy mirror: it only reflects half the light incident on it, refracting the other half through it.
+	Such mirrors are sometimes called one way glass. Sometimes we shall call it a beam splitter.
+- The speed of light in air is almost the speed of light c in a vacuum. In terms of the index of refraction n=c/v ,where v is the speed of light in the medium,
+	the index of refraction of air is almost exactly 1.
+- The speed of light in glass is significantly less than c. For most glasses, the index of refraction is on the order of 1.5 or so.
+	Put another way, the speed of light in glass is on the order of two-thirds of the speed of light in a vacuum.
+- When a light ray is incident on a surface and the material on the other side of the surface has a higher index of refraction
+	(i.e. a lower speed of light than the medium that the light is traveling in), then the reflected light ray is shifted in its phase by exactly one half a wavelength.
+- The index of refraction of a perfect mirror can be thought of as infinite. Thus light reflected by a mirror has its phase changed by one half a wavelength.
+- When a light ray is incident on a surface and the material on the other side of the surface has a lower index of refraction,
+	the reflected light ray does not have its phase changed.
+- When a light ray goes from one medium into another,
+	its direction changes due to refraction but no phase change occurs at the surfaces of the two mediums.
+- When a light ray travels through a medium, such as a glass plate,
+	its phase will be shifted by an amount that depends on the index of refraction of the medium and the path length of the light ray through the medium.
