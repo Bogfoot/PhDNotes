@@ -1,0 +1,8 @@
+Trash bin,4
+Table,2-4
+Office Chair,2-4
+Shelf,999
+Drawer,6
+AC,1
+Coat hanger,1
+office knick-knacks,\infty
