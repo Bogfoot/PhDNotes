@@ -5,7 +5,7 @@ Counting experiment:
 		table and making sure we have the same number of holes for each beam path.
 	* Optical path length: The length of the path the beam travels down.
 
-	 - The lasers we're using are: 
+	 - The lasers we're using are: - Need to look it up.
 
 What we did:
 	* Cleaning fiber
@@ -14,8 +14,9 @@ What we did:
 	* Aligning beams to the center of the coupling holders' colimators.
 	* Using power meter to optimize the beams' alignment. 
 		Try to achieve maximum power output in both beam branches.
+   -- Achieved: The power of the original sourcew as being clipped which is why I was getting 50% power output in a single branch.
 * Connected the 'good' laser to our input fibre.
 * Started counting photons.
 * Using two photon counters (insert name)
-* A tag counters
-* PBS alignmet - Not optimal
+* A tag counter
+* PBS alignmet - Not optimal but also not important. We only needed it to linearize the polarity of the input to only see a single signal. TODO: Need to take a photo of it.
