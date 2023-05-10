@@ -1,12 +1,21 @@
-	Counting experiment:
-* Optical path length needs to be the same until the beam reaches the dector to
-  be able to see correct interference pattern.
-* One way to do that on the optical table is to count the number of holes in the 
-  table and making sure we have the same number of holes for each beam path.
-* Optical path length: The length of the path the beam travels down.
-	What we did:
-* Cleaning fiber
-* Aligning to the center of the PBS.
-* Aligning beams to the center of the mirrors.
-* Aligning beams to the center of the coupling holders' colimators.
+Counting experiment:
+	* Optical path length needs to be the same until the beam reaches the dector to
+		be able to see correct interference pattern.
+	* One way to do that on the optical table is to count the number of holes in the 
+		table and making sure we have the same number of holes for each beam path.
+	* Optical path length: The length of the path the beam travels down.
 
+	 - The lasers we're using are: 
+
+What we did:
+	* Cleaning fiber
+	* Aligning to the center of the PBS.
+	* Aligning beams to the center of the mirrors.
+	* Aligning beams to the center of the coupling holders' colimators.
+	* Using power meter to optimize the beams' alignment. 
+		Try to achieve maximum power output in both beam branches.
+* Connected the 'good' laser to our input fibre.
+* Started counting photons.
+* Using two photon counters (insert name)
+* A tag counters
+* PBS alignmet - Not optimal
