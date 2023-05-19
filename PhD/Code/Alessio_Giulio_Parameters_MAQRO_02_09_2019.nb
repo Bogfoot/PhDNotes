@@ -1,0 +1,432 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14141,        424]
+NotebookOptionsPosition[     12374,        383]
+NotebookOutlinePosition[     12727,        399]
+CellTagsIndexPosition[     12684,        396]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Parameters For MAQRO:", "Title",
+ CellChangeTimes->{{3.775974853347179*^9, 
+  3.7759748603180923`*^9}},ExpressionUUID->"f9b0ce85-6317-4d8d-9185-\
+f52240d1c75a"],
+
+Cell[TextData[StyleBox["From QFFP CDF of ESA\n\nWe use SI units everywhere!",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.7759748681655912`*^9, 3.77597487755693*^9}, {
+  3.775975058147024*^9, 
+  3.77597506730873*^9}},ExpressionUUID->"bb876914-196a-4138-89bb-\
+89c76dc4bff1"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Funadamental constants: (dovremmo vedere dove ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Epsilon]", "0"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "df62f102-5f52-40db-aae2-6cc3ac3a63a7"],
+ " e\[CloseCurlyQuote] usata uguale a 1 e rimuoverla cosi che possimo poi \
+definire la vera \[Epsilon]0 quando serve)"
+}], "Section",
+ CellChangeTimes->{{3.775974987637641*^9, 
+  3.775975032089736*^9}},ExpressionUUID->"4e631e54-a03f-4e69-9eb7-\
+442a8479b81e"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"kb", "=", 
+   RowBox[{"1.38", " ", 
+    RowBox[{"10", "^", 
+     RowBox[{"-", "23"}]}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"u", "=", 
+   RowBox[{"1.66", " ", 
+    RowBox[{"10", "^", 
+     RowBox[{"-", "27"}]}]}]}], ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{"atomic", " ", "mass", " ", "unit"}], "*)"}], "\n", 
+  RowBox[{"h", "=", 
+   RowBox[{"\[HBar]", " ", "2", "\[Pi]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"\[HBar]", "=", 
+   RowBox[{"1.054", " ", 
+    RowBox[{"10", "^", 
+     RowBox[{"-", "34"}]}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"\[Epsilon]0", "=", "1"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"c", "=", "299792458"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7759751627709618`*^9, 
+  3.775975168185635*^9}},ExpressionUUID->"5dd08d12-9605-4fd3-963e-\
+faff0bb287b4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ENVIRONMENTAL GAS PARAMETERS :", "Section",
+ CellChangeTimes->{
+  3.7759749206330137`*^9},ExpressionUUID->"49e16402-569e-4470-aae0-\
+9129b81e037d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Tenv", "=", "20"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Environmental", " ", "Temperature", " ", "in", " ", "K"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Alpha]g", "="}], " ", ";"}], "  ", 
+  RowBox[{"(*", 
+   RowBox[{"Gas", " ", "polarizability", " ", 
+    RowBox[{"in", " ", "[", 
+     SuperscriptBox["m", "3"], "]"}]}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Ig", " ", "="}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Ionization", " ", "Energy", " ", "of", " ", "the", " ", "gas", " ", 
+    RowBox[{
+     RowBox[{"in", " ", "[", "J", "]"}], " ", "/", " ", "Ask"}], " ", 
+    "Reiner", " ", "which", " ", "gas", " ", "must", " ", "be", " ", "used", 
+    " ", "as", " ", "environment"}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"mg", "="}], ";", 
+   RowBox[{"(*", 
+    RowBox[{"Gas", " ", "mass", " ", "in", " ", 
+     RowBox[{"amu", " ", "/", " ", "Ask"}], " ", "Reiner", " ", "which", " ", 
+     "gas", " ", "must", " ", "be", " ", "used", " ", "as", " ", 
+     "environment"}], "*)"}], "\n", 
+   RowBox[{"vg", "=", " ", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"2", "kb", " ", 
+      RowBox[{"Tenv", "/", "mg"}], " ", "u"}], "]"}]}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Gas", " ", "velocity", " ", 
+    RowBox[{"in", " ", "[", 
+     RowBox[{"m", "/", "s"}], "]"}]}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{"pg", "=", 
+   SuperscriptBox["10", 
+    RowBox[{"-", "11"}]]}], ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{"Gas", " ", "Pressure", " ", 
+    RowBox[{"in", " ", "[", "Pa", "]"}]}], "*)"}], 
+  "\[IndentingNewLine]"}]}], "Input",
+ CellChangeTimes->{{3.775974924409951*^9, 3.775974966943634*^9}, {
+  3.7759750545990267`*^9, 
+  3.775975213083728*^9}},ExpressionUUID->"80c787da-88b6-4974-b058-\
+567b62898c51"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["INTERFEROMETER PARAMETERS", "Section",
+ CellChangeTimes->{{3.7759753749377813`*^9, 
+  3.7759753923755693`*^9}},ExpressionUUID->"d659f66f-720c-4e0d-8d9e-\
+ed369c30109d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"d", "=", 
+    RowBox[{"100", " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "9"}]]}]}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"grating", " ", 
+    RowBox[{"period", " ", "[", "m", "]"}]}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Lambda]", "=", 
+    RowBox[{"2", "d"}]}], ";"}], "  ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Wavelength", " ", "of", " ", "the", " ", "grating", " ", "laser"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"k", "=", 
+    RowBox[{"2", 
+     RowBox[{"\[Pi]", "/", "\[Lambda]"}]}]}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Wavenumber", " ", "of", " ", "the", " ", "grating", " ", "laser"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Omega]", "=", 
+    RowBox[{"k", "  ", "c"}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Angular", " ", "frenquency", " ", "of", " ", "the", " ", "grating", " ", 
+    "laser"}], "*)"}]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.775975407258142*^9, 3.775975410659808*^9}, {
+  3.776404099161935*^9, 
+  3.776404099631744*^9}},ExpressionUUID->"ede41bce-102f-43a0-b6a2-\
+6e538f5d5bf6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["TRAP PARAMETERS:", "Section",
+ CellChangeTimes->{
+  3.775975432142144*^9},ExpressionUUID->"6ea994f2-a783-4196-bf1b-\
+240c627eec72"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Itrap", "="}], " ", ";"}], 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Intensity", " ", "of", " ", "the", " ", "trap", " ", 
+       RowBox[{"Laser", " ", "[", 
+        RowBox[{"W", "/", 
+         SuperscriptBox["m", "2"]}], "]"}]}], "..."}], ".", "Rainer"}], " ", 
+    RowBox[{"mail", ":", " ", 
+     RowBox[{"intracavity", " ", 
+      RowBox[{"power", " ", "~", "1"}], "W"}]}]}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Lambda]trap", "=", 
+   RowBox[{"1064", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "9"}]]}]}], " ", ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{"Trap", " ", "Laser", " ", "wavelength", " ", 
+    RowBox[{"in", " ", "[", "nm", "]"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"\[Omega]t", "=", 
+   RowBox[{"2", "*", "\[Pi]", "*", " ", 
+    RowBox[{"c", "/", " ", 
+     RowBox[{"(", "\[Lambda]trap", ")"}]}]}]}], ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{"Trap", " ", "Laser", " ", "Frequency", " ", 
+    RowBox[{"in", " ", "[", "Hz", "]"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"ttrap", "="}], ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Time", " ", "for", " ", "which", " ", "the", " ", "particle", " ", "is", 
+    " ", "in", " ", "the", " ", "trap", " ", 
+    RowBox[{"in", "  ", "[", "s", "]"}]}], "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.7759757310653687`*^9, 3.775975734510728*^9}, 
+   3.7759761054420652`*^9, {3.7759765027025833`*^9, 3.775976511902238*^9}, {
+   3.775976553323235*^9, 
+   3.77597659258419*^9}},ExpressionUUID->"663bfd12-97fd-4207-87c8-\
+1816634e94b0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+MATERIAL PARAMETERS: (vedere dove mettere lo static refractive \
+index....magari in altro notebook o pacchetto)\
+\>", "Section",
+ CellChangeTimes->{
+  3.775975482751107*^9, {3.7759755351842823`*^9, 
+   3.77597555452991*^9}},ExpressionUUID->"dfe6b064-3920-4a4a-97ba-\
+ccbf80458e93"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"cM", "="}], " ", ";"}], 
+  RowBox[{"(*", " ", 
+   RowBox[{"Specific", " ", 
+    RowBox[{"Heat", " ", "[", 
+     RowBox[{"J", "/", " ", 
+      RowBox[{"(", 
+       RowBox[{"kg", " ", "K"}], ")"}]}], "]"}]}], " ", "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Rho]SiO2", "=", "1850"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Kg", "/", 
+    RowBox[{"m", "^", "3"}]}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Rho]HfO2", "=", "9680"}], ";", " ", 
+  RowBox[{"(*", 
+   RowBox[{"From", " ", 
+    RowBox[{"Wikipedia", "!!"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"m0", "=", 
+   RowBox[{"Refindexf", "[", "0", "]"}]}], ";", " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Static", " ", "refractive", " ", "index"}], " ", "*)"}], " ", 
+  "\n", 
+  RowBox[{"Isio2", " ", "="}], " ", ";", " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Ionization", " ", "Energy", " ", "of", " ", "the", " ", "nano"}],
+     "-", 
+    RowBox[{"particle", " ", 
+     RowBox[{"in", " ", "[", "J", "]"}]}]}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"\[Alpha]", " ", "[", "R_", "]"}], "=", " ", 
+   RowBox[{"4", "\[Pi]", " ", "\[Epsilon]0", " ", "R", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"m0", "^", "2"}], "-", "1"}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"m0", "^", "2"}], "+", "2"}], ")"}]}], ")"}]}]}], ";", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Static", " ", "Plarizability", " ", "of", " ", "the", " ", "particle"}], 
+   " ", "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.7759761691436787`*^9, 3.7759761775728607`*^9}, {
+  3.7759762416992826`*^9, 
+  3.7759762573279543`*^9}},ExpressionUUID->"4abe9cf9-bd5c-489a-ab87-\
+f0f61acad4ee"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["INITIAL STATE PREPARATION:", "Section",
+ CellChangeTimes->{{3.7759756061667213`*^9, 
+  3.775975617993289*^9}},ExpressionUUID->"b6e00b7d-9964-4382-9473-\
+992548ccdd80"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Nu]", "="}], ";"}], "  ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Mechanical", " ", "Frequency", " ", "of", " ", "the", " ", "Optical", " ",
+     "Trap", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"For", " ", "initial", " ", "State", " ", "Preparation"}], 
+         "..."}], ".", " ", "Rainer"}], " ", "mail", " ", "\[Omega]"}], "=", 
+      RowBox[{
+       SuperscriptBox["10", "5"], "rad", " ", "Hz"}]}]}]}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"T", "="}], ";"}], "  ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Temperature", " ", "of", " ", "the", " ", "initial", " ", "Gaussian", " ",
+     "State", " ", "To", " ", "be", " ", "checked", " ", "with", " ", "MAQRO",
+     " ", "PARAMETERS", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"Ask", " ", "Reiner"}], ")"}], ".", " ", "In"}], " ", "Bateman",
+     " ", "et", " ", 
+    RowBox[{"al", ".", " ", "this"}], " ", "temperature", " ", "was", " ", 
+    "20", " ", "mK"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Sigma]x", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"\[HBar]", "/", 
+      RowBox[{"(", 
+       RowBox[{"4", "\[Pi]", "  ", 
+        RowBox[{"Mass", "[", 
+         RowBox[{"R", ",", "\[Rho]"}], "]"}], " ", "\[Nu]"}], ")"}]}], 
+     RowBox[{"Coth", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"h", " ", "\[Nu]"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"2", " ", "kb", " ", "T"}], ")"}]}], "]"}]}], "]"}]}], ";", 
+  " ", 
+  RowBox[{"(*", 
+   RowBox[{"Initial", " ", "position", " ", "width"}], " ", "*)"}], "\n", 
+  RowBox[{"\[Sigma]p", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{"\[HBar]", " ", "\[Pi]", " ", 
+     RowBox[{"Mass", "[", 
+      RowBox[{"R", ",", "\[Rho]"}], "]"}], " ", "\[Nu]", " ", 
+     RowBox[{"Coth", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"h", " ", "\[Nu]"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"2", " ", "kb", " ", "T"}], ")"}]}], "]"}]}], "]"}]}], ";", 
+  RowBox[{"(*", 
+   RowBox[{"Initial", " ", "momentum", " ", "width"}], " ", 
+   "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.775975631416687*^9, 3.7759756413424463`*^9}, {
+   3.775976603958023*^9, 3.7759766243456707`*^9}, {3.775977336904385*^9, 
+   3.7759773553293943`*^9}, 3.77640391779917*^9, {3.776403967837182*^9, 
+   3.776403980141534*^9}},ExpressionUUID->"9e6c9b76-0790-4e6b-b63d-\
+8d799290618c"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 711},
+WindowMargins->{{0, Automatic}, {82, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 166, 3, 98, "Title",ExpressionUUID->"f9b0ce85-6317-4d8d-9185-f52240d1c75a"],
+Cell[749, 27, 283, 5, 81, "Text",ExpressionUUID->"bb876914-196a-4138-89bb-89c76dc4bff1"],
+Cell[CellGroupData[{
+Cell[1057, 36, 500, 12, 144, "Section",ExpressionUUID->"4e631e54-a03f-4e69-9eb7-442a8479b81e"],
+Cell[1560, 50, 810, 26, 136, "Input",ExpressionUUID->"5dd08d12-9605-4fd3-963e-faff0bb287b4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2407, 81, 153, 3, 67, "Section",ExpressionUUID->"49e16402-569e-4470-aae0-9129b81e037d"],
+Cell[2563, 86, 1825, 51, 180, "Input",ExpressionUUID->"80c787da-88b6-4974-b058-567b62898c51"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4425, 142, 174, 3, 67, "Section",ExpressionUUID->"d659f66f-720c-4e0d-8d9e-ed369c30109d"],
+Cell[4602, 147, 1208, 38, 115, "Input",ExpressionUUID->"ede41bce-102f-43a0-b6a2-6e538f5d5bf6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5847, 190, 137, 3, 67, "Section",ExpressionUUID->"6ea994f2-a783-4196-bf1b-240c627eec72"],
+Cell[5987, 195, 1598, 41, 96, "Input",ExpressionUUID->"663bfd12-97fd-4207-87c8-1816634e94b0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7622, 241, 291, 7, 105, "Section",ExpressionUUID->"dfe6b064-3920-4a4a-97ba-ccbf80458e93"],
+Cell[7916, 250, 1770, 52, 157, "Input",ExpressionUUID->"4abe9cf9-bd5c-489a-ab87-f0f61acad4ee"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9723, 307, 173, 3, 67, "Section",ExpressionUUID->"b6e00b7d-9964-4382-9473-992548ccdd80"],
+Cell[9899, 312, 2447, 67, 159, "Input",ExpressionUUID->"9e6c9b76-0790-4e6b-b63d-8d799290618c"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

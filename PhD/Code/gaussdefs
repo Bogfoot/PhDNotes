@@ -1,0 +1,101 @@
+zR[w0_, \[Lambda]_] := (Pi*w0^2)/\[Lambda]
+ 
+w0[zR_, \[Lambda]_] := Sqrt[(\[Lambda]*zR)/Pi]
+ 
+w[z_, w0_, \[Lambda]_] := w0*Sqrt[1 + ((z*\[Lambda])/(Pi*w0^2))^2]
+
+wk[z_, zR_, k_] := Sqrt[(2/(k*zR)*(zR^2+z^2))]
+ 
+w[q_, \[Lambda]_] := w0[Im[q], \[Lambda]]*Sqrt[1 + (Re[q]/Im[q])^2]
+ 
+R[z_, z0_] := z*(1 + (z0/z)^2)
+ 
+g\[Theta][w0_, \[Lambda]_] := \[Lambda]/(Pi*w0)
+ 
+qNew[A_, qOld_] := (A[[1,1]]*qOld + A[[1,2]])/(A[[2,1]]*qOld + A[[2,2]])
+ 
+Mlens[f_] := {{1, 0}, {-(1/f), 1}}
+ 
+Msphmirror[R_] := {{1, 0}, {-(2/R), 1}}
+ 
+Mfree[L_] := {{1, L}, {0, 1}}
+ 
+Mref[n1_, n2_] := {{1, 0}, {0, n1/n2}}
+ 
+MCurveRef[n1_, n2_, R_] := {{1, 0}, {(n1 - n2)/(R*n2), n1/n2}}
+ 
+Mtrans[n1_, n2_, d_] := Mref[n2, n1] . Mfree[d] . Mref[n1, n2]
+ 
+optics[qOld_, OptEl___] := Module[{zO, OE, rf, qTemp, i, altPos}, 
+     OE = {OptEl}; zO = Length[OE]; rf = Ordering[OE[[All,1]]]; 
+      OE = OE[[rf]]; qTemp = qOld; altPos = 0; For[i = 1, i <= zO, i++, 
+       qTemp = qNew[Mfree[OE[[i,1]] - altPos], qTemp]; altPos = OE[[i,1]]; 
+        qTemp = qNew[OE[[i,2]], qTemp]; ]; qTemp]
+ 
+fiberWidth[d_, V_] := d*(0.65 + 1.619/V^1.5 + 2.879/V^6)
+ 
+Vnumber[NA_, a_, \[Lambda]_] := 2*Pi*NA*(a/\[Lambda])
+ 
+coreradius[NA_, V_, \[Lambda]_] := V*(\[Lambda]/(2*Pi*NA))
+
+MsphmirrorExact[t_, r_, Rs_, n1_, n2_] := Module[{d},
+  d = t - (Rs - Sqrt[-r^2 + Rs^2]);
+  {{1 + (d (n1 - n2))/(n2 Rs), (d n1)/n2}, {(n1 - n2)/(n1 Rs), 1}}
+  ]
+
+MsphmirrorRef[t_, r_, Rs_, n1_, n2_] := Module[{d},
+  d = t - (Rs - Sqrt[-r^2 + Rs^2]); 
+  {{1 - (2 d)/Rs, -((2 d n1 (d - Rs))/(n2 Rs))}, {-((2 n2)/(n1 Rs)), 1 - (2 d)/Rs}}
+  ]
+zR[w0_, \[Lambda]_] := (Pi*w0^2)/\[Lambda]
+ 
+w0[zR_, \[Lambda]_] := Sqrt[(\[Lambda]*zR)/Pi]
+ 
+w[z_, w0_, \[Lambda]_] := w0*Sqrt[1 + ((z*\[Lambda])/(Pi*w0^2))^2]
+ 
+w[q_, \[Lambda]_] := w0[Im[q], \[Lambda]]*Sqrt[1 + (Re[q]/Im[q])^2]
+ 
+wk[z_, zR_, k_] := Sqrt[(2/(k*zR))*(zR^2 + z^2)]
+ 
+R[z_, z0_] := z*(1 + (z0/z)^2)
+ 
+R[q_] := Re[q]*(1 + (Im[q]/Re[q])^2)
+ 
+g\[Theta][w0_, \[Lambda]_] := \[Lambda]/(Pi*w0)
+ 
+qNew[A_, qOld_] := (A[[1,1]]*qOld + A[[1,2]])/(A[[2,1]]*qOld + A[[2,2]])
+ 
+M2factor[\[Theta]_, gw0_, \[Lambda]_] := \[Theta]/g\[Theta][gw0, \[Lambda]]
+ 
+Mlens[f_] := {{1, 0}, {-(1/f), 1}}
+ 
+Msphmirror[R_] := {{1, 0}, {-(2/R), 1}}
+ 
+MsphmirrorExact[t_, r_, Rs_, n1_, n2_] := 
+    Module[{d}, d = t - (Rs - Sqrt[-r^2 + Rs^2]); 
+      {{1 + (d*(n1 - n2))/(n2*Rs), (d*n1)/n2}, {(n1 - n2)/(n1*Rs), 1}}]
+ 
+MsphmirrorRef[t_, r_, Rs_, n1_, n2_] := Module[{d}, 
+     d = t - (Rs - Sqrt[-r^2 + Rs^2]); 
+      {{1 - (2*d)/Rs, -((2*d*n1*(d - Rs))/(n2*Rs))}, {-((2*n2)/(n1*Rs)), 
+        1 - (2*d)/Rs}}]
+ 
+Mfree[L_] := {{1, L}, {0, 1}}
+ 
+Mref[n1_, n2_] := {{1, 0}, {0, n1/n2}}
+ 
+MCurveRef[n1_, n2_, R_] := {{1, 0}, {(n1 - n2)/(R*n2), n1/n2}}
+ 
+Mtrans[n1_, n2_, d_] := Mref[n2, n1] . Mfree[d] . Mref[n1, n2]
+ 
+optics[qOld_, OptEl___] := Module[{zO, OE, rf, qTemp, i, altPos}, 
+     OE = {OptEl}; zO = Length[OE]; rf = Ordering[OE[[All,1]]]; 
+      OE = OE[[rf]]; qTemp = qOld; altPos = 0; For[i = 1, i <= zO, i++, 
+       qTemp = qNew[Mfree[OE[[i,1]] - altPos], qTemp]; altPos = OE[[i,1]]; 
+        qTemp = qNew[OE[[i,2]], qTemp]; ]; qTemp]
+ 
+fiberWidth[d_, V_] := d*(0.65 + 1.619/V^1.5 + 2.879/V^6)
+ 
+Vnumber[NA_, a_, \[Lambda]_] := 2*Pi*NA*(a/\[Lambda])
+ 
+coreradius[NA_, V_, \[Lambda]_] := V*(\[Lambda]/(2*Pi*NA))
