@@ -1,0 +1,14 @@
+The *Hong–Ou–Mandel* effect is a two-photon interference effect in quantum optics that was demonstrated in 1987 by three physicists from the University of Rochester [1].
+The effect occurs when two identical single-photons enter a 1:1 beam splitter, one in each input port.
+When the temporal overlap of the photons on the beam splitter is perfect, the two photons will always exit the beam splitter together in the same output mode,
+meaning that there is zero chance that they will exit separately with one photon in each of the two outputs giving a coincidence event.
+The photons have a 50:50 chance of exiting (together) in either output mode.
+If they become more distinguishable (e.g. because they arrive at different times or with different wavelength),
+the probability of them each going to a different detector will increase.
+In this way, the interferometer coincidence signal can accurately measure bandwidth, path lengths, and timing.
+Since this effect relies on the existence of photons and the second quantization it can not be fully explained by classical optics.
+
+The effect provides one of the underlying physical mechanisms for logic gates in linear optical quantum computing[2] (the other mechanism being the action of measurement). 
+
+[1]: https://ui.adsabs.harvard.edu/abs/1987PhRvL..59.2044H
+[2]: https://ui.adsabs.harvard.edu/abs/2001Natur.409...46K/abstract
