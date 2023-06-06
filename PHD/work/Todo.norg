@@ -6,4 +6,5 @@ Ovo je na Onedriveu
 - (x) Gaussian beam propagation nb,
 -	Expand the use of the python program to create means of expenditure per day and to show a plot of money spent per day, 
 - ( ) *Parametric optimization for beam mode matching in above notebook.*
-- Question for Rainer: Why even use a Sagnac interferometer instead of just a PBS after a crystal?
+- Question for Rainer: Why even use a Sagnac interferometer instead of just a PBS after a crystal? 
+- Automate beam parametrization
