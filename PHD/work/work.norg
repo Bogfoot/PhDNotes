@@ -20,3 +20,6 @@ What we did:
 * Using two photon counters (insert name)
 * A tag counter
 * PBS alignmet - Not optimal but also not important. We only needed it to linearize the polarity of the input to only see a single signal. TODO: Need to take a photo of it.
+
+Sagnac:
+	- Aligning the stuff needs to be done with irises. Place an iris where the focus of the crystal will be. Align the shit out of it.
