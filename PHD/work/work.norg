@@ -22,4 +22,9 @@ What we did:
 * PBS alignmet - Not optimal but also not important. We only needed it to linearize the polarity of the input to only see a single signal. TODO: Need to take a photo of it.
 
 Sagnac:
+     Suggestions:
+	- Place \lambda/2 on 90 \degree pedastel post or something: This solves the space restrictions from the side of the oven.
+	- Find a solution for the PBS and Dichroic mirror mounting. Right now they're overlapping.
+	- How do we mount the L1 and L2 lenses on their translation stages?
+     TODO:
 	- Aligning the stuff needs to be done with irises. Place an iris where the focus of the crystal will be. Align the shit out of it.
