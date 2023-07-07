@@ -5,7 +5,7 @@ Counting experiment:
 		table and making sure we have the same number of holes for each beam path.
 	* Optical path length: The length of the path the beam travels down.
 
-	 - The lasers we're using are: - Need to look it up.
+	 - The lasers we're using are: Toptica lasers
 
 What we did:
 	* Cleaning fiber
@@ -19,7 +19,9 @@ What we did:
 * Started counting photons.
 * Using two photon counters (insert name)
 * A tag counter
-* PBS alignmet - Not optimal but also not important. We only needed it to linearize the polarity of the input to only see a single signal. TODO: Need to take a photo of it.
+* PBS alignmet - Not optimal but also not important for this.
+	We only needed it to linearize the polarity of the input to only see a single signal.
+	TODO: Need to take a photo of it.
 
 Sagnac:
      Suggestions:
