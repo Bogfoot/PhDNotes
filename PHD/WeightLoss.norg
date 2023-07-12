@@ -1,1 +1,33 @@
+f_b {Body fat}: 31%
+M {Mass}: 115 kg
+M_f {Body fat mass}: 36.8 kg
+M_l {Lean body mass}: 78.2 kg
 
+E_r {Resting metabolic rate}:
+E_r = M_l * 21.6 + 370 = 2059,12 kcal
+
+E_a {Daily kcal intake needed}:
+E_a = E_r * 1.5 (activity) * 1.1 (food thermal stuff?) = 3397.548 kcal
+
+E_wl {Weight loss amount}: Calorie target 
+E_wl = E_a - 1265 kcal = 2135 kcal
+
+m_p {daily protein mass}: 175 g
+m_p = M_l * 2.(0 to 5) = 78.2 * 2.4 = 175 g
+e_p {daily protein energy}: 700 kcal
+e_p = m_p * 4 = 175 * 4 = 700 kcal
+
+m_pp {protein powder mass}: 80 g
+m_pp = 80 g
+m_pf {protein from food mass}: 95 g
+m_pf = m_p - m_pp = 95 g
+
+e_f {daily fat energy}: 854 kcal
+e_f = E_wl * 0.4 = 2135 * 0.4 = 854 kcal
+m_f {daily fat mass}: 94,8 g
+m_f = e_f / 9 = 854 / 9 = 94,8 g
+
+e_c {daily carbohydrate energy}: 581 kcal
+e_c = E_wl - e_f - e_p = 2135 - 700 - 854 = 581 kcal
+m_c {daily carbohydrate mass}: 145.25 g
+m_c = e_c / 4 = 581 / 4 = 145.25 g
