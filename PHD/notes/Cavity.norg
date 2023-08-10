@@ -1,0 +1,15 @@
+Paraoanu_cavities_and_resonators_input-output_formalism.pdf
+About basic cavity input output formalism - Describes simple models of one sided and double side (+ symmetric \kappa_1 = \kappa_2) cavities. About attenuators
+
+Single mirror cavity - 
+- Talks about being on cavity resonance when you get fully radiation in the cavity (maximum power inside cavity) and on far off cavity resonance.
+- P_{out} = -P_{in}
+
+Double sided cavities -
+Different cases for \kappa_1 \ne \kappa_2
+- Symmetric transmittance mirros: \kappa_1 = \kappa_2
+-- Near resonance the cavity acts like a through-pass lorentzian filter
+-- And far from it it's completely reflected
+
+Attenuator models - 
+- 
