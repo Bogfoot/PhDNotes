@@ -1,0 +1,199 @@
+... means on slide
+DQ (Designed Quantum states)-Mat summer school
+- Many body sistems for corelated systems
+- Low Energy - Cold Systems
+-- Ion Clocs
+-- Optical lattice clocks
+-- Matter wave interferometry
+
+
+Day 1 lecture 1
+The Cold world lecture
+- Bose-Einstein Condensates - Naceur Gaaloul
+- (Book. B-E C in Dilute Gases)
+- Magneto optical trapping - In a B field with 3 lasers
+- You cool the atom -> p goes small => \lambda goes big
+
+Correlation - Coherence(s)
+- Overlap of same wf. shifted by a small amount
+- Youngs double slit with atoms
+
+Ligt v Matter
+Wave eq. | Schro. eq.
+...			 | ...
+Stationary states
+Helmholtz eq. | 
+(\laplac op. + k^2(r) )E(r) = 0 | (\laplace + k^2(r)) = 0
+Dispersion relation ...
+
+Index of refraction of matter waves
+(laplace + 2m/hbar^2(E-V(r,t)))\psi(r,t) = 0
+...
+Atomic sagnac is 10^11 times more sensitive that the optical one
+
+
+
+B-E-C
+Gross-Pitaevski eq.
+N-particle Hamiltonian ...
+E_k + V_ext  + V_int
+E\[\xi\] = \int(dr_1...dr_N ...) = E_k\[\xi\] Kinetic part + E_k\[\xi\] potential part + E_k\[\xi\] interaction part
+Hartee-Fock approx.
+S-wave approx. - V_int = g_{BEC} \delta(r_i - r_j)
+g_{BEC} = \frac{4\pi\hbar^2a_0}{m}
+The lagrange multiplicator is just the energy or particle - chemical potential (Cost of adding one particle to the system)
+
+Stationary Gross-Pitaevski eq looks like Schro. eq. - but it's non-linear
+Quantum action
+
+2nd lecture Denis Schlippert
+The cold world
+
+cooling, painting, tuning, and kicking
+
+Cooling
+
+You sacrifice atoms to cool the condensate - but you want them fast and many
+\lambda = \lambda_d
+COW - experiment
+...
+Evaporative cooling
+Elastic scattering rate -
+- s-wave scattering length
+- ...
+- Majorana spin flips?
+- Atom chips
+- Papers. BEC in microgravity. -- Space borne BEC for precision interferometry.
+	Optical trapping:
+--- Challenges
+	Normal optical traps - Elastic scattering rate, confinement during evaporation, critical temp.
+
+Painted potentials
+Using Pickle trap you can basically make any type of optical trap
+--- Challenges
+		Painted optical traps - Elastic scattering rate, confinement during evaporation, critical temp. All are reduced significantly
+		
+- Why matter-wave lensing?
+Better beam splitting, based on light pulses
+Systematic controls
+	acess to low E_k energies, shortucts of evaporation trajectories -> High flux (Potassium matter wave)
+
+3rd lecture
+Internal sensing using ato interferometry Christian Schubert
+Enables absolute measuerements - > rotations, acceleration and gravitation measurements
+Beam splitters
+2 non-resonant light beams ... 
+With a proper duration you get coherent suprposition (\pi/2) or state inversion(\pi).
+Phase shift at the out put ports:
+total phase shift = laser phase ( \Delta\Phi_{laser} ) + propagation phase ( \Delta\Phi_{prop} ) + separation phase (\Delta\Phi_{sep})
+The last two effectively cancel in cases up to recoil terms
+
+
+4th lecture (S. Ospelkaus)
+Ultracold polar molecules - Many more dof than atoms, hyperfine structure, rotational structure, vibration structure, ...
+Precision measurements 
+- many degrees of freedom. Fine structure constant, ratio of m_e/m_p, ...
+-	Collisions - scattering (laser cooling of molecules) is not optimal due to no "selection" rules when exciting an electronic state from a ground state to an excited state. When releasing a photon, the state doesn't have to come back to the previous state, or is govrened by any rule.
+-	Solution to this - You choose a specific molecule which has excited vibration modes that are close enough to one another to "guarantee" the vibrational transition via rotational transitions in some way.
+
+
+Day 2
+Lecture 1 
+Quantum sensing with atom interferometerg (Naceur)
+Important for a few things like inertial navigation, civil engineering, and earth observation
+Idea: Send BECs of Rb and K mixtures to space for measurements of microgravity, ...
+
+
+Lecture 2
+Dipolar quantum gases (Luis Santos)
+What are they, dipolar BECs, Quantum droplets and supersolids, cold atoms in optical lattices, polar lattice gases
+Short range isotoropic interactions - coupling constant
+dipole-dipole interaction ...
+Angle between two dipoles - Dipolar BEC: nonlocal Gross Gross-Pitaevski eq. - has an interaction term
+Bogoliubov spectrum - at large momentums (free particle approx.) ~ parabolic dependence
+                    at low momentums, the correction becomes relevant and we have a linear dependance - called the phonon states? (phonon stability)...
+Trap shape geometry plays a big role due to the stability of the BEC. Some coefficient (Scattering coefficient) needs to be above 0 for the stability condition
+
+Dipolar Roton
+Local collapses due to complex dispersion relation - they generate side peaks
+
+Quantum droplets and supersolids
+Reducing the stability -> BEC droplets - Happens because of quantum fluctuations
+For uniform short-range interacting BECs - \mu = gn + gn*32/(3\sqrt[pi]...
+Quantum stabilization
+quantum fluctuations prop to n^(3/2), mean field prop to n
+This stability is nice, but when you want to put more particles in the droplets? They get streched out and form a cigar shape for lowering the energy.
+This object would then be called a supersolids, a superfluid + crystalline order
+Ultra cold atoms in optical lattices
+Form a standing wave, place atoms (dipolar gas or whatever) in those "wells" and you simulate a 1D crystal lattice - it actually has an energy band
+Ground-state phases of Bose-Hubbard Hamiltonian
+Created mott-insulators - not insulators like in solid state physics (filled spin states) but simply due to interactions
+
+
+Lecture 3
+Bragg diffraction and block oscillations in large-momentum-transfer atom interferometers
+C. Overstreet at al science 375 226 (2022)
+Using light pulses as a BS and mirror is how you do atomic interferometry
+Bloch oscillations - used as an accelerator? thousands of \hbar k
+Another optical potential (trapping) mechanism
+Bloch oscillations - Based on the bloch states
+Suspending atoms in cavity potential - panda et al arxiv:2210.07289 (2022)
+ELGAR - LMT BS based on Bloch oscillations - canuel et al., Clas. Quant. Gravity (2020) 
+
+
+Day 3
+Lecture 1 
+Ion trapping and cooling
+Trapping
+Why trap them, how, laser cooling techniques, ion coulomb crystals,...
+Advantages, equilibrium pos. at E=0 - doesn't influence electronic states, strong trapping potentials -> localization of orders of nm,
+deep traps => Long trapping times (up to months)
+Low disturbances to elecronic energy levels
+Doesn't work with electrostatic field
+Does with static electric and magnetic fields
+Paul trap: Oscillating and static electric fields
+
+Doppler cooling
+
+Coulomb crystals (1-3D crystals)
+|. . . . . . . . . .|
+
+
+Lecture 2
+Trapped Ion Quantum Computing
+Classical bits
+Quantum bits (Qubits)
+- Superposition principle
+	Applications: Quantum chemistry, optimization, AI, cryptography
+
+Lecture 3
+Atomic clocks and timekeeping
+
+Day 4
+Lecture 1
+Testing fundamental physics using matter waves
+\delta \phi = 2\pi \delta z/T
+Matter waves in Gravity
+- Quantum clocks
+- Macroscopic delocalization
+- Testing the universality of free fall
+	Eotvos ratio: \ni_{A,B} = \frac{g_A-g_B}{(g_A+g_B)/2}
+	Quantum tests of equivalence principles
+Heteordyne laser link?
+
+Lecture 2
+Optical clocks
+Most accurate measurements (up to 18 digits)
+Oscillating source and counting the cycles and make a clock
+Frequency standards are not clocks
+Characteristics of a clock: Stability and accuracy
+- Statistical uncertanty (stability - variation from measured mean value)
+- Systematic uncertainty (accuracy - how close you are to the actual value)
+Trapping: 3D Harmonic confinement -> Lamb-Dicke regime (recoil-free spectroscopy)
+Cooling provides localisation and quantum control over motional degrees of freedom
+Prepare atom in spin down state
+apply spectroscopy laser pulse |-> -> \alpha|-> + \beta|+>
+detected via fast cycling transitions
+- |-> bright or |+> dark with probs |\alpha|^2, |\beta|^2
+Entangeled optical clocks - we can maybe do this in the lab?
+Optical frequency comb f_n = n*f_f + f_0
