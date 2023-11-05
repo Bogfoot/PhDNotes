@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PACKAGE IMPORTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{amsthm}
+\usepackage{tikzsymbols}
+\usepackage[tmargin=2.5cm,rmargin=2cm,lmargin=2.5cm,margin=0.85in,bmargin=2.5cm,footskip=.2in]{geometry}
+\linespread{1.3}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathtools}
+\usepackage[varbb]{newpxmath}
+\usepackage{xfrac}
+\usepackage[makeroom]{cancel}
+\usepackage{bookmark}
+\usepackage{enumitem}
+\usepackage{hyperref,theoremref}
+\hypersetup{
+	pdftitle={Assignment},
+	colorlinks=true, linkcolor=doc!90,
+	bookmarksnumbered=true,
+	bookmarksopen=true
+}
+\usepackage[most,many,breakable]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{varwidth}
+\usepackage{etoolbox}
+\usepackage{nameref}
+\usepackage{multicol,array}
+\usepackage{tikz-cd}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage[bottom]{footmisc}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage{braket}
+\usepackage{wrapfig}			  %Kontekstom osjetljivo navođenje
+\usepackage{csquotes}			  %Kontekstom osjetljivo navođenje
+\usepackage{graphicx}       %Slike i slično
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage[english,croatian]{babel}
+\usepackage{titlesec}				%Za naslovnu stranicu
+
+\counterwithin{figure}{section}
+\urlstyle{same}
+\numberwithin{equation}{section}
+\hyphenation{pergamon} % riječ u argumentu (pergamon) se ne rastavlja s crticom; ne smije imat specijalna slova. č. ž... - rastavljam ju naredbom \- (npr. išče\-zava)
+\setlength\parindent{0pt} % u novom paragrafu: indent=0
+\setlength{\parskip}{10pt} % postavlja željeni vertikalni razmak između paragrafa
+\setlength{\skip\footins}{2cm} % razmak između glavnog teksta i fusnota
+\renewcommand{\thefootnote}{$\ddagger$} % želim dagger za oznaku fusnota
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}} % nova naredba za horizontalne linije na naslovnoj stranici
+\newlength{\mylen}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TABLE OF CONTENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikz}
+\definecolor{doc}{RGB}{0,60,110}
+\usepackage{titletoc}
+\contentsmargin{0cm}
+\titlecontents{chapter}[3.7pc]
+{\addvspace{30pt}%
+	\begin{tikzpicture}[remember picture, overlay]%
+		\draw[fill=doc!60,draw=doc!60] (-7,-.1) rectangle (-0.9,.5);%
+		\pgftext[left,x=-3.5cm,y=0.2cm]{\color{white}\Large\sc\bfseries Chapter\ \thecontentslabel};%
+	\end{tikzpicture}\color{doc!60}\large\sc\bfseries}%
+{}
+{}
+{\;\titlerule\;\large\sc\bfseries Page \thecontentspage
+	\begin{tikzpicture}[remember picture, overlay]
+		\draw[fill=doc!60,draw=doc!60] (2pt,0) rectangle (4,0.1pt);
+	\end{tikzpicture}}%
+\titlecontents{section}[3.7pc]
+{\addvspace{2pt}}
+{\contentslabel[\thecontentslabel]{2pc}}
+{}
+{\hfill\small \thecontentspage}
+[]
+\titlecontents*{subsection}[3.7pc]
+{\addvspace{-1pt}\small}
+{}
+{}
+{\ --- \small\thecontentspage}
+[ \textbullet\ ][]
+
+\makeatletter
+\renewcommand{\tableofcontents}{%
+	\chapter{%
+	  \vspace{-20\p@}%
+	  \begin{tikzpicture}[remember picture, overlay]%
+		  \pgftext[right,x=15cm,y=0.2cm]{\color{doc!60}\Huge\sc\bfseries \contentsname};%
+		  \draw[fill=doc!60,draw=doc!60] (13,-.75) rectangle (20,1);%
+		  \clip (13,-.75) rectangle (20,1);
+		  \pgftext[right,x=15cm,y=0.2cm]{\color{white}\Huge\sc\bfseries \contentsname};%
+	  \end{tikzpicture}}%
+	\@starttoc{toc}}
+\makeatother
+
+
+%%%%%%%%%%%%
+%% KUTIJE %%
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Theorem
+\newcounter{teorem}[section] \setcounter{teorem}{0}
+\renewcommand{\theteorem}{\arabic{section}.\arabic{teorem}}
+\newenvironment{teorem}[2][]{%
+	\refstepcounter{teorem}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=blue!20]
+					{\strut Teorem~\thetheo};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=blue!20]
+					{\strut Teorem~\thetheo:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=blue!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Proof
+\newcounter{dokaz}[section]\setcounter{dokaz}{0}
+\renewcommand{\thedokaz}{\arabic{section}.\arabic{dokaz}}
+\newenvironment{dokaz}[2][]{%
+	\refstepcounter{dokaz}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Dokaz~\theprf};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Dokaz~\theprf:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=red!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\qed\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
