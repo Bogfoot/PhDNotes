@@ -1,3 +1,13 @@
+@document.meta
+title: WebReading
+description: 
+authors: bogfootlj
+categories: 
+created: 2023-12-10T23:08:47+0100
+updated: 2023-12-10T23:08:50+0100
+version: 1.1.1
+@end
+
 {:Done:}[Done]
 {:To_Read:}[To Read]
 {:Books:}[Books to buy]

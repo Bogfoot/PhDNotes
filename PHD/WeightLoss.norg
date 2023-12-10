@@ -1,3 +1,13 @@
+@document.meta
+title: WeightLoss
+description: 
+authors: bogfootlj
+categories: 
+created: 2023-12-10T23:08:24+0100
+updated: 2023-12-10T23:08:26+0100
+version: 1.1.1
+@end
+
 f_b {Body fat}: 31%
 M {Mass}: 115 kg
 M_f {Body fat mass}: 36.8 kg
