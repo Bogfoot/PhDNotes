@@ -4,7 +4,7 @@ description:
 authors: bogfootlj
 categories: 
 created: 2023-12-10T22:35:50+0100
-updated: 2023-12-10T23:23:12+0100
+updated: 2024-02-12T09:03:41+0100
 version: 1.1.1
 @end
 
@@ -16,3 +16,4 @@ version: 1.1.1
 - {:RandomNotes:}[Terminal Notes]
 - {:ReadingList/WebReading:}[Reading List]
 - {:Summer_School/Hannover-Summer-School:}[Hannover Summer School]
+- {:Poster_Workshop/PosterWorkshop:}[Poster Workshop]

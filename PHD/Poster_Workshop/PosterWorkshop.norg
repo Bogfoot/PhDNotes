@@ -1,0 +1,31 @@
+Some useful links:
+Most important ones - https://www.datavizhandbook.info/
+https://visualisingdata.com/2016/03/little-visualisation-design/
+https://visualisingdata.com/the-little-of-visualisation-design/
+
+Ehh - https://d3js.org/
+https://observablehq.com/
+https://www.dnevnik.si/1042712960
+
+Cool - http://worrydream.com/MediaForThinkingTheUnthinkable/
+https://www.amazon.com/Visual-Grammar-Design-Briefs-Christian/dp/1568985819
+https://vanseodesign.com/web-design/visual-grammar/
+https://letmegooglethat.com/?q=visual+vocabulary+ft.com%2Fvocabulary
+https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/FT4schools_RGS.pdf
+https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html
+https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+
+Making posters/presentations/articles takes a long time. It's good to really think about how to publish them.
+Presentations can have little text, and a lot of pictures. Opposite for articles. Posters can be somewhere in between, but can also have no text (besides the obvious ones).
+Test the font style and size to see what is best for the format and the context.
+
+Graph has to reveal something about the data
+how many variables - what kind of variables? Continuous, or discrete
+area, angle, length, length aligned at one end, readable, rotation, sort
+
+pro tip: (If you don't have infinite money and the ability to print a large poser on the spot) Put poster on 100% and step away a bit to viewer distance.
+Observe font size and conclude which is the correct one.
+Divide page into sections/a grid where each part is a line of text
+
+Draw your images in vector format if you want to use them easily in poster making programs, including latex.
+Have colours be far away from each other if you have few colours, having different rasters if you run out of colours, make sure the rasters are distinguishable.
