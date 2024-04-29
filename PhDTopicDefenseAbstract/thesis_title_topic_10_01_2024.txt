@@ -1,0 +1,86 @@
+TITLE: 
+
+1) Generating and teleporting entanglement for quantum networks
+
+2) A bright source of C-band entanglement for quantum networks
+3) A bright source of telecom-wavelength entanglement for quantum networks
+4) Generating and teleporting telecom-wavelength entanglement
+5) A bright and frequency-stabilized source of telecom-wavelength entanglement
+
+ABSTRACT:
+
+Entanglement is a key resource of future quantum technologies. 
+For that reason, it will be essential to distribute 
+it in quantum networks between many and possibly very distant 
+communication parties. To this end, it is essential 
+to generate the photons at a wavelength that is compatible 
+with existing fiber network infrastructure. Such networks typically feature 
+very low loss for photons in the O and C 
+band (1310nm and 1550nm, respectively). To more 
+efficiently use telecom fibers for many users, the available 
+bandwidth is split into frequency windows to enable dense wavelength 
+division multiplexing (DWDM). In the present thesis, 
+we will implement a Sagnac source of entanglement for 1560nm 
+photons that is sufficiently narrowband for the entangled photons to 
+fit into specific DWDM frequency channels. To generate the 
+entangled photons, we will use a 50 mm long 
+nonlinear crystal inside a Sagnac interferometer. We will first 
+implement and characterize this source in our laboratory and later 
+use it for demonstrating entanglement distribution over in an existing 
+fiber network. The wavelength of the pump laser will 
+be stabilized to an absorption line in a Rubidium gas 
+cell. With our help, an identical source will 
+be set up by partners at the Jozef Stefan Institute. This will allow us to demonstrate the teleportation of entanglement 
+(entanglement swapping) by performing a Bell-state measurement on two entangled photons from those two independent and distant sources.
+This technique is a prerequisite for quantum repeaters, which 
+will be essential to distribute entanglement over arbitrary long distances in future global quantum networks.
+In particular, even the low losses of photons in 
+the C band will exponentially grow with the distance.
+This limits the efficient distribution of entanglement to distances of a few hundred kilometers.
+The present work will not only feature the first realization of a source of entanglement in Slovenia but also the first realization of teleportation.
+
+FOR THE SEMINAR:
+
+1) INTRODUCTION
+
+quantum networks require entanglement - entanglement is the key resource for advanced quantum technologies (beyond QKD)
+
+even low loss grows exponentially => quantum repeaters (quantum memories + entanglement distillation + entanglement swapping)
+
+2) MOTIVATION / PROBLEM DEFINITION
+
+write some more about entanglement and sources of entanglement and swapping etc... background information
+
+why do we need such a source? high brightness, sufficiently narrowband for DWDM
+chose to lock the pump wavelength to a Rb absorption line such that our SPDC wavelength would match that of the IJS source (also stablized to the same absorption line) => need that for entanglement swapping
+
+how does this compare to existing work? better? as good? some other nice features?? wavelength locking is nice, entanglement swapping has not been done very often with CW and telecom light
+
+3) SOURCE DESIGN - THEORY
+
+length of the crystal / phase matching
+
+why Sagnac?
+
+4) PRACTICAL SOURCE DESIGN & EXPERIMENTAL SETUP
+
+- what does the Sagnac look like
+- we tried to make it very small - why? (portability, stability - I wanted to have it small enough to fit it into a telecom rack such that we would be able to put it there and connect it to telecom fibers for tests)
+- how does the quality of the PBSs and waveplates affect your tangle?
+- optimal waist sizes, optimal collimators etc
+- which components did we use and why?
+
+5) RESULTS & SOURCE CHARACTERIZATION
+
+- source brightness
+- tangle, purity (total and reduced density matrix), Bell violation, quantum state tomography, stability of the source over time, polarization drifts, drifts in PM temperature??
+- results of entanglement swapping? rate and quality of swapped entanglement (tangle, tomography, purity, ...)
+- drifts for the long-distance links (polarization drifts, drifts in the Rb lock, drifts in timing?)
+
+6) OUTLOOK & CONCLUSIONS
+
+
+
+
+
+
