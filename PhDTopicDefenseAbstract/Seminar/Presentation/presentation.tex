@@ -5,6 +5,7 @@
 % Packages for additional functionality
 \usepackage{graphicx} % For including images
 \usepackage{amsmath} % For mathematical symbols and equations
+\usepackage{multirow}
 \usepackage{subfig}
 
 % /home/bogfootlj/.local/share/fonts/NerdFonts
@@ -49,8 +50,8 @@
 
 % Title slide information
 \title{Generating and teleporting entanglement for quantum networks}
-\author{Adrian Udovičić\newline
-Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
+\author{Adrian Udovičić\\
+Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \institute{University of Ljubljana, Faculty of Mathematics and Physics}
 \date{23.05.2024, Ljubljana, Slovenia}
 \logo{\includegraphics[height=1cm]{CombinedLogo.png}}
@@ -72,23 +73,22 @@ Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
 
 % Example content slides
 \resetPageNumber
-\section{Introduction}
+\section*{Introduction}
 \begin{frame}{Introduction}
-	Introduction
 \end{frame}
 
 \section{Motivation}
 \begin{frame}{Motivation}
   \begin{itemize}
-	\item SiQUID
-    \item Very bright source of entanglement can supply many nodes
+	% \item SiQUID
+    \item Bright source of entanglement
 	\item Training in quantum technologies in Slovenia
-	\item Quantum Interent for Slovenia
-    \item Testbed for industriallized version
-	\item Beyond Semiconductor
-		\begin{itemize}
-			\item Might also be able to connect multiple nodes with the same source
-		\end{itemize}
+	\item Quantum Network for Slovenia
+    \item Testbed for industrialized version
+	% \item Beyond Semiconductor
+	% 	\begin{itemize}
+	% 		\item Might also be able to connect multiple nodes with the same source
+	% 	\end{itemize}
   \end{itemize}
 \end{frame}
 
@@ -112,15 +112,47 @@ Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
 			\begin{center}
 				\includegraphics[width=4cm]{SPDC.png}
 			\end{center}
-			\caption{Illustration of SPDC}\label{fig:}
+			\caption{Illustration of SPDC}\label{fig:SPDC}
 		\end{figure}
 		\begin{itemize}
 			\pause
-			\item Asymmetric (non-degenerate)
-			\item State of the art
-			\item Different designs
+			\item Non-degenerate
+			% \item State of the art
+			% \item Different designs
 		\end{itemize}
 		
+\end{frame}
+
+\begin{frame}[t]
+	\frametitle{Theory}
+	\framesubtitle{State of the Art}
+\begin{table}
+    \caption{Comparison of different sources}\label{SotA}
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        Who & \cite{1}  & \cite{2}  & \cite{3}  & \cite{4}  & \cite{5} \\
+        \hline
+        Type & 0 & II  & II & II & 0  \\
+        \hline
+		\multirow{2}{*}{\shortstack{Pairs\\(s mW nm)}} & \multirow{2}{*}{2.5 $10^6$} & \multirow{2}{*}{87.5 $10^3$} & \multirow{2}{*}{273 $10^3$} & \multirow{2}{*}{5 $10^3$} & \multirow{2}{*}{278 $10^3$}  \\
+		& & & & & \\ % Empty line for spacing
+        \hline
+        Bandwidth/nm & 106 & 0.3  & 0.3 & 1 & 2.3  \\
+        \hline
+    \end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}[t]
+	\frametitle{Theory}
+	\framesubtitle{Different Designs}
+	\begin{figure}
+		\begin{center}
+			% \includegraphics[width=0.95\textwidth]{figures/}
+		\end{center}
+		\caption{}\label{whoisthis?}
+	\end{figure}
 \end{frame}
 
 \subsubsection{Phase Matching}
@@ -130,18 +162,25 @@ Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
 	\begin{itemize}
 		\item Phase Matching, Quasi Phase Matching
 	\end{itemize}
-	\begin{equation}
-	f(\text{T},\text{T0})\text{=}(T-\text{T0}) (T+\text{T0}+546.3)
-		\label{eq:Temperature_Dependance}
-	\end{equation}
-	\begin{equation}
-		\text{nS}(\text{a},\text{b},\text{T},\lambda)\text{=}\sqrt{ a_1+\text{f}\cdot b_1\frac{a_2+\text{f} \cdot b_2}{\lambda ^2-(a_3+\text{f} \cdot b_3)^2}+\frac{a_4+\text{f} \cdot b_4}{\lambda ^2-a_5^2}-a_6\lambda ^2}]
-		\label{eq:Refractive_Index}
-	\end{equation}
+
+	\begin{figure}
+		\begin{center}
+		  \subfloat[][]{\includegraphics[width=6cm]{SPDCk.png}}\quad
+		\end{center}
+		\caption{Illustration of Phase Matching and Quasi Phase Matching.}\label{fig:SPDCk}
+	\end{figure}
+	
+	% \begin{equation}
+	% f(\text{T},\text{T0})\text{=}(T-\text{T0}) (T+\text{T0}+546.3)
+	% 	\label{eq:Temperature_Dependance}
+	% \end{equation}
+	% \begin{equation}
+	% 	\text{nS}(\text{a},\text{b},\text{T},\lambda)\text{=}\sqrt{ a_1+\text{f}\cdot b_1\frac{a_2+\text{f} \cdot b_2}{\lambda ^2-(a_3+\text{f} \cdot b_3)^2}+\frac{a_4+\text{f} \cdot b_4}{\lambda ^2-a_5^2}-a_6\lambda ^2}
+	% 	\label{eq:Refractive_Index}
+	% \end{equation}
 	\begin{itemize}
-		\item Focusing parameters, Heralding,...
-		\item Brightness
 		\item Bandwidth
+		\item Brightness
 	\end{itemize}
 \end{frame}
 
@@ -155,7 +194,7 @@ Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
 	  \subfloat[][]{\includegraphics[width=5cm]{Type2wavelength.png}}\quad
 	  \pause
 	  \subfloat[][]{\includegraphics[width=5.5cm]{Type0wavelength.png}}
-	  \label{fig:sub1}
+	  \label{fig:CompT0a2}
 	\end{figure}
 \end{frame}
 
@@ -175,18 +214,20 @@ Supervisor: Assoc. prof. dr. Rainer Kaltenbaek}
 				\multicolumn{1}{c|}{\textbf{Type-0}} &
 				\multicolumn{1}{c|}{\textbf{Type-II}} \\
 				\hline
-				7,8$\times10^6$ & 2,6$\times 10^7$ & 0,5$\times 10^6$\\
+				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6 $\\
 				\hline
 			\end{tabular}
 		\end{center}
 	\end{table}
-
-	\end{frame}
+	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
+\end{frame}
 
 \subsubsection{Detectors}
 \begin{frame}
 	\frametitle{Detectors}
 	\framesubtitle{Dependence of detector dead-time and efficiency}
+	\Huge Most important
+	\large
 Dead-time dependency
 \end{frame}
 
@@ -194,8 +235,8 @@ Dead-time dependency
 \begin{frame}
 	\frametitle{SPDC}
 	\framesubtitle{Expected efficiency}
-	Fiorentino
-Expected efficiency
+	Fiorentino Expected efficiency
+	Might not be important
 \end{frame}
 
 \subsection{Entanglement swapping}
@@ -222,6 +263,15 @@ Expected efficiency
 \begin{frame}[t]
 	\frametitle{Present state}
 	\framesubtitle{Building a linear test setup}
+		\begin{itemize}
+			\item Focusing parameters
+					\begin{equation}
+							\xi = \frac{L}{k w^2}
+						\label{eq:Focusing parameter}
+					\end{equation}
+			\item Heralding
+				% NOTE: % Might be too much info - Have as backup?
+		\end{itemize}
 
 \end{frame}
 
@@ -230,7 +280,8 @@ Expected efficiency
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Temperature scans of Type-0 crystals with different polling periods, a) misaligned, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
+	  % TODO: HAVE TO MAKE THIS BIGGER INCREASE TEXT SIZE IN PYTHON FUCKING NOOB
+	  \caption{Temperature scans of Type-0 crystals with different polling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
 	  \subfloat[][]{\includegraphics[width=2.9cm]{Not_Aligned_Scan.png}}\quad
 	  \pause
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
@@ -250,7 +301,7 @@ Expected efficiency
 	  % \subfloat[][]{\includegraphics[width=5cm]{SagnacWithSomeAddedColoursV1.png}}\quad
 	  \pause
 	  \subfloat[][]{\includegraphics[width=5cm]{PMT_Grating_5.png}}\\
-	\caption{3D design of the Sagnac interferometer}
+	  \caption{\textcolor{white}{Photograph of the current state of the Sagnac Interferometer.}}
 	\end{figure}
 \end{frame}
 
@@ -261,6 +312,7 @@ Expected efficiency
 		\item SiQUID
 		\item Entanglement swapping between FMF and IJS
 		\item Building quantum internet
+		\item Free space link to reactor
 	\end{itemize}
 \end{frame}
 
@@ -277,5 +329,10 @@ Expected efficiency
 	Thank you
 	\end{center}
 \end{frame}
-
+\begin{frame}[t]
+	\frametitle{References}
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+	
+\end{frame}
 \end{document}
