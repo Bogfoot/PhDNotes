@@ -78,13 +78,14 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \end{frame}
 
 \section{Motivation}
+\usebackgroundtemplate{}
 \begin{frame}{Motivation}
   \begin{itemize}
 	% \item SiQUID
-    \item Bright source of entanglement
-	\item Training in quantum technologies in Slovenia
-	\item Quantum Network for Slovenia
-    \item Testbed for industrialized version
+    \item<1-> Bright source of entanglement
+	\item<2-> Training in quantum technologies in Slovenia
+	\item<3-> Quantum Network for Slovenia
+    \item<4-> Testbed for industrialized version
 	% \item Beyond Semiconductor
 	% 	\begin{itemize}
 	% 		\item Might also be able to connect multiple nodes with the same source
@@ -103,22 +104,21 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \subsection{SPDC}
 \begin{frame}{Theory}
 	\framesubtitle{SPDC}
+	\pause
 		\begin{itemize}
 			\item Spontaneous Parametric Downconversion
-				\pause
 		\end{itemize}
 
+		\pause
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=4cm]{SPDC.png}
 			\end{center}
 			\caption{Illustration of SPDC}\label{fig:SPDC}
 		\end{figure}
+		\pause
 		\begin{itemize}
-			\pause
 			\item Non-degenerate
-			% \item State of the art
-			% \item Different designs
 		\end{itemize}
 		
 \end{frame}
@@ -129,9 +129,10 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \begin{table}
     \caption{Comparison of different sources}\label{SotA}
     \centering
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|l||l|l|l|l|l|}
         \hline
         Who & \cite{1}  & \cite{2}  & \cite{3}  & \cite{4}  & \cite{5} \\
+		\hline
         \hline
         Type & 0 & II  & II & II & 0  \\
         \hline
@@ -149,6 +150,7 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	\framesubtitle{Different Designs}
 	\begin{figure}
 		\begin{center}
+			% TODO: MAKE A PIC OUT OF THE DESIGNS YOU TALKED ABOUT WITH RAINER
 			% \includegraphics[width=0.95\textwidth]{figures/}
 		\end{center}
 		\caption{}\label{whoisthis?}
@@ -169,19 +171,6 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 		\end{center}
 		\caption{Illustration of Phase Matching and Quasi Phase Matching.}\label{fig:SPDCk}
 	\end{figure}
-	
-	% \begin{equation}
-	% f(\text{T},\text{T0})\text{=}(T-\text{T0}) (T+\text{T0}+546.3)
-	% 	\label{eq:Temperature_Dependance}
-	% \end{equation}
-	% \begin{equation}
-	% 	\text{nS}(\text{a},\text{b},\text{T},\lambda)\text{=}\sqrt{ a_1+\text{f}\cdot b_1\frac{a_2+\text{f} \cdot b_2}{\lambda ^2-(a_3+\text{f} \cdot b_3)^2}+\frac{a_4+\text{f} \cdot b_4}{\lambda ^2-a_5^2}-a_6\lambda ^2}
-	% 	\label{eq:Refractive_Index}
-	% \end{equation}
-	\begin{itemize}
-		\item Bandwidth
-		\item Brightness
-	\end{itemize}
 \end{frame}
 
 \begin{frame}[t]
@@ -196,6 +185,17 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	  \subfloat[][]{\includegraphics[width=5.5cm]{Type0wavelength.png}}
 	  \label{fig:CompT0a2}
 	\end{figure}
+	\pause
+	\begin{block}{SPDC wavefunction}
+		\begin{equation}
+		\begin{align*}
+			\Psi_{p} &= \\
+			\Psi_{Type-2} &= \\
+			\Psi_{Type-0} &= 
+		\end{align*}
+		\label{eq:Psi2n0}
+	\end{equation}
+	\end{block}
 \end{frame}
 
 \begin{frame}
@@ -214,12 +214,20 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 				\multicolumn{1}{c|}{\textbf{Type-0}} &
 				\multicolumn{1}{c|}{\textbf{Type-II}} \\
 				\hline
-				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6 $\\
+				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6$ \\
 				\hline
 			\end{tabular}
 		\end{center}
 	\end{table}
 	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
+\end{frame}
+
+\subsubsection{Efficiency}
+\begin{frame}
+	\frametitle{SPDC}
+	\framesubtitle{Expected efficiency}
+	Fiorentino Expected efficiency
+	Might not be important
 \end{frame}
 
 \subsubsection{Detectors}
@@ -231,13 +239,6 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 Dead-time dependency
 \end{frame}
 
-\subsubsection{Efficiency}
-\begin{frame}
-	\frametitle{SPDC}
-	\framesubtitle{Expected efficiency}
-	Fiorentino Expected efficiency
-	Might not be important
-\end{frame}
 
 \subsection{Entanglement swapping}
 \begin{frame}{Entanglement swapping}
