@@ -7,6 +7,8 @@
 \usepackage{amsmath} % For mathematical symbols and equations
 \usepackage{multirow}
 \usepackage{subfig}
+\usepackage{braket}
+\usepackage{caption}
 
 % /home/bogfootlj/.local/share/fonts/NerdFonts
 % Setting up fonts
@@ -14,6 +16,9 @@
 \graphicspath{{./Images/}} % Where to take images from
 \setbeamertemplate{section in toc}[sections numbered]
 \setbeamertemplate{subsection in toc}[subsections numbered]
+
+\captionsetup[figure]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
+\captionsetup[table]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
 
 % Define the style for the footer with page numbers
 \setbeamercolor{footline}{fg=black}
@@ -65,17 +70,16 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	\titlepage
 \end{frame}
 
-% \placelogofalse
 \usebackgroundtemplate{}
-\begin{frame}{Contents}
+\begin{frame}{Contents and introduction}
   \tableofcontents % Include a table of contents slide
 \end{frame}
 
 % Example content slides
+% \section*{Introduction}
+% \begin{frame}{Introduction}
+% \end{frame}
 \resetPageNumber
-\section*{Introduction}
-\begin{frame}{Introduction}
-\end{frame}
 
 \section{Motivation}
 \usebackgroundtemplate{}
@@ -86,10 +90,6 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	\item<2-> Training in quantum technologies in Slovenia
 	\item<3-> Quantum Network for Slovenia
     \item<4-> Testbed for industrialized version
-	% \item Beyond Semiconductor
-	% 	\begin{itemize}
-	% 		\item Might also be able to connect multiple nodes with the same source
-	% 	\end{itemize}
   \end{itemize}
 \end{frame}
 
@@ -104,11 +104,14 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \subsection{SPDC}
 \begin{frame}{Theory}
 	\framesubtitle{SPDC}
-	\pause
 		\begin{itemize}
 			\item Spontaneous Parametric Downconversion
+			% \begin{equation}
+				% \hat{H}_{\text{SPDC}} &= i \hbar \kappa \left( \hat{a}_1 \hat{a}_2 \hat{a}^{\dagger}_3 e^{i \left( \Delta \vec{ k } \cdot \vec{ r } - \Delta \omega t\right) } + \hat{a}^{\dagger}_1 \hat{a}^{\dagger}_2 \hat{a}3 e^{- i \left( \Delta \vec{ k } \cdot \vec{ r } - \Delta \omega t\right)} \right)
+			% 	\hat{H}_{\text{SPDC}} = i \hbar \kappa \left( \hat{a}_s \hat{a}_i \hat{a}^{\dagger}_p e^{i \left( \Delta \vec{ k } \cdot \vec{ r } - \Delta \omega\right) t} + \hat{a}^{\dagger}_s \hat{a}^{\dagger}_i \hat{a}_p e^{- i \left( \Delta \vec{ k } \cdot \vec{ r } + \Delta \omega t \right)} \right)
+			% 	\label{eq:SPDCShort}
+			% \end{equation}
 		\end{itemize}
-
 		\pause
 		\begin{figure}
 			\begin{center}
@@ -118,9 +121,11 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 		\end{figure}
 		\pause
 		\begin{itemize}
-			\item Non-degenerate
+			\item Degenerate \pause $\omega_i = \omega_s$
+				\pause
+			\item Non-degenerate \pause $\omega_i \ne \omega_s$
 		\end{itemize}
-		
+
 \end{frame}
 
 \begin{frame}[t]
@@ -131,30 +136,22 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
     \centering
     \begin{tabular}{|l||l|l|l|l|l|}
         \hline
-        Who & \cite{1}  & \cite{2}  & \cite{3}  & \cite{4}  & \cite{5} \\
+		& & & & & \\ % Empty line for spacing
+        \multirow{2}{*}{\shortstack{Who\\When}}& \multirow{2}{*}{\shortstack{\cite{1}\\2022 }} &\multirow{2}{*}{\shortstack{\cite{2}\\2010 }}  &\multirow{2}{*}{\shortstack{\cite{3}\\2007 }}   & \multirow{2}{*}{\shortstack{\cite{4}\\2006 }}  & \multirow{2}{*}{\shortstack{\cite{5}\\2012 }} \\
+		& & & & & \\ % Empty line for spacing
+		& & & & & \\ % Empty line for spacing
+		% add years
 		\hline
         \hline
         Type & 0 & II  & II & II & 0  \\
         \hline
-		\multirow{2}{*}{\shortstack{Pairs\\(s mW nm)}} & \multirow{2}{*}{2.5 $10^6$} & \multirow{2}{*}{87.5 $10^3$} & \multirow{2}{*}{273 $10^3$} & \multirow{2}{*}{5 $10^3$} & \multirow{2}{*}{278 $10^3$}  \\
+		\multirow{2}{*}{\shortstack{Brightness/$\frac{pairs}{s mW nm}$}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{87,5$\times$$10^3$} & \multirow{2}{*}{273$\times$$10^3$} & \multirow{2}{*}{5$\times$$10^3$} & \multirow{2}{*}{278$\times$$10^3$}  \\
 		& & & & & \\ % Empty line for spacing
         \hline
-        Bandwidth/nm & 106 & 0.3  & 0.3 & 1 & 2.3  \\
+        Bandwidth/nm & 106 & 0,3  & 0,3 & 1 & 2,3  \\
         \hline
     \end{tabular}
 \end{table}
-\end{frame}
-
-\begin{frame}[t]
-	\frametitle{Theory}
-	\framesubtitle{Different Designs}
-	\begin{figure}
-		\begin{center}
-			% TODO: MAKE A PIC OUT OF THE DESIGNS YOU TALKED ABOUT WITH RAINER
-			% \includegraphics[width=0.95\textwidth]{figures/}
-		\end{center}
-		\caption{}\label{whoisthis?}
-	\end{figure}
 \end{frame}
 
 \subsubsection{Phase Matching}
@@ -167,54 +164,86 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 
 	\begin{figure}
 		\begin{center}
-		  \subfloat[][]{\includegraphics[width=6cm]{SPDCk.png}}\quad
+		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkPM.png}}\\
+		\caption{Illustration of a) Phase Matching $k_p = k_i + k_s$ and}
+		  \pause
+		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkQPM.png}}
 		\end{center}
-		\caption{Illustration of Phase Matching and Quasi Phase Matching.}\label{fig:SPDCk}
+		%Conservation of momentum add here noob
+		\caption{b) Quasi Phase Matching $ k_p - k_i -k_s - \Delta k = 0 $.}
+		\label{fig:SPDCk}
+	\end{figure}
+\end{frame}
+
+\subsection{Phase Matching Temperature}
+\begin{frame}{Theory}
+	\framesubtitle{Phase Matching Temperature}
+	\begin{figure}[!ht]
+	  \centering
+	  \caption{Phase Matching Temperature calculatios for a) Type-2 crystal of 9,12 $\mu$m polling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m}
+	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
+	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
+	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
+	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G6.png}}\\
+	  \label{fig:gratingstheory}
 	\end{figure}
 \end{frame}
 
 \begin{frame}[t]
 	\frametitle{Type-II vs Type-0}
 	\framesubtitle{Bandwidth}
-	
+
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Wavelength bandwidth of a) Type-2 crystal with a polling period of 9,12 um\\ Type-0 crystals with polling periods of b) 19,25 um}
+	  \caption{Wavelength bandwidth of a) Type-2 crystal with a polling period of 9,12 $\mu$m\\ b) Type-0 crystals with polling periods of 19,25 $\mu$m}
+	  % Do this on the same plot
 	  \subfloat[][]{\includegraphics[width=5cm]{Type2wavelength.png}}\quad
 	  \pause
 	  \subfloat[][]{\includegraphics[width=5.5cm]{Type0wavelength.png}}
 	  \label{fig:CompT0a2}
 	\end{figure}
 	\pause
-	\begin{block}{SPDC wavefunction}
+	\tiny
+	\begin{minipage}[t]{0.48\textwidth}
 		\begin{equation}
-		\begin{align*}
-			\Psi_{p} &= \\
-			\Psi_{Type-2} &= \\
-			\Psi_{Type-0} &= 
-		\end{align*}
-		\label{eq:Psi2n0}
-	\end{equation}
-	\end{block}
+		\begin{aligned}
+			\ket{\Psi_{p}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}+\cos(\alpha)a_{V}^{\dagger})\ket{0}\\
+			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
+								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
+		\end{aligned}
+		\end{equation}
+	\end{minipage}
+	\begin{minipage}[t]{0.48\textwidth}
+	\begin{equation*}
+		\begin{aligned}
+			\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
+									   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
+		\end{aligned}
+	\end{equation*}
+	\end{minipage}
+	\normalsize
 \end{frame}
 
 \begin{frame}
 	\frametitle{SPDC}
 	\framesubtitle{Type-2 vs Type-0}
-
 	\begin{table}
 		\begin{center}
 		\caption{Brightness comparison \[Hz/mW/nm\]}
 			\begin{tabular}[c|c|c]{|ll|l|}
 				\hline
-				\multicolumn{1}{|c}{\textbf{FMF}} & & 
+				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
 				\multicolumn{1}{c|}{\textbf{IJS}} \\
-				\hline 
+				\hline
 				\multicolumn{1}{|c|}{\textbf{Type-II}} &
 				\multicolumn{1}{c|}{\textbf{Type-0}} &
 				\multicolumn{1}{c|}{\textbf{Type-II}} \\
 				\hline
 				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6$ \\
+				\hline
+				\multicolumn{1}{|c}{\textbf{Bandwidth}/nm} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
+				\hline
+				0,68 & 0,68 & 0,68\\
 				\hline
 			\end{tabular}
 		\end{center}
@@ -222,50 +251,68 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
 \end{frame}
 
-\subsubsection{Efficiency}
-\begin{frame}
-	\frametitle{SPDC}
-	\framesubtitle{Expected efficiency}
-	Fiorentino Expected efficiency
-	Might not be important
-\end{frame}
+%	TODO: DO THIS ALREADY YOU IDIOT
+% \subsubsection{Efficiency}
+% \begin{frame}
+% 	\frametitle{SPDC}
+% 	\framesubtitle{Expected efficiency}
+% 	Fiorentino Expected efficiency
+% 	Might not be important
+% \end{frame}
 
-\subsubsection{Detectors}
-\begin{frame}
-	\frametitle{Detectors}
-	\framesubtitle{Dependence of detector dead-time and efficiency}
-	\Huge Most important
-	\large
-Dead-time dependency
+
+%	TODO: DO THIS ALREADY
+% \subsubsection{Detectors}
+% \begin{frame}
+% 	\frametitle{Detectors}
+% 	\framesubtitle{Dependence of detector dead-time and efficiency}
+% 	\Huge Most important
+% 	\large
+% Dead-time dependency
+% \end{frame}
+
+\begin{frame}[t]
+	\frametitle{Different Designs}
+	\begin{figure}[!ht]
+	  \centering
+	  \caption{Different design ideas from other groups. a) \cite{design1}, b) \cite{design2}, c) \cite{design3}, d) \cite{design4}}
+	  \subfloat[][]{\includegraphics[width=5cm]{Design4.png}}\quad
+	  \subfloat[][]{\includegraphics[width=5cm]{Design1.png}}\\
+	  \subfloat[][]{\includegraphics[width=4cm]{Design3.png}}\quad
+	  \subfloat[][]{\includegraphics[width=4.5cm]{Design2.png}}\\
+	  \label{fig:sub4}
+	\end{figure}
 \end{frame}
 
 
 \subsection{Entanglement swapping}
 \begin{frame}{Entanglement swapping}
 	\begin{itemize}
-		\item FMF/IJS
-		\item Quantum Repeaters
+		\item No specific form required - arbitrary states can be teleported
+			%	TODO: Make a graphic of this
+			%	Two pairs of maximally entangled qubits.
+			%	Pair one = qubit 1 and qubit 2
+			%	Pair two = qubit 3 and qubit 4
+			%	Teleport qubit 2: Perform Bell State Measurement on qubit 2 and qubit 3
+			%	If teleportation + success == true -> qubit 2 and qubit 3 states are destroyed (no-cloning theorem) -> Qubit 1 and Qubit 4 now in same entangled state
 			\begin{enumerate}
-				\item Quantum Memory - wrong wl for now, have to figure out
+				% QUANTUM REPEATERS IN HANDWAVEY WAY
+				\item Bell State Measurements
+				\item Will try to use Quantum Memory from IJS group
 			\end{enumerate}
+			% NOTE: Distillation and repeaters - Rainer PhD ----
+		\item FMF/IJS
 	\end{itemize}
-
 \end{frame}
 
 \section{Present state}
 
-%Temperatures in the 100°C-200°C range are used in order to minimize the photorefractive effect that can damage the crystal and causes the output beam to be distorted.
-%Since the photorefractive effect is more severe in PPLN when higher energy photons in the visible part of the spectrum are present in the crystal,
-%it is especially important to use the crystal only in the recommended temperature range.
-%When using a PPLN crystal as an OPO that is pumped with and generates light in the infrared region of the spectrum,
-% it may be possible to use temperatures lower than 100°C if necessary without damaging the crystal.
-
-\subsection{Implementations}
+\subsection{Parameters}
 \begin{frame}[t]
 	\frametitle{Present state}
-	\framesubtitle{Building a linear test setup}
+	\framesubtitle{Parameters}
 		\begin{itemize}
-			\item Focusing parameters
+			\item Focusing parameters \cite{bennik}
 					\begin{equation}
 							\xi = \frac{L}{k w^2}
 						\label{eq:Focusing parameter}
@@ -273,36 +320,41 @@ Dead-time dependency
 			\item Heralding
 				% NOTE: % Might be too much info - Have as backup?
 		\end{itemize}
-
 \end{frame}
 
 \subsection{Phase Matching Temperature}
+%Temperatures in the 100°C-200°C range are used in order to minimize the photorefractive effect that can damage the crystal and causes the output beam to be distorted.
+%Since the photorefractive effect is more severe in PPLN when higher energy photons in the visible part of the spectrum are present in the crystal,
+%it is especially important to use the crystal only in the recommended temperature range.
+%When using a PPLN crystal as an OPO that is pumped with and generates light in the infrared region of the spectrum,
+% it may be possible to use temperatures lower than 100°C if necessary without damaging the crystal.
 \begin{frame}{Present state}
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  % TODO: HAVE TO MAKE THIS BIGGER INCREASE TEXT SIZE IN PYTHON FUCKING NOOB
 	  \caption{Temperature scans of Type-0 crystals with different polling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
+	  % TODO: HAVE TO MAKE THIS BIGGER INCREASE TEXT SIZE IN PYTHON FUCKING NOOB
+	  \pause
 	  \subfloat[][]{\includegraphics[width=2.9cm]{Not_Aligned_Scan.png}}\quad
 	  \pause
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_5.png}}\quad
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_6.png}}\\
-	  \label{fig:sub2}
+	  \label{fig:gratings}
 	\end{figure}
 \end{frame}
 
+\subsection{Building a Sagnac Interferometer}
 {\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
+
 \begin{frame}[t]
 	\frametitle{Present state}
 	\framesubtitle{Building a Sagnac Interferometer}
-
 	\begin{figure}[!ht]
 	  \centering
-	  % \subfloat[][]{\includegraphics[width=5cm]{SagnacWithSomeAddedColoursV1.png}}\quad
 	  \pause
-	  \subfloat[][]{\includegraphics[width=5cm]{PMT_Grating_5.png}}\\
-	  \caption{\textcolor{white}{Photograph of the current state of the Sagnac Interferometer.}}
+	  \subfloat[][]{\includegraphics[width=8cm]{Type0Gratings.pdf}}\\
+	  \caption{\textcolor{white}{Specifications from the crystal manufacturer.}}
 	\end{figure}
 \end{frame}
 
@@ -315,25 +367,22 @@ Dead-time dependency
 		\item Building quantum internet
 		\item Free space link to reactor
 	\end{itemize}
+	% Entanglement swapping over short distance, IJS, Reactor with fibers, take one of the sources and do Entanglement swapping over long distances
 \end{frame}
 
-\begin{frame}{Conclusion}
-	\begin{center}
-		\Large
-		Testing, calculating various properties of the system, limitations, 
-	\end{center}
-\end{frame}
-
-\begin{frame}{\ }
+\begin{frame}[plain]{\ }
 	\begin{center}
 	\Huge
 	Thank you
 	\end{center}
 \end{frame}
-\begin{frame}[t]
+
+
+\begin{frame}[plain]
 	\frametitle{References}
+	\tiny
 \bibliographystyle{IEEEtran}
 \bibliography{reference}
-	
 \end{frame}
+
 \end{document}
