@@ -85,11 +85,11 @@
 \usebackgroundtemplate{}
 \begin{frame}{Motivation}
   \begin{itemize}
-	% \item SiQUID
-    \item<1-> Bright source of entanglement
-	\item<2-> Training in quantum technologies in Slovenia
-	\item<3-> Quantum Network for Slovenia
-    \item<4-> Testbed for industrialized version
+	\item SiQUID
+    \item Bright source of entanglement
+	\item Training in quantum technologies in Slovenia
+	\item Quantum Network for Slovenia
+    \item Testbed for industrialized version
   \end{itemize}
 \end{frame}
 
@@ -112,7 +112,6 @@
 			% 	\label{eq:SPDCShort}
 			% \end{equation}
 		\end{itemize}
-		\pause
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=4cm]{SPDC.png}
@@ -145,10 +144,10 @@
         \hline
         Type & 0 & II  & II & II & 0  \\
         \hline
-		\multirow{2}{*}{\shortstack{Brightness/$\frac{pairs}{s mW nm}$}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{87,5$\times$$10^3$} & \multirow{2}{*}{273$\times$$10^3$} & \multirow{2}{*}{5$\times$$10^3$} & \multirow{2}{*}{278$\times$$10^3$}  \\
+		\multirow{2}{*}{\shortstack{Brightness [$\frac{pairs}{s mW nm}$]}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{87,5$\times$$10^3$} & \multirow{2}{*}{273$\times$$10^3$} & \multirow{2}{*}{5$\times$$10^3$} & \multirow{2}{*}{278$\times$$10^3$}  \\
 		& & & & & \\ % Empty line for spacing
         \hline
-        Bandwidth/nm & 106 & 0,3  & 0,3 & 1 & 2,3  \\
+        Bandwidth [ nm ] & 106 & 0,3  & 0,3 & 1 & 2,3  \\
         \hline
     \end{tabular}
 \end{table}
@@ -175,7 +174,7 @@
 	\end{figure}
 \end{frame}
 
-\subsection{Phase Matching Temperature}
+\subsubsection{Phase Matching Temperature}
 \begin{frame}{Theory}
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
@@ -229,7 +228,7 @@
 	\framesubtitle{Type-2 vs Type-0}
 	\begin{table}
 		\begin{center}
-		\caption{Brightness comparison \[Hz/mW/nm\]}
+			\caption{Brightness comparison [$\frac{Hz}{mWnm}$]}
 			\begin{tabular}[c|c|c]{|ll|l|}
 				\hline
 				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
@@ -241,9 +240,9 @@
 				\hline
 				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6$ \\
 				\hline
-				\multicolumn{1}{|c}{\textbf{Bandwidth}/nm} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
+				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
 				\hline
-				0,68 & 0,68 & 0,68\\
+				0,81 & 0,81 & 0,81\\
 				\hline
 			\end{tabular}
 		\end{center}
@@ -284,6 +283,27 @@
 	\end{figure}
 \end{frame}
 
+\begin{frame}[t]
+	\frametitle{Why do we care about entanglement?}
+	\begin{itemize}
+		\item Entanglement sources by themselves $\rightarrow$ usless if you can't use them.
+		\item Loss in fiber
+	\end{itemize}
+	\begin{table}
+		\caption{Relevant fiber loss. \textit{Source: Thorlabs}}\label{tab:fiberloss}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			$\lambda$ [nm] & 1310 & 1550\\
+			\hline
+			Loss [dB/km] & 0.32 &  0.18\\
+			\hline
+		\end{tabular}
+	\end{table}
+	\begin{exampleblock}{Example: Loss in fiber for 1550/1560 nm}
+		200 km of fiber \rightarrow $10^4$ loss.
+	\end{exampleblock}
+	
+\end{frame}
 % Add transition from one to other here
 
 \subsection{Entanglement swapping}
@@ -304,23 +324,10 @@
 			\end{enumerate}
 			% NOTE: Distillation and repeaters - Rainer PhD ----
 		\item FMF/IJS
+		\item Government buildings in Ljubljana
 	\end{itemize}
 \end{frame}
 
-% \begin{frame}[t]
-% 	\frametitle{Entanglement Swapping}
-% 	\framesubtitle{Teleportation and Swapping}
-%
-% 	\begin{figure}[!ht]
-% 	  \centering
-% 	  \caption{Illustration of Entanglement a) Teleportation and b) Swapping.}
-% 	  \subfloat[][]{\includegraphics[width=5cm]{EntanglementTeleportation.png}}\quad
-% 	  \pause
-% 	  \subfloat[][]{\includegraphics[width=5cm]{EntanglementSwapping.png}}\\
-% 	  \label{fig:SwapTele}
-% 	\end{figure}
-%
-% \end{frame}
 \begin{frame}[t]
     \frametitle{Entanglement Swapping}
     \framesubtitle{Teleportation and Swapping}
@@ -328,9 +335,11 @@
       \centering
       \caption{Illustration of Entanglement Teleportation.}
       \includegraphics[width=8cm]{EntanglementTeleportation.png}
-      \label{fig:Tele}
+	\label{fig:Tele}
     \end{figure}
 \end{frame}
+
+%add image for the 50% case -> PBS after BS
 
 
 \addtocounter{framenumber}{-1}
@@ -341,7 +350,7 @@
       \centering
       \caption{Illustration of Entanglement Swapping.}
       \includegraphics[width=10cm]{EntanglementSwapping.png}
-      \label{fig:Swap}
+	\label{fig:Swap}
     \end{figure}
 \end{frame}
 
@@ -374,9 +383,7 @@
 	  \centering
 	  \caption{Temperature scans of Type-0 crystals with different polling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
 	  % TODO: HAVE TO MAKE THIS BIGGER INCREASE TEXT SIZE IN PYTHON FUCKING NOOB
-	  \pause
 	  \subfloat[][]{\includegraphics[width=2.9cm]{Not_Aligned_Scan.png}}\quad
-	  \pause
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_5.png}}\quad
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_6.png}}\\
@@ -404,7 +411,7 @@
 	\begin{itemize}
 		\item SiQUID
 		\item Entanglement swapping between FMF and IJS
-		\item Building quantum internet
+		\item Building quantum network
 		\item Free space link to reactor
 	\end{itemize}
 	% Entanglement swapping over short distance, IJS, Reactor with fibers, take one of the sources and do Entanglement swapping over long distances
