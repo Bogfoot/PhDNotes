@@ -9,6 +9,7 @@
 \usepackage{subfig}
 \usepackage{braket}
 \usepackage{caption}
+% \usepackage{authblk}
 
 % /home/bogfootlj/.local/share/fonts/NerdFonts
 % Setting up fonts
@@ -41,7 +42,7 @@
             \hspace*{1em}\hfill \insertframenumber/\inserttotalframenumber\hspace*{1em}%
         \end{beamercolorbox}%
     }%
-    \addtocounter{framenumber}{-2}%
+    \addtocounter{framenumber}{-2}
 }
 
 % Set up the footer for the rest of the presentation
@@ -55,8 +56,7 @@
 
 % Title slide information
 \title{Generating and teleporting entanglement for quantum networks}
-\author{Adrian Udovičić\\
-Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
+\author[Adrian, Rainer]{Adrian Udovičić \\ \and Assoc. prof. dr. Rainer Kaltenbaek}
 \institute{University of Ljubljana, Faculty of Mathematics and Physics}
 \date{23.05.2024, Ljubljana, Slovenia}
 \logo{\includegraphics[height=1cm]{CombinedLogo.png}}
@@ -121,9 +121,9 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 		\end{figure}
 		\pause
 		\begin{itemize}
-			\item Degenerate \pause $\omega_i = \omega_s$
+			\item Degenerate $\omega_i = \omega_s$
 				\pause
-			\item Non-degenerate \pause $\omega_i \ne \omega_s$
+			\item Non-degenerate $\omega_i \ne \omega_s$
 		\end{itemize}
 
 \end{frame}
@@ -159,18 +159,18 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	\frametitle{SPDC}
 	\framesubtitle{Phase Matching, Quasi Phase Matching, Bandwidth}
 	\begin{itemize}
-		\item Phase Matching, Quasi Phase Matching
+		\item Birifringent Phase Matching, Quasi Phase Matching
 	\end{itemize}
 
 	\begin{figure}
 		\begin{center}
+		\caption{Illustration of a) Birifringent Phase Matching $k_p = k_i + k_s$ and}
 		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkPM.png}}\\
-		\caption{Illustration of a) Phase Matching $k_p = k_i + k_s$ and}
 		  \pause
+		\caption{b) Quasi Phase Matching $ k_p - k_i -k_s - \Delta k = 0 $.}
 		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkQPM.png}}
 		\end{center}
 		%Conservation of momentum add here noob
-		\caption{b) Quasi Phase Matching $ k_p - k_i -k_s - \Delta k = 0 $.}
 		\label{fig:SPDCk}
 	\end{figure}
 \end{frame}
@@ -284,9 +284,11 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	\end{figure}
 \end{frame}
 
+% Add transition from one to other here
 
 \subsection{Entanglement swapping}
 \begin{frame}{Entanglement swapping}
+	\framesubtitle{Introduction}
 	\begin{itemize}
 		\item No specific form required - arbitrary states can be teleported
 			%	TODO: Make a graphic of this
@@ -303,6 +305,44 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 			% NOTE: Distillation and repeaters - Rainer PhD ----
 		\item FMF/IJS
 	\end{itemize}
+\end{frame}
+
+% \begin{frame}[t]
+% 	\frametitle{Entanglement Swapping}
+% 	\framesubtitle{Teleportation and Swapping}
+%
+% 	\begin{figure}[!ht]
+% 	  \centering
+% 	  \caption{Illustration of Entanglement a) Teleportation and b) Swapping.}
+% 	  \subfloat[][]{\includegraphics[width=5cm]{EntanglementTeleportation.png}}\quad
+% 	  \pause
+% 	  \subfloat[][]{\includegraphics[width=5cm]{EntanglementSwapping.png}}\\
+% 	  \label{fig:SwapTele}
+% 	\end{figure}
+%
+% \end{frame}
+\begin{frame}[t]
+    \frametitle{Entanglement Swapping}
+    \framesubtitle{Teleportation and Swapping}
+    \begin{figure}[]
+      \centering
+      \caption{Illustration of Entanglement Teleportation.}
+      \includegraphics[width=8cm]{EntanglementTeleportation.png}
+      \label{fig:Tele}
+    \end{figure}
+\end{frame}
+
+
+\addtocounter{framenumber}{-1}
+\begin{frame}[t]
+    \frametitle{Entanglement Swapping}
+    \framesubtitle{Teleportation and Swapping}
+\begin{figure}[]
+      \centering
+      \caption{Illustration of Entanglement Swapping.}
+      \includegraphics[width=10cm]{EntanglementSwapping.png}
+      \label{fig:Swap}
+    \end{figure}
 \end{frame}
 
 \section{Present state}
@@ -370,6 +410,7 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 	% Entanglement swapping over short distance, IJS, Reactor with fibers, take one of the sources and do Entanglement swapping over long distances
 \end{frame}
 
+\addtocounter{framenumber}{-1}
 \begin{frame}[plain]{\ }
 	\begin{center}
 	\Huge
@@ -378,6 +419,7 @@ Supervisor:\ Assoc.\ prof.\ dr. Rainer Kaltenbaek}
 \end{frame}
 
 
+\addtocounter{framenumber}{-1}
 \begin{frame}[plain]
 	\frametitle{References}
 	\tiny

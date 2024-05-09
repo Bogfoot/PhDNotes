@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3658"
+   sodipodi:docname="EntanglementTeleportation.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3660"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-text-baseline="false"
+     inkscape:object-nodes="false"
+     inkscape:zoom="1.0167041"
+     inkscape:cx="422.93525"
+     inkscape:cy="348.67569"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3655">
+    <marker
+       style="overflow:visible;"
+       id="marker89873"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path89871" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker89863"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path89861" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path84991" />
+    </marker>
+    <g
+       id="g303">
+      <symbol
+         overflow="visible"
+         id="symbol7554">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path5008" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol7015">
+        <path
+           style="stroke:none;"
+           d="M 4.921875 -2.953125 C 4.6875 -2.109375 4.34375 -0.875 4.34375 -0.109375 C 4.34375 0.15625 4.5 0.28125 4.75 0.28125 C 5.140625 0.28125 5.890625 -0.15625 5.890625 -0.34375 C 5.890625 -0.40625 5.84375 -0.421875 5.796875 -0.421875 C 5.671875 -0.421875 5.5 -0.328125 5.390625 -0.265625 C 5.25 -0.296875 5.1875 -0.390625 5.1875 -0.53125 C 5.1875 -1.75 6.3125 -5.234375 6.609375 -5.96875 C 6.734375 -6.25 6.859375 -6.65625 6.859375 -6.734375 C 6.859375 -6.8125 6.796875 -6.8125 6.765625 -6.8125 C 6.546875 -6.8125 6.09375 -6.546875 6.015625 -6.34375 C 5.890625 -6 5.875 -5.953125 5.75 -5.578125 C 5.421875 -4.640625 4.4375 -2.984375 3.453125 -1.828125 C 3.140625 -1.484375 2.15625 -0.328125 1.453125 -0.328125 C 0.984375 -0.328125 0.671875 -0.734375 0.671875 -1.390625 C 0.671875 -2.09375 1.0625 -2.984375 1.671875 -4.359375 C 2.03125 -5.171875 2.328125 -5.875 2.328125 -6.328125 C 2.328125 -6.796875 2 -6.8125 1.828125 -6.8125 C 1.0625 -6.8125 0.09375 -6.1875 0.09375 -5.984375 C 0.09375 -5.921875 0.171875 -5.921875 0.203125 -5.921875 C 0.328125 -5.921875 0.515625 -6 0.671875 -6.109375 C 0.734375 -6.15625 0.890625 -6.265625 1.171875 -6.265625 C 1.390625 -6.265625 1.46875 -6.125 1.46875 -5.90625 C 1.46875 -5.46875 1.109375 -4.640625 0.703125 -3.6875 C 0.046875 -2.1875 -0.171875 -1.5625 -0.171875 -0.984375 C -0.171875 -0.3125 0.09375 0.21875 0.796875 0.21875 C 1.421875 0.21875 2.328125 -0.1875 3.34375 -1.140625 C 4.03125 -1.78125 4.46875 -2.375 4.90625 -2.953125 Z M 4.921875 -2.953125 "
+           id="path5419" />
+      </symbol>
+    </g>
+    <g
+       id="g9296">
+      <symbol
+         overflow="visible"
+         id="symbol2261">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path3240" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol3522">
+        <path
+           style="stroke:none;"
+           d="M 2.5 -6.921875 L 1.15625 -5.5625 L 1.328125 -5.390625 L 2.5 -6.40625 L 3.640625 -5.390625 L 3.8125 -5.5625 Z M 2.5 -6.921875 "
+           id="path5291" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol8373">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path2970" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol7645">
+        <path
+           style="stroke:none;"
+           d="M 4.921875 -2.953125 C 4.6875 -2.109375 4.34375 -0.875 4.34375 -0.109375 C 4.34375 0.15625 4.5 0.28125 4.75 0.28125 C 5.140625 0.28125 5.890625 -0.15625 5.890625 -0.34375 C 5.890625 -0.40625 5.84375 -0.421875 5.796875 -0.421875 C 5.671875 -0.421875 5.5 -0.328125 5.390625 -0.265625 C 5.25 -0.296875 5.1875 -0.390625 5.1875 -0.53125 C 5.1875 -1.75 6.3125 -5.234375 6.609375 -5.96875 C 6.734375 -6.25 6.859375 -6.65625 6.859375 -6.734375 C 6.859375 -6.8125 6.796875 -6.8125 6.765625 -6.8125 C 6.546875 -6.8125 6.09375 -6.546875 6.015625 -6.34375 C 5.890625 -6 5.875 -5.953125 5.75 -5.578125 C 5.421875 -4.640625 4.4375 -2.984375 3.453125 -1.828125 C 3.140625 -1.484375 2.15625 -0.328125 1.453125 -0.328125 C 0.984375 -0.328125 0.671875 -0.734375 0.671875 -1.390625 C 0.671875 -2.09375 1.0625 -2.984375 1.671875 -4.359375 C 2.03125 -5.171875 2.328125 -5.875 2.328125 -6.328125 C 2.328125 -6.796875 2 -6.8125 1.828125 -6.8125 C 1.0625 -6.8125 0.09375 -6.1875 0.09375 -5.984375 C 0.09375 -5.921875 0.171875 -5.921875 0.203125 -5.921875 C 0.328125 -5.921875 0.515625 -6 0.671875 -6.109375 C 0.734375 -6.15625 0.890625 -6.265625 1.171875 -6.265625 C 1.390625 -6.265625 1.46875 -6.125 1.46875 -5.90625 C 1.46875 -5.46875 1.109375 -4.640625 0.703125 -3.6875 C 0.046875 -2.1875 -0.171875 -1.5625 -0.171875 -0.984375 C -0.171875 -0.3125 0.09375 0.21875 0.796875 0.21875 C 1.421875 0.21875 2.328125 -0.1875 3.34375 -1.140625 C 4.03125 -1.78125 4.46875 -2.375 4.90625 -2.953125 Z M 4.921875 -2.953125 "
+           id="path8500" />
+      </symbol>
+    </g>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#9d88a2;fill-opacity:1;stroke:#000000;stroke-width:0.965;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="m 93.725284,113.20327 v 36.21288 H 138.51435 V 113.5465 Z"
+       id="path3775"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="101.73936"
+       y="126.43851"
+       id="text8639"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8637"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="101.73936"
+         y="126.43851">Entangled</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="101.73936"
+         y="133.49408"
+         id="tspan8641">photon</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="101.73936"
+         y="140.54962"
+         id="tspan8643">source</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker89873)"
+       d="m 138.51435,113.5465 27.3196,-27.319613"
+       id="path16530"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 16.872804,113.14708 27.3196,-27.319613"
+       id="path16530-0"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 188.57761,66.201977 12.48338,-36.56347"
+       id="path16530-0-1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker89863)"
+       d="M 93.725284,113.20327 66.997071,86.475047"
+       id="path16725"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#9d88a2;fill-opacity:1;stroke:#000000;stroke-width:0.97;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.91807073"
+       id="path16829"
+       cx="56.783646"
+       cy="73.947853"
+       rx="17.07955"
+       ry="16.533728"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#9d88a2;fill-opacity:1;stroke:#000000;stroke-width:0.97;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path16829-9"
+       cx="177.52046"
+       cy="76.808052"
+       rx="17.07955"
+       ry="16.533728"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="46.384689"
+       y="56.000633"
+       id="text20628"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan20626"
+         style="stroke-width:0.264583"
+         x="46.384689"
+         y="56.000633">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="179.10251"
+       y="102.22741"
+       id="text23602"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan23600"
+         style="stroke-width:0.264583"
+         x="179.10251"
+         y="102.22741">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="82.864891"
+       y="101.50085"
+       id="text34694"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan34692"
+         style="stroke-width:0.264583"
+         x="82.864891"
+         y="101.50085">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="142.5106"
+       y="100.78916"
+       id="text36810"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan36808"
+         style="stroke-width:0.264583"
+         x="142.5106"
+         y="100.78916">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.326212"
+       y="98.259277"
+       id="text38794"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan38792"
+         style="stroke-width:0.264583"
+         x="21.326212"
+         y="98.259277">1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 67.305628,60.241597 c 1.678172,-1.76014 3.149047,-3.8851 4.854516,-5.59057 1.912861,-1.91286 0.38335,0.34888 1.840148,-1.47212 1.302624,-1.62828 2.883887,-3.83414 4.784387,-4.78439 0.452408,-0.2262 1.002487,-0.18017 1.472118,-0.36803 4.049387,-1.61975 8.207057,-2.5578 12.513013,-1.84015 1.034656,0.17245 1.958491,0.85766 2.944236,1.10409 1.752905,0.43823 -0.53035,-1.08962 2.208175,0.73606 0.28871,0.19247 0.43853,0.55754 0.73606,0.73606 1.599449,0.95967 3.786639,1.21043 5.152419,2.57621 0.89387,0.89387 -0.10944,0.54043 0.73606,1.10409 1.02257,0.68172 2.17834,1.55501 2.94424,2.57621 3.50207,4.66943 5.26605,7.32793 11.763,7.32793 1.45577,0 3.33885,0.28911 4.78439,0 3.97991,-0.79598 8.45359,-4.77858 11.76738,-6.98778 1.22874,-0.81916 3.0735,-1.53675 4.41636,-2.20818 5.66547,-2.83273 10.88169,-5.15241 17.29739,-5.15241 0.84758,0 2.1262,-0.27033 2.93038,0 1.26223,0.4243 2.53425,1.08069 3.6668,1.83572 0.28871,0.19247 0.40689,0.62633 0.73606,0.73606 0.23276,0.0776 0.51661,-0.10973 0.73606,0 0.10972,0.0549 -0.0546,0.25817 0,0.36803 0.35125,0.70697 1.57188,1.27651 1.8018,1.73637 1.20908,2.41815 2.07968,4.89843 3.27874,7.23528 0.12109,0.23599 0.0448,1.76599 0.28662,1.97445 0.18973,0.16356 0.45584,0.14736 0.57695,0.35062"
+       id="path42879"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       aria-label="Classical channel"
+       id="text44662"
+       style="font-size:7.05556px;line-height:1.25;stroke-width:0.264583"
+       transform="matrix(0.86127773,0,0,1.0557927,14.797972,-73.507489)"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         d="m 90.895784,132.93149 v 0.7338 q -0.3514,-0.32728 -0.751032,-0.4892 -0.396186,-0.16192 -0.844049,-0.16192 -0.881945,0 -1.350478,0.54088 -0.468533,0.53744 -0.468533,1.55719 0,1.0163 0.468533,1.55718 0.468533,0.53743 1.350478,0.53743 0.447863,0 0.844049,-0.16191 0.399632,-0.16192 0.751032,-0.48921 v 0.72692 q -0.365181,0.24804 -0.775147,0.37207 -0.406522,0.12402 -0.861275,0.12402 -1.167888,0 -1.839682,-0.71313 -0.671794,-0.71658 -0.671794,-1.95337 0,-1.24024 0.671794,-1.95338 0.671794,-0.71658 1.839682,-0.71658 0.461643,0 0.868165,0.12403 0.409967,0.12058 0.768257,0.36518 z"
+         id="path47304" />
+      <path
+         d="m 91.943094,132.31826 h 0.633897 v 5.36057 h -0.633897 z"
+         id="path47306" />
+      <path
+         d="m 95.656909,135.73924 q -0.768257,0 -1.064536,0.1757 -0.296278,0.1757 -0.296278,0.59945 0,0.33762 0.220486,0.53744 0.223932,0.19637 0.606337,0.19637 0.5271,0 0.844049,-0.37207 0.320395,-0.37552 0.320395,-0.99564 v -0.14125 z m 1.264351,-0.26182 v 2.20141 h -0.633898 v -0.58566 q -0.217042,0.3514 -0.540881,0.52021 -0.323839,0.16536 -0.792372,0.16536 -0.592557,0 -0.943957,-0.33073 -0.347955,-0.33417 -0.347955,-0.89228 0,-0.65112 0.434082,-0.98185 0.437528,-0.33073 1.302247,-0.33073 h 0.888836 v -0.062 q 0,-0.43753 -0.289389,-0.67524 -0.285943,-0.24116 -0.806153,-0.24116 -0.330729,0 -0.644233,0.0792 -0.313504,0.0792 -0.602892,0.23771 v -0.58567 q 0.347955,-0.13436 0.675239,-0.19981 0.327285,-0.0689 0.637343,-0.0689 0.837159,0 1.250571,0.43408 0.413412,0.43408 0.413412,1.31603 z"
+         id="path47308" />
+      <path
+         d="m 100.68675,133.93401 v 0.59945 q -0.26872,-0.13781 -0.5581,-0.20671 -0.289392,-0.0689 -0.599451,-0.0689 -0.471979,0 -0.70969,0.1447 -0.234267,0.14469 -0.234267,0.43408 0,0.22048 0.16881,0.34795 0.16881,0.12403 0.678684,0.23771 l 0.217041,0.0482 q 0.675243,0.14469 0.957733,0.40996 0.28595,0.26183 0.28595,0.73381 0,0.53743 -0.42719,0.85094 -0.42375,0.3135 -1.167893,0.3135 -0.310059,0 -0.647678,-0.062 -0.334175,-0.0586 -0.706245,-0.17915 v -0.65456 q 0.3514,0.18259 0.692464,0.2756 0.341065,0.0896 0.67524,0.0896 0.447862,0 0.689022,-0.15159 0.24115,-0.15503 0.24115,-0.43408 0,-0.25838 -0.1757,-0.39619 -0.172251,-0.1378 -0.761363,-0.26527 l -0.220486,-0.0517 q -0.589112,-0.12402 -0.850939,-0.37896 -0.261827,-0.25838 -0.261827,-0.70624 0,-0.54433 0.385851,-0.84061 0.38585,-0.29627 1.095541,-0.29627 0.3514,0 0.661463,0.0517 0.31005,0.0517 0.57188,0.15503 z"
+         id="path47310" />
+      <path
+         d="m 104.36267,133.93401 v 0.59945 q -0.26872,-0.13781 -0.55811,-0.20671 -0.28938,-0.0689 -0.59944,-0.0689 -0.47198,0 -0.70969,0.1447 -0.23427,0.14469 -0.23427,0.43408 0,0.22048 0.16881,0.34795 0.16881,0.12403 0.67868,0.23771 l 0.21705,0.0482 q 0.67523,0.14469 0.95773,0.40996 0.28595,0.26183 0.28595,0.73381 0,0.53743 -0.4272,0.85094 -0.42374,0.3135 -1.16788,0.3135 -0.31006,0 -0.64768,-0.062 -0.33418,-0.0586 -0.70625,-0.17915 v -0.65456 q 0.3514,0.18259 0.69247,0.2756 0.34106,0.0896 0.67524,0.0896 0.44786,0 0.68902,-0.15159 0.24115,-0.15503 0.24115,-0.43408 0,-0.25838 -0.1757,-0.39619 -0.17225,-0.1378 -0.76136,-0.26527 l -0.22049,-0.0517 q -0.58911,-0.12402 -0.85094,-0.37896 -0.26183,-0.25838 -0.26183,-0.70624 0,-0.54433 0.38585,-0.84061 0.38586,-0.29627 1.09555,-0.29627 0.3514,0 0.66145,0.0517 0.31006,0.0517 0.57189,0.15503 z"
+         id="path47312" />
+      <path
+         d="m 105.57879,133.82032 h 0.6339 v 3.85851 h -0.6339 z m 0,-1.50206 h 0.6339 v 0.80271 h -0.6339 z"
+         id="path47314" />
+      <path
+         d="m 110.3158,133.96846 v 0.59256 q -0.26872,-0.14814 -0.54088,-0.22049 -0.26872,-0.0758 -0.54433,-0.0758 -0.61667,0 -0.95773,0.39274 -0.34107,0.3893 -0.34107,1.09554 0,0.70625 0.34107,1.09899 0.34106,0.3893 0.95773,0.3893 0.27561,0 0.54433,-0.0724 0.27216,-0.0758 0.54088,-0.22393 v 0.58566 q -0.26527,0.12403 -0.55122,0.18604 -0.28249,0.062 -0.60289,0.062 -0.87161,0 -1.38493,-0.54777 -0.51332,-0.54777 -0.51332,-1.47795 0,-0.94395 0.51677,-1.48483 0.52021,-0.54088 1.42282,-0.54088 0.29284,0 0.57189,0.062 0.27905,0.0586 0.54088,0.17914 z"
+         id="path47316" />
+      <path
+         d="m 113.17179,135.73924 q -0.76826,0 -1.06454,0.1757 -0.29628,0.1757 -0.29628,0.59945 0,0.33762 0.22049,0.53744 0.22393,0.19637 0.60633,0.19637 0.5271,0 0.84405,-0.37207 0.3204,-0.37552 0.3204,-0.99564 v -0.14125 z m 1.26435,-0.26182 v 2.20141 h -0.6339 v -0.58566 q -0.21704,0.3514 -0.54088,0.52021 -0.32384,0.16536 -0.79237,0.16536 -0.59256,0 -0.94396,-0.33073 -0.34796,-0.33417 -0.34796,-0.89228 0,-0.65112 0.43409,-0.98185 0.43752,-0.33073 1.30224,-0.33073 h 0.88884 v -0.062 q 0,-0.43753 -0.28939,-0.67524 -0.28594,-0.24116 -0.80615,-0.24116 -0.33073,0 -0.64424,0.0792 -0.3135,0.0792 -0.60289,0.23771 v -0.58567 q 0.34796,-0.13436 0.67524,-0.19981 0.32728,-0.0689 0.63734,-0.0689 0.83716,0 1.25057,0.43408 0.41342,0.43408 0.41342,1.31603 z"
+         id="path47318" />
+      <path
+         d="m 115.74183,132.31826 h 0.6339 v 5.36057 h -0.6339 z"
+         id="path47320" />
+      <path
+         d="m 122.7216,133.96846 v 0.59256 q -0.26872,-0.14814 -0.54088,-0.22049 -0.26872,-0.0758 -0.54433,-0.0758 -0.61667,0 -0.95773,0.39274 -0.34107,0.3893 -0.34107,1.09554 0,0.70625 0.34107,1.09899 0.34106,0.3893 0.95773,0.3893 0.27561,0 0.54433,-0.0724 0.27216,-0.0758 0.54088,-0.22393 v 0.58566 q -0.26527,0.12403 -0.55122,0.18604 -0.2825,0.062 -0.60289,0.062 -0.87161,0 -1.38493,-0.54777 -0.51332,-0.54777 -0.51332,-1.47795 0,-0.94395 0.51677,-1.48483 0.52021,-0.54088 1.42282,-0.54088 0.29283,0 0.57189,0.062 0.27905,0.0586 0.54088,0.17914 z"
+         id="path47322" />
+      <path
+         d="m 127.03141,135.34995 v 2.32888 h -0.6339 v -2.30821 q 0,-0.54777 -0.21359,-0.81994 -0.2136,-0.27216 -0.64079,-0.27216 -0.51332,0 -0.8096,0.32729 -0.29628,0.32728 -0.29628,0.89228 v 2.18074 h -0.63734 v -5.36057 h 0.63734 v 2.10151 q 0.22738,-0.34795 0.53399,-0.52021 0.31006,-0.17225 0.71314,-0.17225 0.6649,0 1.00597,0.41341 0.34106,0.40996 0.34106,1.20923 z"
+         id="path47324" />
+      <path
+         d="m 130.04932,135.73924 q -0.76826,0 -1.06454,0.1757 -0.29628,0.1757 -0.29628,0.59945 0,0.33762 0.22049,0.53744 0.22393,0.19637 0.60634,0.19637 0.5271,0 0.84405,-0.37207 0.32039,-0.37552 0.32039,-0.99564 v -0.14125 z m 1.26435,-0.26182 v 2.20141 h -0.6339 v -0.58566 q -0.21704,0.3514 -0.54088,0.52021 -0.32384,0.16536 -0.79237,0.16536 -0.59256,0 -0.94396,-0.33073 -0.34795,-0.33417 -0.34795,-0.89228 0,-0.65112 0.43408,-0.98185 0.43753,-0.33073 1.30225,-0.33073 h 0.88883 v -0.062 q 0,-0.43753 -0.28939,-0.67524 -0.28594,-0.24116 -0.80615,-0.24116 -0.33073,0 -0.64423,0.0792 -0.31351,0.0792 -0.6029,0.23771 v -0.58567 q 0.34796,-0.13436 0.67524,-0.19981 0.32729,-0.0689 0.63735,-0.0689 0.83716,0 1.25057,0.43408 0.41341,0.43408 0.41341,1.31603 z"
+         id="path47326" />
+      <path
+         d="m 135.82675,135.34995 v 2.32888 h -0.6339 v -2.30821 q 0,-0.54777 -0.2136,-0.81994 -0.21359,-0.27216 -0.64079,-0.27216 -0.51332,0 -0.80959,0.32729 -0.29628,0.32728 -0.29628,0.89228 v 2.18074 h -0.63735 v -3.85851 h 0.63735 v 0.59945 q 0.22737,-0.34795 0.53399,-0.52021 0.31006,-0.17225 0.71313,-0.17225 0.66491,0 1.00597,0.41341 0.34107,0.40996 0.34107,1.20923 z"
+         id="path47328" />
+      <path
+         d="m 140.29848,135.34995 v 2.32888 h -0.63389 v -2.30821 q 0,-0.54777 -0.2136,-0.81994 -0.2136,-0.27216 -0.64079,-0.27216 -0.51332,0 -0.8096,0.32729 -0.29628,0.32728 -0.29628,0.89228 v 2.18074 h -0.63734 v -3.85851 h 0.63734 v 0.59945 q 0.22738,-0.34795 0.53399,-0.52021 0.31006,-0.17225 0.71314,-0.17225 0.6649,0 1.00597,0.41341 0.34106,0.40996 0.34106,1.20923 z"
+         id="path47330" />
+      <path
+         d="m 144.86324,135.5911 v 0.31006 h -2.91456 q 0.0413,0.65457 0.39275,0.99908 0.35484,0.34107 0.98529,0.34107 0.36518,0 0.70625,-0.0896 0.34451,-0.0896 0.68213,-0.26871 v 0.59944 q -0.34107,0.1447 -0.69936,0.22049 -0.35829,0.0758 -0.72691,0.0758 -0.92329,0 -1.46417,-0.53743 -0.53743,-0.53744 -0.53743,-1.45384 0,-0.9474 0.50987,-1.50206 0.51332,-0.5581 1.38148,-0.5581 0.7786,0 1.2299,0.50298 0.45476,0.49954 0.45476,1.36081 z m -0.6339,-0.18603 q -0.007,-0.52021 -0.29283,-0.83027 -0.2825,-0.31006 -0.75103,-0.31006 -0.53055,0 -0.85094,0.29972 -0.31695,0.29973 -0.36518,0.84405 z"
+         id="path47332" />
+      <path
+         d="m 145.90366,132.31826 h 0.6339 v 5.36057 h -0.6339 z"
+         id="path47334" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.56199px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.244378;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-72.831917"
+       y="102.79916"
+       id="text55061"
+       transform="matrix(0.7213534,-0.69058439,0.7861591,0.63365723,0,0)"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan55059"
+         style="stroke-width:0.244378;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-72.831917"
+         y="102.79916">Initial state</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.244378;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-72.831917"
+         y="109.75164"
+         id="tspan55063" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.05594px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.151398"
+       x="-10.110345"
+       y="185.17744"
+       id="text55367"
+       transform="matrix(0.31756078,-0.88353268,1.0343215,0.27126509,0,0)"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan55365"
+         style="stroke-width:0.151398"
+         x="-10.110345"
+         y="185.17744">Teleported</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.151398"
+         x="-10.110345"
+         y="192.74738"
+         id="tspan55369">state</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.151398"
+         x="-10.110345"
+         y="200.31729"
+         id="tspan55371" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="48.126179"
+       y="68.776314"
+       id="text57127"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan57125"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="48.126179"
+         y="68.776314">BSM</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="48.126179"
+         y="76.713814"
+         id="tspan57129">on 1 </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="48.126179"
+         y="84.651314"
+         id="tspan60503">and 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="171.15407"
+       y="74.767494"
+       id="text62109"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan62107"
+         style="stroke-width:0.264583"
+         x="171.15407"
+         y="74.767494" /></text>
+    <g
+       inkscape:label=""
+       transform="matrix(0.74488702,0,0,0.67233356,98.568921,24.248957)"
+       id="g72716"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g7558">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3209">
+          <use
+             xlink:href="#symbol3522"
+             x="93.876999"
+             y="79.445"
+             id="use5893"
+             width="100%"
+             height="100%" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g4702">
+          <use
+             xlink:href="#symbol7645"
+             x="91.925003"
+             y="81.962997"
+             id="use9872"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="176.01384"
+       y="79.071632"
+       id="text73979"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/EntanglementTeleportation.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan73977"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="176.01384"
+         y="79.071632">on 3</tspan></text>
+  </g>
+</svg>
