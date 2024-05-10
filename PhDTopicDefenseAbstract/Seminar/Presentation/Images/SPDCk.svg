@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.7906002"
-     inkscape:cx="550.21489"
-     inkscape:cy="502.78257"
+     inkscape:zoom="0.55903876"
+     inkscape:cx="254.00743"
+     inkscape:cy="392.63825"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -605,6 +605,122 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
          id="path1036-6-3-4-6" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1036-2-0" />
+    </marker>
+    <g
+       id="g4017">
+      <symbol
+         overflow="visible"
+         id="symbol9747">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path690" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol6895">
+        <path
+           style="stroke:none;"
+           d="M 3.6875 -6.921875 C 3.625 -7.125 3.5625 -7.140625 3.453125 -7.140625 C 3.296875 -7.140625 3.28125 -7.09375 3.234375 -6.921875 L 1.3125 -1 C 1.21875 -0.703125 1.015625 -0.3125 0.3125 -0.3125 L 0.3125 0 C 0.640625 -0.015625 1.15625 -0.03125 1.25 -0.03125 C 1.53125 -0.03125 2.0625 -0.015625 2.375 0 L 2.375 -0.3125 C 1.828125 -0.3125 1.609375 -0.59375 1.609375 -0.828125 C 1.609375 -0.875 1.609375 -0.90625 1.65625 -1.046875 L 3.15625 -5.6875 L 4.71875 -0.78125 C 4.78125 -0.640625 4.78125 -0.625 4.78125 -0.609375 C 4.78125 -0.3125 4.1875 -0.3125 3.921875 -0.3125 L 3.921875 0 C 4.28125 -0.03125 4.984375 -0.03125 5.359375 -0.03125 C 5.75 -0.03125 6.203125 -0.015625 6.59375 0 L 6.59375 -0.3125 C 5.828125 -0.3125 5.796875 -0.375 5.6875 -0.734375 Z M 3.6875 -6.921875 "
+           id="path8093" />
+      </symbol>
+    </g>
+    <g
+       id="g9190">
+      <symbol
+         overflow="visible"
+         id="symbol2126">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path1076" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol4011">
+        <path
+           style="stroke:none;"
+           d="M 4.40625 -6.953125 C 4.34375 -7.09375 4.3125 -7.140625 4.140625 -7.140625 C 3.984375 -7.140625 3.953125 -7.09375 3.890625 -6.953125 L 0.515625 -0.203125 C 0.46875 -0.109375 0.46875 -0.09375 0.46875 -0.078125 C 0.46875 0 0.53125 0 0.6875 0 L 7.609375 0 C 7.765625 0 7.828125 0 7.828125 -0.078125 C 7.828125 -0.09375 7.828125 -0.109375 7.78125 -0.203125 Z M 3.828125 -6.140625 L 6.515625 -0.75 L 1.140625 -0.75 Z M 3.828125 -6.140625 "
+           id="path114" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol7603">
+        <path
+           style="stroke:none;"
+           d="M 6.84375 -3.265625 C 7 -3.265625 7.1875 -3.265625 7.1875 -3.453125 C 7.1875 -3.65625 7 -3.65625 6.859375 -3.65625 L 0.890625 -3.65625 C 0.75 -3.65625 0.5625 -3.65625 0.5625 -3.453125 C 0.5625 -3.265625 0.75 -3.265625 0.890625 -3.265625 Z M 6.859375 -1.328125 C 7 -1.328125 7.1875 -1.328125 7.1875 -1.53125 C 7.1875 -1.71875 7 -1.71875 6.84375 -1.71875 L 0.890625 -1.71875 C 0.75 -1.71875 0.5625 -1.71875 0.5625 -1.53125 C 0.5625 -1.328125 0.75 -1.328125 0.890625 -1.328125 Z M 6.859375 -1.328125 "
+           id="path5427" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol8756">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path7163" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol6745">
+        <path
+           style="stroke:none;"
+           d="M 2.859375 -6.8125 C 2.859375 -6.8125 2.859375 -6.921875 2.734375 -6.921875 C 2.5 -6.921875 1.78125 -6.84375 1.515625 -6.8125 C 1.4375 -6.8125 1.328125 -6.796875 1.328125 -6.625 C 1.328125 -6.5 1.421875 -6.5 1.5625 -6.5 C 2.046875 -6.5 2.0625 -6.4375 2.0625 -6.328125 L 2.03125 -6.125 L 0.59375 -0.390625 C 0.546875 -0.25 0.546875 -0.234375 0.546875 -0.171875 C 0.546875 0.0625 0.75 0.109375 0.84375 0.109375 C 0.96875 0.109375 1.109375 0.015625 1.171875 -0.09375 C 1.21875 -0.1875 1.671875 -2.03125 1.734375 -2.28125 C 2.078125 -2.25 2.890625 -2.09375 2.890625 -1.4375 C 2.890625 -1.359375 2.890625 -1.328125 2.859375 -1.21875 C 2.84375 -1.109375 2.828125 -0.984375 2.828125 -0.875 C 2.828125 -0.296875 3.21875 0.109375 3.734375 0.109375 C 4.03125 0.109375 4.3125 -0.046875 4.53125 -0.421875 C 4.78125 -0.859375 4.890625 -1.40625 4.890625 -1.421875 C 4.890625 -1.53125 4.796875 -1.53125 4.765625 -1.53125 C 4.671875 -1.53125 4.65625 -1.484375 4.625 -1.34375 C 4.421875 -0.625 4.203125 -0.109375 3.765625 -0.109375 C 3.5625 -0.109375 3.4375 -0.21875 3.4375 -0.578125 C 3.4375 -0.75 3.484375 -0.984375 3.515625 -1.140625 C 3.5625 -1.3125 3.5625 -1.34375 3.5625 -1.453125 C 3.5625 -2.09375 2.9375 -2.375 2.078125 -2.5 C 2.390625 -2.671875 2.71875 -2.984375 2.9375 -3.234375 C 3.421875 -3.765625 3.875 -4.1875 4.359375 -4.1875 C 4.421875 -4.1875 4.4375 -4.1875 4.453125 -4.171875 C 4.578125 -4.15625 4.578125 -4.15625 4.671875 -4.09375 C 4.6875 -4.09375 4.6875 -4.078125 4.703125 -4.0625 C 4.234375 -4.03125 4.140625 -3.640625 4.140625 -3.515625 C 4.140625 -3.359375 4.25 -3.171875 4.515625 -3.171875 C 4.78125 -3.171875 5.0625 -3.390625 5.0625 -3.78125 C 5.0625 -4.078125 4.828125 -4.40625 4.390625 -4.40625 C 4.109375 -4.40625 3.65625 -4.328125 2.9375 -3.53125 C 2.59375 -3.15625 2.203125 -2.75 1.828125 -2.609375 Z M 2.859375 -6.8125 "
+           id="path5722" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol2277">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path5425" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol8929">
+        <path
+           style="stroke:none;"
+           d="M 3.515625 -1.265625 L 3.28125 -1.265625 C 3.265625 -1.109375 3.1875 -0.703125 3.09375 -0.640625 C 3.046875 -0.59375 2.515625 -0.59375 2.40625 -0.59375 L 1.125 -0.59375 C 1.859375 -1.234375 2.109375 -1.4375 2.515625 -1.765625 C 3.03125 -2.171875 3.515625 -2.609375 3.515625 -3.265625 C 3.515625 -4.109375 2.78125 -4.625 1.890625 -4.625 C 1.03125 -4.625 0.4375 -4.015625 0.4375 -3.375 C 0.4375 -3.03125 0.734375 -2.984375 0.8125 -2.984375 C 0.96875 -2.984375 1.171875 -3.109375 1.171875 -3.359375 C 1.171875 -3.484375 1.125 -3.734375 0.765625 -3.734375 C 0.984375 -4.21875 1.453125 -4.375 1.78125 -4.375 C 2.484375 -4.375 2.84375 -3.828125 2.84375 -3.265625 C 2.84375 -2.65625 2.40625 -2.1875 2.1875 -1.9375 L 0.515625 -0.265625 C 0.4375 -0.203125 0.4375 -0.1875 0.4375 0 L 3.3125 0 Z M 3.515625 -1.265625 "
+           id="path665" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol6913">
+        <path
+           style="stroke:none;"
+           d="M 2.90625 -4.828125 C 2.859375 -4.96875 2.78125 -4.96875 2.71875 -4.96875 C 2.578125 -4.96875 2.5625 -4.90625 2.53125 -4.8125 L 1.03125 -0.703125 C 0.90625 -0.328125 0.609375 -0.265625 0.3125 -0.25 L 0.3125 0 C 0.53125 -0.015625 0.75 -0.03125 0.96875 -0.03125 C 1.1875 -0.03125 1.6875 0 1.796875 0 L 1.796875 -0.25 C 1.421875 -0.265625 1.28125 -0.421875 1.28125 -0.59375 C 1.28125 -0.640625 1.28125 -0.640625 1.3125 -0.734375 L 2.5 -4 L 3.75 -0.578125 C 3.796875 -0.484375 3.796875 -0.46875 3.796875 -0.453125 C 3.796875 -0.25 3.40625 -0.25 3.21875 -0.25 L 3.21875 0 C 3.5625 -0.015625 4.015625 -0.03125 4.265625 -0.03125 C 4.546875 -0.03125 5.046875 0 5.125 0 L 5.125 -0.25 C 4.6875 -0.25 4.578125 -0.25 4.46875 -0.53125 Z M 2.90625 -4.828125 "
+           id="path2111" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol7460">
+        <path
+           style="stroke:none;"
+           d=""
+           id="path7173" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol1361">
+        <path
+           style="stroke:none;"
+           d="M 2.171875 -2.53125 L 3 -2.53125 C 2.890625 -2.109375 2.734375 -1.484375 2.734375 -0.921875 C 2.734375 -0.640625 2.78125 -0.453125 2.8125 -0.3125 C 2.921875 0.046875 3.015625 0.0625 3.125 0.0625 C 3.296875 0.0625 3.453125 -0.078125 3.453125 -0.25 C 3.453125 -0.296875 3.4375 -0.328125 3.40625 -0.390625 C 3.265625 -0.65625 3.140625 -1.046875 3.140625 -1.625 C 3.140625 -1.75 3.140625 -2.03125 3.234375 -2.53125 L 4.109375 -2.53125 C 4.234375 -2.53125 4.296875 -2.53125 4.375 -2.578125 C 4.46875 -2.65625 4.484375 -2.765625 4.484375 -2.796875 C 4.484375 -3 4.3125 -3 4.1875 -3 L 1.5625 -3 C 1.28125 -3 1.078125 -2.9375 0.765625 -2.640625 C 0.578125 -2.484375 0.3125 -2.109375 0.3125 -2.046875 C 0.3125 -1.96875 0.40625 -1.96875 0.4375 -1.96875 C 0.515625 -1.96875 0.515625 -1.984375 0.5625 -2.046875 C 0.90625 -2.53125 1.34375 -2.53125 1.5 -2.53125 L 1.921875 -2.53125 C 1.703125 -1.765625 1.328125 -0.9375 1.125 -0.515625 C 1.078125 -0.4375 1.015625 -0.28125 0.984375 -0.265625 C 0.984375 -0.234375 0.96875 -0.203125 0.96875 -0.15625 C 0.96875 -0.046875 1.046875 0.0625 1.21875 0.0625 C 1.484375 0.0625 1.5625 -0.25 1.734375 -0.875 Z M 2.171875 -2.53125 "
+           id="path1681" />
+      </symbol>
+    </g>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -1062,39 +1178,6 @@
           </g>
         </g>
       </g>
-      <g
-         inkscape:label=""
-         transform="matrix(0.507218,0,0,0.572023,57.863277,83.336367)"
-         id="g63404"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96">
-        <g
-           id="g2249">
-          <g
-             style="fill:#000000;fill-opacity:1"
-             id="g8706">
-            <use
-               xlink:href="#symbol581"
-               x="91.925003"
-               y="81.962997"
-               id="use5079"
-               width="100%"
-               height="100%" />
-          </g>
-          <g
-             style="fill:#000000;fill-opacity:1"
-             id="g268">
-            <use
-               xlink:href="#symbol5998"
-               x="100.227"
-               y="81.962997"
-               id="use5369"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-      </g>
       <path
          style="fill:none;stroke:#8a0000;stroke-width:0.434151;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-3-5-5)"
          d="m 136.03417,117.1208 10.64956,-0.18347"
@@ -1231,196 +1314,157 @@
          inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.142517px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 104.54313,124.1364 -0.006,-6.5973"
-         id="path62091"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"
-         inkscape:tile-cx="59.615469"
-         inkscape:tile-cy="158.37017"
-         inkscape:tile-w="0.29280708"
-         inkscape:tile-h="11.533494"
-         inkscape:tile-x0="59.469065"
-         inkscape:tile-y0="152.60342" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         id="use3111"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(0.44555081)"
-         id="use3113"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(0.89110162)"
-         id="use3115"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(1.3366524)"
-         id="use3117"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(1.7822032)"
-         id="use3119"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(2.227754)"
-         id="use3121"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(2.6733048)"
-         id="use3123"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(3.1188557)"
-         id="use3125"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(3.5644065)"
+         d="m 108.10754,124.1364 -0.006,-6.5973"
          id="use3127"
          inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
          inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(4.0099573)"
-         id="use3129"
+         inkscape:export-ydpi="96"
+         inkscape:tile-x0="59.469065"
+         inkscape:tile-y0="152.60342" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.142517;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.14014, 1.14014;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 106.01433,123.73672 -0.006,-6.5973"
+         id="use3127-4"
          inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
          inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(4.4555081)"
-         id="use3131"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(4.9010589)"
-         id="use3133"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(5.3466097)"
-         id="use3135"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(5.7921605)"
-         id="use3137"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(6.2377113)"
-         id="use3139"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(6.6832621)"
-         id="use3141"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(7.1288129)"
-         id="use3143"
-         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path62091"
-         xlink:href="#path62091"
-         transform="translate(7.5743637)"
+         inkscape:export-ydpi="96"
+         inkscape:tile-x0="59.469065"
+         inkscape:tile-y0="152.60342" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.142517px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 112.11749,124.1364 -0.006,-6.5973"
          id="use3145"
          inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
          inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:tile-x0="59.469065"
+         inkscape:tile-y0="152.60342" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.255607px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 104.55024,117.09163 c 0,0 -0.0528,-1.84517 1.02006,-1.79342 0.68886,-0.0775 0.61199,-0.85835 0.61199,-0.85835 0,0 0.0311,-0.10499 0.18948,0.13468 l 0.13869,0.43436 0.30744,0.24073 c 0,0 1.25276,0.19172 1.25553,0.56852 l 0.008,1.13045"
+         id="path1464"
+         sodipodi:nodetypes="cccsccsc"
+         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
+         inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.142517px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+         d="m 105.02805,118.23604 -0.004,5.48934"
+         id="path2709"
+         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.142517px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+         d="m 107.12315,118.25695 0.0731,5.4598"
+         id="path2711"
+         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <g
+         inkscape:label=""
+         transform="matrix(0.507218,0,0,0.572023,57.718813,66.438821)"
+         id="g3266"
+         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g7019">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g7960">
+            <use
+               xlink:href="#symbol6895"
+               x="91.925003"
+               y="81.962997"
+               id="use7676"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+      </g>
+      <g
+         inkscape:label=""
+         transform="matrix(0.507218,0,0,0.572023,109.73814,86.093493)"
+         id="g3816"
+         inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDCkQPM.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g2902">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g5642">
+            <use
+               xlink:href="#symbol4011"
+               x="91.925003"
+               y="81.962997"
+               id="use5656"
+               width="100%"
+               height="100%" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g4165">
+            <use
+               xlink:href="#symbol6745"
+               x="100.227"
+               y="81.962997"
+               id="use3654"
+               width="100%"
+               height="100%" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g2050">
+            <use
+               xlink:href="#symbol7603"
+               x="108.495"
+               y="81.962997"
+               id="use6904"
+               width="100%"
+               height="100%" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g3059">
+            <use
+               xlink:href="#symbol8929"
+               x="120.207"
+               y="78.040001"
+               id="use3053"
+               width="100%"
+               height="100%" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g7612">
+            <use
+               xlink:href="#symbol1361"
+               x="124.178"
+               y="78.040001"
+               id="use4141"
+               width="100%"
+               height="100%" />
+          </g>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+             d="M 3.125e-5,-6.5625e-4 H 8.878937"
+             transform="matrix(1,0,0,-1,120.207,79.472)"
+             id="path615" />
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g322">
+            <use
+               xlink:href="#symbol6913"
+               x="121.921"
+               y="85.398003"
+               id="use1060"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

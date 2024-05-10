@@ -10,8 +10,8 @@
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="SPDC.svg"
    inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
-   inkscape:export-xdpi="96.03212"
-   inkscape:export-ydpi="96.03212"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -28,11 +28,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:lockguides="false"
-     inkscape:zoom="0.52780315"
-     inkscape:cx="492.6079"
-     inkscape:cy="478.39805"
+     inkscape:zoom="0.74642637"
+     inkscape:cx="277.32139"
+     inkscape:cy="591.485"
      inkscape:window-width="1920"
-     inkscape:window-height="1136"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -325,30 +325,72 @@
            id="path5316" />
       </symbol>
     </g>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8386-9-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8386-9-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-8-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8386-9-2-4" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#7a0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
-       d="m 170.32451,29.086413 0.56577,45.436016 c 0,0 26.97787,7.351845 26.84202,18.152236 -0.2165,17.211795 -49.95084,0.22379 -49.85174,17.371545 0.0993,17.18852 49.73335,0.47243 49.50706,18.36421 -0.23422,18.5193 -49.70356,-0.50112 -50.31284,17.21382 -0.62614,18.20494 51.23483,3.00557 50.3669,21.20058 -0.84462,17.70643 -50.55474,-1.85334 -50.7557,15.87209 -0.20216,17.83172 51.19162,-0.70488 50.68495,17.12078 -0.49219,17.31623 -50.10163,13.80791 -50.10163,13.80791"
-       id="path2715"
-       sodipodi:nodetypes="ccsssssssc"
+       style="fill:none;stroke:#7a0000;stroke-width:2.69818;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-0-8)"
+       d="m 171.37069,28.951639 -0.78108,44.722552 c 0,0 32.55314,8.29765 32.41797,20.94159 -0.21542,20.149729 -55.80083,13.897499 -55.70223,33.972249 0.0988,20.12249 56.13984,10.63728 55.91468,31.58306 -0.23305,21.68041 -54.75503,8.31092 -55.31471,30.4614 -0.53858,21.31559 55.19075,11.68786 54.32717,32.98862"
+       id="path2715-3-5"
+       sodipodi:nodetypes="ccssssc"
        inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
        inkscape:export-xdpi="96.03212"
        inkscape:export-ydpi="96.03212" />
     <path
-       style="fill:none;stroke:#7a0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-0)"
-       d="m 109.87786,29.180253 0.56577,45.436016 c 0,0 26.97787,7.351845 26.84202,18.152236 -0.2165,17.211795 -49.950846,0.22379 -49.851746,17.371545 0.0993,17.18852 49.733356,0.47243 49.507066,18.36421 -0.23422,18.51929 -49.703566,-0.50112 -50.312846,17.21381 -0.62614,18.20494 51.234836,3.00558 50.366906,21.20058 -0.84462,17.70643 -50.554746,-1.85334 -50.755706,15.87209 -0.20216,17.83172 51.191626,-0.70488 50.684956,17.12078 -0.49219,17.31623 -50.101636,13.80791 -50.101636,13.80791"
-       id="path2715-3"
-       sodipodi:nodetypes="ccsssssssc"
+       style="fill:none;stroke:#7a0000;stroke-width:2.69818;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-0-8-3)"
+       d="m 114.19897,32.320136 -0.78108,44.722552 c 0,0 32.55314,8.29765 32.41797,20.94159 -0.21542,20.149732 -55.800825,13.897502 -55.702225,33.972252 0.0988,20.12249 56.139835,10.63728 55.914675,31.58306 -0.23305,21.68041 -54.755025,8.31092 -55.314705,30.4614 -0.53858,21.31559 55.190745,11.68786 54.327165,32.98862"
+       id="path2715-3-5-9"
+       sodipodi:nodetypes="ccssssc"
        inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
        inkscape:export-xdpi="96.03212"
        inkscape:export-ydpi="96.03212" />
     <path
-       style="fill:none;stroke:#bc0000;stroke-width:1.47173;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-6)"
-       d="m 26.316631,86.117728 c 0.04691,5.998296 -0.440928,13.898342 -0.04675,23.569222 0,0 21.673832,3.17135 21.564695,7.83028 -0.173935,7.4246 -40.1301719,0.0965 -40.0505575,7.49351 0.079776,7.41456 39.9554405,0.20379 39.7736395,7.92171 -0.188168,7.98861 -39.9315085,-0.21616 -40.4209971,7.42547 -0.5030323,7.85302 41.1617211,1.29651 40.4644301,9.14523 -0.678556,7.63797 -40.6153389,-0.79947 -40.7767857,6.8467 -0.1624148,7.69202 41.1270127,-0.30406 40.7199457,7.38534 -0.395423,7.46965 -40.2513096,5.95627 -40.2513096,5.95627"
+       style="fill:none;stroke:#bc0000;stroke-width:2.1891;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-6)"
+       d="m 26.332052,35.689994 c 0.0462,13.476085 -0.434214,31.224741 -0.04604,52.951842 0,0 21.343825,7.12493 21.23635,17.591924 -0.171287,16.68049 -39.5191484,0.2168 -39.4407462,16.83532 0.078561,16.65793 39.3470772,0.45784 39.1680442,17.79732 -0.185301,17.94763 -39.3235074,-0.48565 -39.8055431,16.68245 -0.4953731,17.64301 40.5349911,2.9128 39.8483171,20.54615 -0.668224,17.15987 -39.9969281,-1.79614 -40.1559167,15.38215 -0.1599419,17.2813 40.5008107,-0.68311 40.0999417,16.5923 -0.389402,16.7817 -39.6384411,13.38166 -39.6384411,13.38166"
        id="path2715-9"
        sodipodi:nodetypes="ccsssssssc"
        inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
@@ -365,7 +407,10 @@
     <g
        inkscape:label=""
        transform="matrix(2.0323651,0,0,2.0126289,-165.46979,-143.76264)"
-       id="g65700">
+       id="g65700"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
+       inkscape:export-xdpi="96.03212"
+       inkscape:export-ydpi="96.03212">
       <g
          id="g9005">
         <g
@@ -396,7 +441,10 @@
        inkscape:label=""
        transform="matrix(1.8658742,0,0,1.741582,-67.267632,-125.90932)"
        id="g65823"
-       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none">
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
+       inkscape:export-xdpi="96.03212"
+       inkscape:export-ydpi="96.03212">
       <g
          id="g1419"
          style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none">
@@ -466,7 +514,10 @@
     <g
        inkscape:label=""
        transform="translate(-28.533892,-63.238004)"
-       id="g66153">
+       id="g66153"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
+       inkscape:export-xdpi="96.03212"
+       inkscape:export-ydpi="96.03212">
       <g
          id="g4910">
         <g
@@ -485,7 +536,10 @@
     <g
        inkscape:label=""
        transform="matrix(1.5895756,0,0,1.8733787,-7.1930399,-134.32029)"
-       id="g66342">
+       id="g66342"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SPDC.png"
+       inkscape:export-xdpi="96.03212"
+       inkscape:export-ydpi="96.03212">
       <g
          id="g8066">
         <g

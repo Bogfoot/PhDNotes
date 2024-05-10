@@ -63,9 +63,8 @@
 
 \begin{document}
 % Local background must be enclosed by curly braces for grouping.
-{\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
-{\setbeamertemplate{footline}{}
-
+{\setbeamertemplate{footline}{}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
 \begin{frame}
 	\titlepage
 \end{frame}
@@ -78,107 +77,67 @@
 \resetPageNumber
 
 \section{Motivation}
-\usebackgroundtemplate{}
 \begin{frame}{Motivation}
   \begin{itemize}
-	\item SiQUID
+	\item SiQUID 
+		\begin{enumerate}
+			\item Training in quantum technologies in Slovenia
+			\item Entanglement based Quantum Key Distribution (QKD)
+		\end{enumerate}
     \item Bright source of entanglement
-	\item Training in quantum technologies in Slovenia
-	\item Quantum Network for Slovenia
     \item Testbed for industrialized version
-	\item Entanglement based QKD
   \end{itemize}
 \end{frame}
 
 \section{Theory}
+\subsection{Spontaneous Parametric Downconversion (SPDC)}
 \begin{frame}{Theory}
-	\begin{enumerate}
-	\item SPDC
-	\item Distributing Entanglement
-	\end{enumerate}
-\end{frame}
-
-\subsection{SPDC}
-\begin{frame}{Theory}
-	\framesubtitle{SPDC}
-		\begin{itemize}
-			\item Spontaneous Parametric Downconversion
-		\end{itemize}
+	\framesubtitle{Spontaneous Parametric Downconversion (SPDC)}
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=4cm]{SPDC.png}
 			\end{center}
-			\caption{Illustration of SPDC}\label{fig:SPDC}
+			\caption{Illustration of SPDC}
+			\label{fig:SPDC}
 		\end{figure}
 		\begin{itemize}
 			\item Degenerate $\omega_i = \omega_s$
 			\item Non-degenerate $\omega_i \ne \omega_s$
 		\end{itemize}
-
 \end{frame}
 
-\begin{frame}[t]
-	\frametitle{Theory}
-	\framesubtitle{State of the Art}
-\begin{table}
-    \caption{Comparison of different sources}\label{SotA}
-    \centering
-    \begin{tabular}{|l||l|l|l|l|l|}
-        \hline
-		& & & & & \\ % Empty line for spacing
-        \multirow{2}{*}{\shortstack{Who\\When}}& \multirow{2}{*}{\shortstack{\cite{1}\\2022 }} &\multirow{2}{*}{\shortstack{\cite{2}\\2010 }}  &\multirow{2}{*}{\shortstack{\cite{3}\\2007 }}   & \multirow{2}{*}{\shortstack{\cite{4}\\2006 }}  & \multirow{2}{*}{\shortstack{\cite{5}\\2012 }} \\
-		& & & & & \\ % Empty line for spacing
-		& & & & & \\ % Empty line for spacing
-		% add years
-		\hline
-        \hline
-        Type & 0 & II  & II & II & 0  \\
-        \hline
-		\multirow{2}{*}{\shortstack{Brightness [$\frac{pairs}{s mW nm}$]}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{87,5$\times$$10^3$} & \multirow{2}{*}{273$\times$$10^3$} & \multirow{2}{*}{5$\times$$10^3$} & \multirow{2}{*}{278$\times$$10^3$}  \\
-		& & & & & \\ % Empty line for spacing
-        \hline
-        Bandwidth [ nm ] & 106 & 0,3  & 0,3 & 1 & 2,3  \\
-        \hline
-    \end{tabular}
-\end{table}
-\end{frame}
 
 \subsubsection{Phase Matching}
 \begin{frame}
 	\frametitle{SPDC}
-	\framesubtitle{Phase Matching, Quasi Phase Matching, Bandwidth}
-	\begin{itemize}
-		\item Birifringent Phase Matching, Quasi Phase Matching
-	\end{itemize}
-
-	\begin{figure}
+	\framesubtitle{Birefringent Phase Matching, Quasi Phase Matching}
+\begin{figure}
+	What is Phase Matching?
 		\begin{center}
-		\caption{Illustration of a) Birifringent Phase Matching $k_p = k_i + k_s$ and}
-		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkPM.png}}\\
-		  \pause
-		\caption{b) Quasi Phase Matching $ k_p - k_i -k_s - \Delta k = 0 $.}
-		  \subfloat[][]{\includegraphics[width=6cm]{SPDCkQPM.png}}
+		\caption{Illustration of Birifringent Phase Matching $k_p - k_i - k_s = 0$ and}
+		  \includegraphics[width=8.5cm]{SPDCkPM.png}\\
+		\caption{Quasi Phase Matching $k_p - k_i -k_s - \Delta k = 0$.}
+		  \includegraphics[width=8.5cm]{SPDCkQPM.png}
 		\end{center}
 		%Conservation of momentum add here noob
 		\label{fig:SPDCk}
 	\end{figure}
-	\tiny
-	\begin{equation}
-		I &\propto sinc^2\left(\frac{L \delta k}{2}\right)
-		\label{eq:SPDCksinc2}
-	\end{equation}
-	\normalsize
+	% \Huge
+	% \begin{equation*}
+	% 	I &\propto \text{sinc}^2\left(\frac{L \delta k}{2}\right)
+	% 	\label{eq:SPDCksinc2}
+	% \end{equation*}
 \end{frame}
 
 \begin{frame}[t]
 	\frametitle{Theory}
-	\framesubtitle{Polling}
+	\framesubtitle{Crystal Size}
 	\begin{figure}
+		\caption{Difference in photon generation between a unpoled and poled crystal.\\\textit{Source: RP-Photonics}}
 		\begin{center}
 			\includegraphics[width=10cm]{PolledVsNot.png}
 		\end{center}
-		\caption{Difference in photon generation between a unpolled and polled crystal.\\\textit{Source: RP-Photontics}}
-		\label{fig:polledvsnot}
+		\label{fig:poledvsnot}
 	\end{figure}
 	
 \end{frame}
@@ -188,7 +147,7 @@
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Phase Matching Temperature calculatios for a) Type-2 crystal of 9,12 $\mu$m polling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m}
+	  \caption{Phase Matching Temperature calculatios for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m}
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
@@ -200,64 +159,45 @@
 \begin{frame}[t]
 	\frametitle{Theory}
 	\framesubtitle{Bandwidth}
-
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Wavelength bandwidth of a) Type-2 crystal with a polling period of 9,12 $\mu$m\\ b) Type-0 crystals with polling periods of 19,25 $\mu$m}
+	  \caption{Wavelength bandwidth of a) Type-2 crystal with a poling period of 9,12 $\mu$m\\ b) Type-0 crystals with poling periods of 19,25 $\mu$m}
 	  % Do this on the same plot
 	  \subfloat[][]{\includegraphics[width=5cm]{Type2wavelength.png}}\quad
-	  \pause
 	  \subfloat[][]{\includegraphics[width=5.5cm]{Type0wavelength.png}}
 	  \label{fig:CompT0a2}
 	\end{figure}
-	\pause
-	\tiny
-	\begin{minipage}[t]{0.48\textwidth}
-		\begin{equation}
-		\begin{aligned}
-			\ket{\Psi_{p}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}+\cos(\alpha)a_{V}^{\dagger})\ket{0}\\
-			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
-								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
-		\end{aligned}
-		\end{equation}
-	\end{minipage}
-	\begin{minipage}[t]{0.48\textwidth}
-	\begin{equation*}
-		\begin{aligned}
-			\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
-									   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
-		\end{aligned}
-	\end{equation*}
-	\end{minipage}
-	\normalsize
 \end{frame}
 
-\begin{frame}
+
+\begin{frame}[t]
 	\frametitle{Theory}
-	\framesubtitle{Current brightness between FMF and IJS}
-	\begin{table}
-		\begin{center}
-			\caption{Current brightness estimation [$\frac{Hz}{mWnm}$]}
-			\begin{tabular}[c|c|c]{|ll|l|}
-				\hline
-				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
-				\multicolumn{1}{c|}{\textbf{IJS}} \\
-				\hline
-				\multicolumn{1}{|c|}{\textbf{Type-II}} &
-				\multicolumn{1}{c|}{\textbf{Type-0}} &
-				\multicolumn{1}{c|}{\textbf{Type-II}} \\
-				\hline
-				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6$ \\
-				\hline
-				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
-				\hline
-				0,81 & 0,81 & 0,81\\
-				\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
-	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
+	\framesubtitle{State of the Art}
+	\small
+\begin{table}
+    \caption{Comparison of different sources}\label{SotA}
+    \centering
+	\begin{tabular}{|c||c|c|c|c|c|}
+        \hline
+		& & & & & \\ % Empty line for spacing
+        \multirow{2}{*}{\shortstack{Who\\When}}& \multirow{2}{*}{\shortstack{\cite{1}\\2022 }} &\multirow{2}{*}{\shortstack{\cite{4}\\2012 }}  &\multirow{2}{*}{\shortstack{\cite{3}\\2007 }}   & \multirow{2}{*}{\shortstack{\cite{2}\\2006 }}  & \multirow{2}{*}{\shortstack{\cite{5}\\2010 }} \\
+		& & & & & \\ % Empty line for spacing
+		& & & & & \\ % Empty line for spacing
+		% add years
+		\hline
+        \hline
+        Type & 0 & 0 & II & II & II  \\
+        \hline
+		\multirow{2}{*}{\shortstack{Brightness [$\frac{\text{Hz}}{\text{mW nm}}$]}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{0,278$\times$$10^6$} & \multirow{2}{*}{0,273$\times$$10^6$} & \multirow{2}{*}{0.005$\times$$10^6$} & \multirow{2}{*}{0.087$\times$$10^6$}  \\
+		& & & & & \\ % Empty line for spacing
+        \hline
+        Bandwidth [ nm ] & 106 & 2,3 & 0,3 & 1 & 0,3  \\
+        \hline
+    \end{tabular}
+\end{table}
+\normalsize
 \end{frame}
+
 
 %	TODO: DO THIS ALREADY YOU IDIOT
 % \subsubsection{Efficiency}
@@ -340,6 +280,26 @@
 		\item FMF/IJS
 		\item Government buildings in Ljubljana
 	\end{itemize}
+	\tiny
+	\begin{minipage}[l]{0.48\textwidth}
+		\begin{equation*}
+		\begin{aligned}
+			\ket{\Psi_{p}} &= \frac{1}{\sqrt{2}} ( a_{H}^{\dagger} ( \omega_p )\\
+						   &+ a_{V}^{\dagger} ( \omega_p ) )\ket{0}\\
+			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
+								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
+		\end{aligned}
+		\end{equation*}
+	\end{minipage}
+	\begin{minipage}[r]{0.48\textwidth}
+	\begin{equation*}
+		\begin{aligned}
+			\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
+									   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
+		\end{aligned}
+	\end{equation*}
+	\end{minipage}
+	\normalsize
 \end{frame}
 
 \subsubsection{Entanglement Teleportation}
@@ -378,18 +338,17 @@
 	\framesubtitle{Parameters}
 		\begin{itemize}
 			\item Focusing parameters \cite{bennik}
-					\begin{equation}
+					\begin{equation*}
 							\xi = \frac{L}{k w^2}
 						\label{eq:Focusing parameter}
-					\end{equation}\\
-					Photon generation
+					\end{equation*}\\
 			\item Correct lenses and distances for efficient coupling
-			\item Correct size of coupler apperture
+			\item Correct size of coupler aperture
 		\end{itemize}
 
 	\begin{figure}[!ht]
 	  \centering
-	  \includegraphics[angle=90,width=7cm]{SagnacDesign.pdf}
+	  \includegraphics[width=6cm]{SagnacDesign.png}
 	  \caption{Design of the Sagnac interferometer.}
 	\end{figure}
 \end{frame}
@@ -404,7 +363,7 @@
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Temperature scans of Type-0 crystals with different polling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
+	  \caption{Temperature scans of Type-0 crystals with different poling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
 	  % TODO: HAVE TO MAKE THIS BIGGER INCREASE TEXT SIZE IN PYTHON FUCKING NOOB
 	  \subfloat[][]{\includegraphics[width=2.9cm]{Not_Aligned_Scan.png}}\quad
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
@@ -415,7 +374,7 @@
 \end{frame}
 
 \subsection{Building a Sagnac Interferometer}
-{\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
 
 \begin{frame}[t]
 	\frametitle{Present state}
@@ -428,7 +387,36 @@
 	\end{figure}
 \end{frame}
 
+
 \usebackgroundtemplate{}
+
+\begin{frame}
+	\frametitle{Present State}
+	\framesubtitle{Current results}
+	\begin{table}
+		\begin{center}
+			\caption{Current brightness estimation [$\frac{\text{Hz}}{\text{mWnm}}$]}
+			\begin{tabular}[c|c|c]{|ll|l|}
+				\hline
+				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
+				\multicolumn{1}{c|}{\textbf{IJS}} \\
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Type-II}} &
+				\multicolumn{1}{c|}{\textbf{Type-0}} &
+				\multicolumn{1}{c|}{\textbf{Type-II}} \\
+				\hline
+				7,8 $\times10^6$ & 2,6 $\times 10^7 $ & 0,05 $\times 10^6$ \\
+				\hline
+				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
+				\hline
+				0,81 & 0,81 & 0,81\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
+\end{frame}
+
 \section{Outlook}
 \begin{frame}{Outlook}
 	\begin{itemize}
@@ -441,16 +429,7 @@
 \end{frame}
 
 \addtocounter{framenumber}{-1}
-\begin{frame}[plain]{\ }
-	\begin{center}
-	\Huge
-	Thank you
-	\end{center}
-\end{frame}
-
-
-\addtocounter{framenumber}{-1}
-\begin{frame}[plain]
+\begin{frame}
 	\frametitle{References}
 	\tiny
 	\bibliographystyle{IEEEtran}
