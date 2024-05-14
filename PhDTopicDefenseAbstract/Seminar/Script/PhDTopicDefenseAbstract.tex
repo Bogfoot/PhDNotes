@@ -1,0 +1,70 @@
+\documentclass{article}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\usepackage{lipsum} % For generating dummy text
+\usepackage{titling} % For customizing title
+\usepackage{abstract} % For abstract formatting
+
+% Customizing title
+\renewcommand{\maketitlehooka}{\centering}
+\renewcommand{\maketitlehookb}{\vspace{-1.5em}}
+
+% Customizing abstract
+\renewcommand{\abstractnamefont}{\normalfont\large\bfseries}
+\renewcommand{\abstracttextfont}{\normalfont\normalsize}
+
+\title{Generating and teleporting entanglement for quantum networks}
+\author{Adrian Udovičić}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Entanglement is a key resource of future quantum technologies. For that reason, it will be essential to distribute 
+it in quantum networks between many and possibly very distant communication parties. To this end, it is essential 
+to generate the photons at a wavelength that is compatible with existing fiber network infrastructure. Such networks typically feature 
+very low loss for photons in the O and C band (1310nm and 1550nm, respectively). To more 
+efficiently use telecom fibers for many users, the available bandwidth is split into frequency windows to enable dense wavelength 
+division multiplexing (DWDM). In the present thesis, we will implement a Sagnac source of entanglement for photons around 1560nm 
+that is sufficiently narrowband for the entangled photons to fit into specific DWDM frequency channels. To generate the 
+entangled photons, we will use a 50 mm long nonlinear crystal inside a Sagnac interferometer. We will first 
+implement and characterize this source in our laboratory and later use it for demonstrating entanglement distribution over in an existing 
+fiber network. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell. 
+With our help, an identical source will be set up by partners at the Jozef Stefan Institute. This will allow us to demonstrate the teleportation of entanglement 
+(entanglement swapping) by performing a Bell-state measurement on two entangled photons from those two independent and distant sources. This technique is a prerequisite for quantum 
+repeaters, which will be essential to distribute entanglement over arbitrary long distances in future global quantum networks. In particular, even the low losses of photons in 
+the C band will exponentially grow with the distance. This limits the efficient distribution of entanglement to distances of a few hundred kilometers.
+The present work will not only feature the first realization of a source of entanglement in Slovenia but also the first realization of teleportation.\\
+\textbf{Key words: Quantum Entanglement, Quantum Key Distribution, Entanglement Swapping}
+\end{abstract}
+
+\section{Contents and introduction}
+Today I will be speaking to you about my a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
+where I will explain the basics of the Spontaneous Parametric Downconversion (SPDC). Here I will speak a bit about Phase Matching and how we try to optimize it in the lab. I will also
+speak a bit about how we plan on Distributing Entanglement, so Entanglement Teleportation and Swapping.
+Then I will speak about the present state that we are dealing with in the lab and how far we have gone so far.
+
+\section{Motivation}
+Pretty much the enterity of my project is in the scope of the SiQUID project. The goal of this project is to create a Slovenian Quantum Network, train young researchers in the field of Quantum Technologies, as well as 
+creating the sources of entanglement needed for entanglement based Quantum Key Distribution. The main goal for me in this regard would be to create a bright source of entanglement using a Sagnac interferometer. The reason we 
+chose a Sagnac in this case is due to its long term vibrational stability, and it's a convenient way to do so as it allows for a compact design. A possible downside to this is that the alignment of this type of 
+interferometer is a bit tedious, as you have to perfectly overlap two beams within the interferometer, and in the crystal.
+
+\section{Theory}
+\subsection{Spontaneous Parametric Downconversion}
+SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two or more photons of lower frequency, usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
+and thus this can be a degenerate process, or they can have different frequencies, or being non-degenerate. When we started this entire design process, we wanted to have a degenerate process,
+as we would be able to separate the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able to separate the two photons on the output of the PBS.
+There are also type-I and type-0 processes. In type-I the output photons are orthogonal to the pump photon, while in the type-0 process the pump and output photons have the same polarization.
+
+\subsection{Phase Matching}
+What is Phase Matching? % NOTE: DO THIS
+
+
+
+\end{document}
