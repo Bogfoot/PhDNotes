@@ -65,11 +65,13 @@
 % Local background must be enclosed by curly braces for grouping.
 {\setbeamertemplate{footline}{}}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV1.png}}
+\noPageNumber
 \begin{frame}
 	\titlepage
 \end{frame}
 
 \usebackgroundtemplate{}
+\noPageNumber
 \begin{frame}{Contents and introduction}
   \tableofcontents % Include a table of contents slide
 \end{frame}
@@ -84,9 +86,9 @@
 				\begin{enumerate}
 					\item Training in quantum technologies in Slovenia
 					\item Entanglement based Quantum Key Distribution (QKD)
+					\item Testbed for industrialized version
 				\end{enumerate}
 			\item Bright source of entanglement
-			\item Testbed for industrialized version
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}[r]{0.48\textwidth}
@@ -101,6 +103,7 @@
 
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion (SPDC)}
+
 \begin{frame}{Theory}
 	\framesubtitle{Spontaneous Parametric Downconversion (SPDC)}
 	\begin{minipage}[l]{0.60\textwidth}
@@ -118,12 +121,32 @@
 			\item Non-degenerate $\omega_i \ne \omega_s$
 		\end{itemize}
 	\end{minipage}
+	% What is SPDC used for
 \end{frame}
 
-
 \subsubsection{Phase Matching}
+\begin{frame}[t]
+	\frametitle{Phase Matching}
+	\framesubtitle{Types}
+	\begin{minipage}[l]{0.35\textwidth}
+		\begin{itemize}
+			\item Type-0 : o $\rightarrow$ o + o
+			\item Type-I : o $\rightarrow$ e + e
+			\item Type-II : e $\rightarrow$ e + o
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}[r]{0.60\textwidth}
+		\begin{figure}
+			\begin{center}
+				\includegraphics[width=6cm]{TypesOfConversions}
+			\end{center}
+			\caption{Illustration of different types of polarization conversions.}
+		\end{figure}
+	\end{minipage}
+\end{frame}
+
 \begin{frame}
-	\frametitle{SPDC}
+	\frametitle{Phase Matching}
 	\framesubtitle{Birefringent Phase Matching, Quasi Phase Matching}
 \begin{figure}
 	What is Phase Matching?
@@ -143,6 +166,7 @@
 	% \end{equation*}
 \end{frame}
 
+
 \begin{frame}[t]
 	\frametitle{Theory}
 	\framesubtitle{Crystal Size}
@@ -153,7 +177,6 @@
 		\end{center}
 		\label{fig:poledvsnot}
 	\end{figure}
-	
 \end{frame}
 
 \subsubsection{Phase Matching Temperature}
@@ -250,7 +273,7 @@
 \begin{frame}[t]
 	\frametitle{Why do we care about entanglement?}
 	\begin{itemize}
-		\item Entanglement sources by themselves $\rightarrow$ usless if you can't use them.
+		\item Entanglement sources by themselves $\rightarrow$ useless if you can't use them.
 		\item Loss in fiber
 	\end{itemize}
 	\begin{table}
@@ -441,6 +464,7 @@
 \end{frame}
 
 \addtocounter{framenumber}{-1}
+\noPageNumber
 \begin{frame}
 	\frametitle{References}
 	\tiny

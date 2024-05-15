@@ -7,6 +7,7 @@
 \usepackage{lipsum} % For generating dummy text
 \usepackage{titling} % For customizing title
 \usepackage{abstract} % For abstract formatting
+\usepackage{braket}
 
 % Customizing title
 \renewcommand{\maketitlehooka}{\centering}
@@ -57,14 +58,33 @@ interferometer is a bit tedious, as you have to perfectly overlap two beams with
 
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion}
-SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two or more photons of lower frequency, usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
-and thus this can be a degenerate process, or they can have different frequencies, or being non-degenerate. When we started this entire design process, we wanted to have a degenerate process,
-as we would be able to separate the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able to separate the two photons on the output of the PBS.
+SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two or more photons of lower frequency,
+usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
+and thus this can be a degenerate process, or they can have different frequencies, or being non-degenerate.
+When we started this entire design process, we wanted to have a degenerate process, as we would be able to separate
+the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able 
+to separate the two photons on the output of the PBS.
 There are also type-I and type-0 processes. In type-I the output photons are orthogonal to the pump photon, while in the type-0 process the pump and output photons have the same polarization.
+
+\subsection{Types of processes}
+There are three different types of processes.
+\begin{itemize}
+	\item Type-0 is one in which a photon of some linear polarization, say $\ket{H}$ gets downconverted
+into two photons of lower energies of the same polarization - o $\rightarrow$ o + o. This process used to be physically impossible to produce 
+as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is impossible to achieve
+in most cases.
+	\item Type-I is similar to type-0, except that the produced two photons are orthogonally polarized to the input photon - o $\rightarrow$ e + e
+	\item In type-II instead you get two orthogonal polarizations out from the crystal. e $\rightarrow$ e + o
+\end{itemize}
+
+\subsection{Crystals}
+The first important step is to choose the correct material for the job. In this case, no ordinary material can be used, 
+as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is impossible
+to satisfy in most cases as $n_1 \left(	\omega_1 \right) < n_2 \left(	\omega_2 \right) < n_3 \left(	\omega_3 \right)$ for $\omega_1 < \omega_2 < \omega_3$.
 
 \subsection{Phase Matching}
 What is Phase Matching? % NOTE: DO THIS
-
-
+% NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II.
+% NOTE: Mention the crystal properties - anisotropic stuff
 
 \end{document}

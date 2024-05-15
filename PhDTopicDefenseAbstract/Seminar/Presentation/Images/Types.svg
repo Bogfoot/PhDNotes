@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="Types.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.130342"
+     inkscape:cx="352.10582"
+     inkscape:cy="510.90731"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker16626"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16624" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker16573"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16571" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker16563"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16561" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16553"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16551" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16278" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path16275" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="206.97451 : 177.8851 : 1"
+       inkscape:vp_y="0 : 1067.929 : 0"
+       inkscape:vp_z="301.50262 : 87.218611 : 1"
+       inkscape:persp3d-origin="20.892679 : -203.86134 : 1"
+       id="perspective1036" />
+    <marker
+       style="overflow:visible"
+       id="marker16573-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="204.58446 : 277.62503 : 1"
+       inkscape:vp_y="0 : 737.46945 : 0"
+       inkscape:vp_z="301.62894 : 215.01435 : 1"
+       inkscape:persp3d-origin="13.549091 : 14.006045 : 1"
+       id="perspective1036-6" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0-0" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="209.31918 : 228.57203 : 1"
+       inkscape:vp_y="0 : 845.19281 : 0"
+       inkscape:vp_z="305.77623 : 156.81572 : 1"
+       inkscape:persp3d-origin="19.440186 : -73.554209 : 1"
+       id="perspective1036-6-1" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-8-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4-5-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7-1-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0-0-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0-8-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9-9-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7-8-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-2-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4-2-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7-6-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0-9-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-8-1-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16278-4-5-0-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16563-7-1-4-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16561-0-0-2-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8-3-7-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0-8-4-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9-9-0-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7-8-3-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8-3-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0-8-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9-9-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7-8-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16573-8-3-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16571-0-8-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker16626-9-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16624-7-8-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g1038"
+       style="fill:#9d88a2;stroke:#000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8, 8;paint-order:markers fill stroke"
+       inkscape:perspectiveID="#perspective1036"
+       inkscape:corner0="1.8874225 : 0.27772816 : 0 : 1"
+       inkscape:corner7="0.37377845 : 0.26210918 : 0.081588531 : 1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1044"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         d="m 142.52886,148.60573 -71.006925,32.49332 v 12.14167 L 142.52886,154.3825 Z"
+         points="71.521935,181.09905 71.521935,193.24072 142.52886,154.3825 142.52886,148.60573 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1048"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         d="m 142.52886,154.3825 -71.006925,38.85822 12.892821,0.92727 62.482704,-38.26313 z"
+         points="71.521935,193.24072 84.414756,194.16799 146.89746,155.90486 142.52886,154.3825 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1040"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         d="m 142.52886,148.60573 v 5.77677 l 4.3686,1.52236 v -5.61802 z"
+         points="142.52886,154.3825 146.89746,155.90486 146.89746,150.28684 142.52886,148.60573 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1042"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         d="m 142.52886,148.60573 -71.006925,32.49332 12.892821,1.60794 62.482704,-32.42015 z"
+         points="71.521935,181.09905 84.414756,182.70699 146.89746,150.28684 142.52886,148.60573 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1046"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         d="m 71.521935,181.09905 v 12.14167 l 12.892821,0.92727 v -11.461 z"
+         points="71.521935,193.24072 84.414756,194.16799 84.414756,182.70699 71.521935,181.09905 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1050"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         d="m 146.89746,150.28684 -62.482704,32.42015 v 11.461 l 62.482704,-38.26313 z"
+         points="84.414756,182.70699 84.414756,194.16799 146.89746,155.90486 146.89746,150.28684 " />
+    </g>
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250"
+       cx="54.830154"
+       cy="192.27603"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.450048;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-4"
+       cx="151.71747"
+       cy="135.25047"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.45098;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-5"
+       cx="176.26471"
+       cy="139.60887"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="148.26402"
+       y="137.62749"
+       id="text5944"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan5942"
+         style="stroke-width:0.264583"
+         x="148.26402"
+         y="137.62749">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="173.06932"
+       y="142.32152"
+       id="text7136"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan7134"
+         style="stroke-width:0.264583"
+         x="173.06932"
+         y="142.32152">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="51.318691"
+       y="194.43607"
+       id="text9978"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan9976"
+         style="stroke-width:0.264583"
+         x="51.318691"
+         y="194.43607">e</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 151.24273,128.25555 0.43221,-5.79413"
+       id="path16189"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16563)"
+       d="m 151.24966,141.33112 0.20042,6.44824"
+       id="path16191"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573)"
+       d="m 183.23461,141.1574 6.65672,1.14826"
+       id="path16193"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626)"
+       d="m 164.27096,137.36683 6.65672,1.14826"
+       id="path16193-3"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573-8)"
+       d="m 61.07954,193.5775 6.65672,1.14827"
+       id="path16193-9"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626-9)"
+       d="m 42.11589,189.78694 6.65672,1.14826"
+       id="path16193-3-9"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g1038-3"
+       style="fill:#9d88a2;stroke:#000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8, 8;paint-order:markers fill stroke"
+       inkscape:perspectiveID="#perspective1036-6"
+       inkscape:corner0="1.8874225 : 0.27772816 : 0 : 1"
+       inkscape:corner7="0.37377845 : 0.26210918 : 0.081588531 : 1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1044-6"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         points="65.526108,62.178787 65.526108,70.563341 138.42325,43.729387 138.42325,39.740182 "
+         d="M 138.42325,39.740182 65.526108,62.178787 v 8.384554 L 138.42325,43.729387 Z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1048-3"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         points="65.526108,70.563341 78.76214,71.203681 142.90815,44.780671 138.42325,43.729387 "
+         d="m 138.42325,43.729387 -72.897142,26.833954 13.236032,0.64034 64.14601,-26.42301 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1040-3"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         points="138.42325,43.729387 142.90815,44.780671 142.90815,40.90109 138.42325,39.740182 "
+         d="m 138.42325,39.740182 v 3.989205 l 4.4849,1.051284 V 40.90109 Z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1042-4"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         points="65.526108,62.178787 78.76214,63.289169 142.90815,40.90109 138.42325,39.740182 "
+         d="M 138.42325,39.740182 65.526108,62.178787 78.76214,63.289169 142.90815,40.90109 Z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1046-4"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         points="65.526108,70.563341 78.76214,71.203681 78.76214,63.289169 65.526108,62.178787 "
+         d="m 65.526108,62.178787 v 8.384554 l 13.236032,0.64034 v -7.914512 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1050-3"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         points="78.76214,63.289169 78.76214,71.203681 142.90815,44.780671 142.90815,40.90109 "
+         d="M 142.90815,40.90109 78.76214,63.289169 v 7.914512 l 64.14601,-26.42301 z" />
+    </g>
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-9"
+       cx="44.480568"
+       cy="78.004242"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.450048;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-4-7"
+       cx="141.36787"
+       cy="20.978674"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.45098;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-5-2"
+       cx="164.96548"
+       cy="29.318556"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="137.91444"
+       y="23.35565"
+       id="text5944-5"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan5942-8"
+         style="stroke-width:0.264583"
+         x="137.91444"
+         y="23.35565">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="161.7701"
+       y="32.031162"
+       id="text7136-9"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="161.7701"
+         y="32.031162"
+         id="tspan17481">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.969105"
+       y="80.164276"
+       id="text9978-2"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan9976-4"
+         style="stroke-width:0.264583"
+         x="40.969105"
+         y="80.164276">o</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573-8-3)"
+       d="m 50.72995,79.305686 6.65672,1.14827"
+       id="path16193-9-1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626-9-9)"
+       d="m 31.7663,75.515116 6.65672,1.14827"
+       id="path16193-3-9-3"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573-8-3-5)"
+       d="m 146.85722,22.766257 6.65672,1.14827"
+       id="path16193-9-1-7"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626-9-9-7)"
+       d="m 127.89357,18.975687 6.65672,1.14827"
+       id="path16193-3-9-3-1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573-8-3-6)"
+       d="m 171.52796,31.686586 6.65672,1.14827"
+       id="path16193-9-1-3"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626-9-9-8)"
+       d="m 152.56431,27.896016 6.65672,1.14827"
+       id="path16193-3-9-3-3"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g1038-3-2"
+       style="fill:#9d88a2;stroke:#000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8, 8;paint-order:markers fill stroke"
+       inkscape:perspectiveID="#perspective1036-6-1"
+       inkscape:corner0="1.8874225 : 0.27772816 : 0 : 1"
+       inkscape:corner7="0.37377845 : 0.26210918 : 0.081588531 : 1"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1044-6-8"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         points="71.102576,117.48421 71.102576,127.09351 143.55846,96.339874 143.55846,91.76796 "
+         d="m 143.55846,91.76796 -72.455884,25.71625 v 9.6093 L 143.55846,96.339874 Z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1048-3-0"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         points="71.102576,127.09351 84.258488,127.82738 148.01621,97.54472 143.55846,96.339874 "
+         d="M 143.55846,96.339874 71.102576,127.09351 84.258488,127.82738 148.01621,97.54472 Z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1040-3-3"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         points="143.55846,96.339874 148.01621,97.54472 148.01621,93.098442 143.55846,91.76796 "
+         d="m 143.55846,91.76796 v 4.571914 l 4.45775,1.204846 v -4.446278 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1042-4-7"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         points="71.102576,117.48421 84.258488,118.75678 148.01621,93.098442 143.55846,91.76796 "
+         d="m 143.55846,91.76796 -72.455884,25.71625 13.155912,1.27257 63.757722,-25.658338 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1046-4-0"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         points="71.102576,127.09351 84.258488,127.82738 84.258488,118.75678 71.102576,117.48421 "
+         d="m 71.102576,117.48421 v 9.6093 l 13.155912,0.73387 v -9.0706 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path1050-3-0"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         points="84.258488,118.75678 84.258488,127.82738 148.01621,97.54472 148.01621,93.098442 "
+         d="M 148.01621,93.098442 84.258488,118.75678 v 9.0706 L 148.01621,97.54472 Z" />
+    </g>
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-9-3"
+       cx="57.628151"
+       cy="133.12502"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.450048;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-4-7-4"
+       cx="154.51546"
+       cy="76.099457"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:0.45098;stroke:#000001;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.11667, 2.11667;paint-order:markers fill stroke"
+       id="path2250-5-2-9"
+       cx="179.06271"
+       cy="80.457855"
+       rx="5.5780191"
+       ry="5.10111"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="151.06203"
+       y="78.47644"
+       id="text5944-5-2"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan5942-8-7"
+         style="stroke-width:0.264583"
+         x="151.06203"
+         y="78.47644">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="175.86732"
+       y="83.170471"
+       id="text7136-9-4"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="175.86732"
+         y="83.170471"
+         id="tspan17481-2">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="54.278526"
+       y="136.00722"
+       id="text9978-2-5"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan9976-4-2"
+         style="stroke-width:0.264583"
+         x="54.278526"
+         y="136.00722">o</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="54.278526"
+         y="149.23634"
+         id="tspan31153" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-3-2-8)"
+       d="m 154.1567,68.789293 0.43221,-5.79413"
+       id="path16189-7-4"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16563-7-6-2)"
+       d="m 154.04766,82.180103 0.20042,6.44824"
+       id="path16191-6-4"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-3-8-1-3)"
+       d="m 179.34953,73.991533 0.43221,-5.79413"
+       id="path16189-7-8-3"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16563-7-1-4-8)"
+       d="m 179.24049,87.382343 0.20042,6.44824"
+       id="path16191-6-7-8"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16573-8-3-7-4)"
+       d="m 63.877532,134.42648 6.65672,1.14827"
+       id="path16193-9-1-6"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker16626-9-9-0-2)"
+       d="m 44.913882,130.63591 6.65672,1.14827"
+       id="path16193-3-9-3-0"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="23.22135"
+       y="53.735798"
+       id="text53715"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan53713"
+         style="stroke-width:0.264583"
+         x="23.22135"
+         y="53.735798">Type-0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="23.44058"
+       y="115.62783"
+       id="text55105"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan55103"
+         style="stroke-width:0.264583"
+         x="23.44058"
+         y="115.62783">Type-I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="23.336727"
+       y="177.10858"
+       id="text57133"
+       inkscape:export-filename="/home/bogfootlj/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/TypesOfConversions.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan57131"
+         style="stroke-width:0.264583"
+         x="23.336727"
+         y="177.10858">Type-II</tspan></text>
+  </g>
+</svg>
