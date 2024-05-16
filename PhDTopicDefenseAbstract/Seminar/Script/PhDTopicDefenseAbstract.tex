@@ -66,8 +66,28 @@ the two photons based on their polarization. This design utilited a type-II proc
 to separate the two photons on the output of the PBS.
 There are also type-I and type-0 processes. In type-I the output photons are orthogonal to the pump photon, while in the type-0 process the pump and output photons have the same polarization.
 
+\subsection{Phase Matching}
+What is Phase Matching? Phase matching are the conditions at which some process will happen.
+In the case of SPDC the Phase Matching conditions are energy conservation ($\hbar \omega_p = \hbar \omega_s + \hbar \omega_i$),
+and momentum conservation ($k_p = k_s + k_i$).
+% DONE NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II. DONE
+% DONE NOTE: Mention the crystal properties - anisotropic stuff DONE
+
+\subsection{Crystals}
+An important step is to choose the correct material for the job. In this case, no ordinary material can be used, 
+as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is
+impossible to satisfy in most cases as
+$n_1 \left(	\omega_1 \right) < n_2 \left( \omega_2 \right) < n_3 \left(	\omega_3 \right)$ for $\omega_1 < \omega_2 < \omega_3$.
+
+\subsection{Crystal Size}
+Before periodic poling you could only have a limited size of the nonlinear material along the propagation direction.
+This means that you would only be able to generate broad signals out of the crystals and at lower intensities, as the 
+intensity and bandwidth of the process goes proportionally to $I \propto \text{sinc}^2\left(\frac{L \Delta k}{2}\right)$.
+Today we have periodic poling techonology available to us which allows us to create oppositely oriented fields inside the
+crystal. This allows for higher photon generation rates, longer crystals and more narrow bandwidths.
+
 \subsection{Types of processes}
-There are three different types of processes.
+There are three different types of phase matching.
 \begin{itemize}
 	\item Type-0 is one in which a photon of some linear polarization, say $\ket{H}$ gets downconverted
 into two photons of lower energies of the same polarization - o $\rightarrow$ o + o. This process used to be physically impossible to produce 
@@ -77,14 +97,34 @@ in most cases.
 	\item In type-II instead you get two orthogonal polarizations out from the crystal. e $\rightarrow$ e + o
 \end{itemize}
 
-\subsection{Crystals}
-The first important step is to choose the correct material for the job. In this case, no ordinary material can be used, 
-as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is impossible
-to satisfy in most cases as $n_1 \left(	\omega_1 \right) < n_2 \left(	\omega_2 \right) < n_3 \left(	\omega_3 \right)$ for $\omega_1 < \omega_2 < \omega_3$.
+\subsection{Phase Matching Temperature}
+The first important step is to determine the correct Phase Matching Temperature for our crystal. For different types of poling
+periods these temperatures will vary, and in general, the lower the poling period the higher the Phase Matching Temperature.
+The opposite seems to be true for the temperature bandwidth, which would be the acceptable temperature range for the material.
+Similarly, one should not heat up certain crystals too much as this could destroy the Periodic Poling properties of the material.
+For Periodically Poled Lithium Niobate (PPLN), the safe operating regime up to around 200 °C.
 
-\subsection{Phase Matching}
-What is Phase Matching? % NOTE: DO THIS
-% NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II.
-% NOTE: Mention the crystal properties - anisotropic stuff
+\subsection{Bandwidths}
+Next would be the bandwidth of the process. In general, you would like it to be as narrow as possible - especially for certain
+applications as entanglement swapping, and there are other methods to achieve this which I won't go into now. In general,
+type-II processes are much more narrow than type-0 ones. In the plot I have on the slide, there's about a factor of 120 in 
+bandwidth difference. This is why Type-II was the primary choice for our group. Unfortunately, this also comes at the price 
+of reduced intensity. The difference in intensity was around 25 times lower compared to the type-0 crystal which led to us
+using it in the end design.
+
+\subsection{State of the Art}
+
+\subsection{Different Designs}
+\section{Entanglement}
+\subsection{Why do we care about entanglement?}
+\subsection{Distributing Entanglement}
+\subsubsection{Entanglement Teleportation}
+\subsubsection{Entanglement Swapping}
+\section{Present State}
+\subsection{Parameters}
+\subsection{Building a Sagnac interferometer}
+
+
+
 
 \end{document}
