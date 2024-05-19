@@ -64,14 +64,15 @@ and thus this can be a degenerate process, or they can have different frequencie
 When we started this entire design process, we wanted to have a degenerate process, as we would be able to separate
 the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able 
 to separate the two photons on the output of the PBS.
-There are also type-I and type-0 processes. In type-I the output photons are orthogonal to the pump photon, while in the type-0 process the pump and output photons have the same polarization.
 
 \subsection{Phase Matching}
 What is Phase Matching? Phase matching are the conditions at which some process will happen.
 In the case of SPDC the Phase Matching conditions are energy conservation ($\hbar \omega_p = \hbar \omega_s + \hbar \omega_i$),
-and momentum conservation ($k_p = k_s + k_i$).
+and momentum conservation ($k_p = k_s + k_i$). The efficiency of this process is also dictated by how well we satisfy these 
+two conditions - being slightly off from $\Delta k = 0$ could result in large losses of efficiency.
 % DONE NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II. DONE
 % DONE NOTE: Mention the crystal properties - anisotropic stuff DONE
+% NOTE: Add for quasi phase matching
 
 \subsection{Crystals}
 An important step is to choose the correct material for the job. In this case, no ordinary material can be used, 
@@ -83,7 +84,7 @@ $n_1 \left(	\omega_1 \right) < n_2 \left( \omega_2 \right) < n_3 \left(	\omega_3
 Before periodic poling you could only have a limited size of the nonlinear material along the propagation direction.
 This means that you would only be able to generate broad signals out of the crystals and at lower intensities, as the 
 intensity and bandwidth of the process goes proportionally to $I \propto \text{sinc}^2\left(\frac{L \Delta k}{2}\right)$.
-Today we have periodic poling techonology available to us which allows us to create oppositely oriented fields inside the
+Today we have periodic poling available to us which allows us to create oppositely oriented fields inside the
 crystal. This allows for higher photon generation rates, longer crystals and more narrow bandwidths.
 
 \subsection{Types of processes}
@@ -115,8 +116,60 @@ using it in the end design.
 \subsection{State of the Art}
 
 \subsection{Different Designs}
+
 \section{Entanglement}
 \subsection{Why do we care about entanglement?}
+Entanglement sources have many applications. Some notable ones are Quantum Computation, Quantum Imaging, and Quantum Sensing.
+
+
+As we wish to distribute these entangled states over long distances, due to fiber losses it isn't viable to do so 
+over distances larger than a couple hundred kilometers.
+\begin{center}
+	\begin{table}[h]
+		\caption{Relevant fiber loss. \textit{Source: Thorlabs}}
+		\label{tab:fiberloss}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			$\lambda$ [nm] & 430 & 532 & 780 & 1310 & 1550 & 1900\\
+			\hline
+			Loss [dB/km] & 50 & 30 & 12 & 0.32 &  0.18 & 5\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{center}
+\begin{exampleblock}{Example: Loss in fiber for 1550/1560 nm}
+	200 km of fiber \rightarrow $10^4$ loss.
+	Start with 1 W, end up with 0.0001 W.
+\end{exampleblock}
+Due to this, it would be desirable to have a more robust way to transport photons from A to B.
+In our case, we generate a pair of $\ket{V}$ polarized photons in each of the branches of the Sagnac interferometer, totalling
+to 4 photons being created "at the same time". This leads us to the entangled state for type-0 SPDC
+
+\begin{equation*}
+	\ket{\Psi_{p}} = \frac{1}{\sqrt{2}} ( a_{H}^{\dagger} ( \omega_p ) + a_{V}^{\dagger} ( \omega_p ) )\ket{0}\\
+\end{equation*}
+\begin{minipage}[l]{0.48\textwidth}
+	\begin{equation*}
+		\begin{aligned}
+			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
+								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
+		\end{aligned}
+	\end{equation*}
+\end{minipage}
+\begin{minipage}[r]{0.48\textwidth}
+\begin{equation*}
+	\begin{aligned}
+		\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
+								   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
+	\end{aligned}
+\end{equation*}
+\end{minipage}
+
+\par as one branch of the phons will be rotated in polarization due to a wave plate being in one of the branches of the Sagnac interferometer.
+The reason why this is important is that if the conditions for this to happen are satisfied, you can no longer 
+predict the result of the polarization measurement. You can no longer tell which photon is which and from where it came from.
+But the measurements will be perfectly anti-correlated in polarization. 
+
 \subsection{Distributing Entanglement}
 \subsubsection{Entanglement Teleportation}
 \subsubsection{Entanglement Swapping}
