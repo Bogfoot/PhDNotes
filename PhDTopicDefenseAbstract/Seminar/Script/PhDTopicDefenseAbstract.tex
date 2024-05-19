@@ -21,6 +21,7 @@
 \author{Adrian Udovičić}
 \date{}
 
+
 \begin{document}
 
 \maketitle
@@ -44,6 +45,13 @@ The present work will not only feature the first realization of a source of enta
 \textbf{Key words: Quantum Entanglement, Quantum Key Distribution, Entanglement Swapping}
 \end{abstract}
 
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{~/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SagnacWithSomeAddedColoursV3.png}
+	\end{center}
+	\caption{}\label{fig:}
+\end{figure}
+
 \section{Contents and introduction}
 Today I will be speaking to you about my a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
 where I will explain the basics of the Spontaneous Parametric Downconversion (SPDC). Here I will speak a bit about Phase Matching and how we try to optimize it in the lab. I will also
@@ -51,17 +59,20 @@ speak a bit about how we plan on Distributing Entanglement, so Entanglement Tele
 Then I will speak about the present state that we are dealing with in the lab and how far we have gone so far.
 
 \section{Motivation}
-Pretty much the enterity of my project is in the scope of the SiQUID project. The goal of this project is to create a Slovenian Quantum Network, train young researchers in the field of Quantum Technologies, as well as 
-creating the sources of entanglement needed for entanglement based Quantum Key Distribution. The main goal for me in this regard would be to create a bright source of entanglement using a Sagnac interferometer. The reason we 
-chose a Sagnac in this case is due to its long term vibrational stability, and it's a convenient way to do so as it allows for a compact design. A possible downside to this is that the alignment of this type of 
-interferometer is a bit tedious, as you have to perfectly overlap two beams within the interferometer, and in the crystal.
+My project is in the scope of the SiQUID project. The goal of it is to demonstrate that a slovenian quantum network is possible to make,
+train young researchers in the field of Quantum Technologies, as well as creating the sources of entanglement needed for entanglement based Quantum Key Distribution.
+The main goal for me in this regard would be to create a bright source of entanglement using a Sagnac interferometer.
+The reason we chose a Sagnac in this case is due to its long term vibrational stability, and it's a convenient way to do so as it allows for a compact design.
+A possible downside to this is that the alignment of this type of interferometer is a bit tedious, as you have to perfectly overlap two beams within the interferometer,
+and in the crystal.
 
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion}
-SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two or more photons of lower frequency,
+Before talking about entanglement, we need to know how to generate photon pairs.
+SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two photons of lower frequency,
 usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
-and thus this can be a degenerate process, or they can have different frequencies, or being non-degenerate.
-When we started this entire design process, we wanted to have a degenerate process, as we would be able to separate
+and thus this can be a degenerate process, or they can have different frequencies, being non-degenerate.
+When we started this entire design process, we wanted to have a degenerate frequencies, as we would be able to separate
 the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able 
 to separate the two photons on the output of the PBS.
 

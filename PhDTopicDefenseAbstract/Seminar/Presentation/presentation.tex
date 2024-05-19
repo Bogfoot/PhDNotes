@@ -23,12 +23,6 @@
 
 % Define the style for the footer with page numbers
 \setbeamercolor{footline}{fg=black}
-% \addtobeamertemplate{navigation symbols}{}{%
-%     \usebeamerfont{footline}%
-%     \usebeamercolor[fg]{footline}%
-%     \hspace{1em}%
-%     \insertframenumber/\inserttotalframenumber
-% }
 
 % Define a command to exclude the page counter from the first two slides
 \newcommand{\noPageNumber}{%
@@ -64,7 +58,7 @@
 \begin{document}
 % Local background must be enclosed by curly braces for grouping.
 {\setbeamertemplate{footline}{}}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV3.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{~/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SagnacWithSomeAddedColoursV3.png}}
 \noPageNumber
 \begin{frame}
 	\titlepage
@@ -84,8 +78,34 @@
 		\begin{itemize}
 			\item SiQUID 
 				\begin{enumerate}
-					\item Training in quantum technologies in Slovenia
+					\item[0.] Proof of concept
+					\item Entanglement distribution
 					\item Entanglement based Quantum Key Distribution (QKD)
+					\item Training in quantum technologies in Slovenia
+					\item Testbed for industrialized version
+				\end{enumerate}
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}[r]{0.48\textwidth}
+		\begin{figure}
+			\begin{center}
+				\includegraphics[width=5cm]{SI_network_with_groundstation.jpg}
+			\end{center}
+			\caption{Example of Slovenian Quantum Network.}
+		\end{figure}
+	\end{minipage}
+\end{frame}
+
+\addtocounter{framenumber}{-1}
+\begin{frame}{Motivation}
+	\begin{minipage}[l]{0.48\textwidth}
+		\begin{itemize}
+			\item SiQUID 
+				\begin{enumerate}
+					\item[0.] Proof of concept
+					\item Entanglement distribution
+					\item Entanglement based Quantum Key Distribution (QKD)
+					\item Training in quantum technologies in Slovenia
 					\item Testbed for industrialized version
 				\end{enumerate}
 			\item Bright source of entanglement
@@ -104,7 +124,7 @@
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion (SPDC)}
 
-\begin{frame}{Theory}
+\begin{frame}{SPDC}
 	\framesubtitle{Spontaneous Parametric Downconversion (SPDC)}
 	\begin{minipage}[l]{0.60\textwidth}
 		\begin{figure}
@@ -180,12 +200,11 @@
 	\end{minipage}
 \end{frame}
 
-\subsubsection{Phase Matching Temperature}
-\begin{frame}{Theory}
+\begin{frame}{Phase Matching}
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Phase Matching Temperature plots for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m}
+	  \caption{Phase Matching Temperature plots for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m. $\delta \phi = \frac{L \Delta k}{2}$}
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
 	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
@@ -195,7 +214,7 @@
 \end{frame}
 
 \begin{frame}[t]
-	\frametitle{Theory}
+	\frametitle{Phase Matching}
 	\framesubtitle{Bandwidth}
 	\begin{figure}[!ht]
 	  \centering
