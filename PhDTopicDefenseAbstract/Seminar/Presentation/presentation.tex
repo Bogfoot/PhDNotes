@@ -290,43 +290,6 @@
 \end{frame}
 
 \subsection{Distributing Entanglement}
-\begin{frame}[t]
-	\frametitle{Entanglement}
-	\framesubtitle{What is it good for?}
-	\begin{itemize}
-		\item Entanglement source applications:
-			\begin{enumerate}
-				\item Distributed Quantum Computation - Send a state then receive a result on the entangled pair,
-				% \item Quantum Algorithms,
-				% \item Quantum Metrology, % Part of quantum sensing
-				\item Quantum Sensing,
-				% \item Entanglemenet swapping,
-				\item Single Photon Source - Calibration
-			\end{enumerate}
-		\item Loss in fiber $\rightarrow$ Entanglement swapping!
-	\begin{table}
-		\caption{Relevant fiber loss. \textit{Source: \href{https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=949}{Thorlabs}}}
-		\label{tab:fiberloss}
-		\begin{tabular}{|c|c|c|c|c|c|c|}
-			\hline
-			$\lambda$ [nm] & 430 & 532 & 780 & 1310 & 1550 & 1900\\
-			\hline
-			Loss [dB/km] & 50 & 30 & 12 & 0.32 &  0.18 & 5\\
-			\hline
-		\end{tabular}
-	\end{table}
-	\begin{figure}
-		\begin{center}
-			\includegraphics[width=6cm]{FiberLoss.png}
-		\end{center}
-		\caption{Loss in fiber over distance.}\label{fig:fiberloss}
-	\end{figure}
-	\end{itemize}
-	% \begin{exampleblock}{Example: Loss in fiber for 1550/1560 nm}
-	% 	200 km of fiber \rightarrow $10^4$ loss.
-	% \end{exampleblock}
-\end{frame}
-
 \begin{frame}{Distributing Entanglement}
 	\framesubtitle{Introduction}
 	% Making source of these entangled states.
@@ -362,6 +325,41 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}[t]
+	\frametitle{Entanglement}
+	\framesubtitle{What is it good for?}
+	\begin{itemize}
+		\item Entanglement source applications:
+			\begin{enumerate}
+				\item Distributed Quantum Computation - Send a state then receive a result on the entangled pair,
+				% \item Quantum Algorithms,
+				% \item Quantum Metrology, % Part of quantum sensing
+				\item Quantum Sensing,
+				% \item Entanglemenet swapping,
+				\item Single Photon Source - Calibration
+			\end{enumerate}
+		\item Loss in fiber $\rightarrow$ Entanglement swapping!
+	\begin{table}
+		\caption{Relevant fiber loss. \textit{Source: \href{https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=949}{Thorlabs}}}
+		\label{tab:fiberloss}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			$\lambda$ [nm] & 430 & 532 & 780 & 1310 & 1550 & 1900\\
+			\hline
+			Loss [dB/km] & 50 & 30 & 12 & 0.32 &  0.18 & 5\\
+			\hline
+		\end{tabular}
+	\end{table}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=6cm]{FiberLoss.png}
+		\end{center}
+		\caption{Loss in fiber over distance.}\label{fig:fiberloss}
+	\end{figure}
+	\end{itemize}
+\end{frame}
+
+
 
 \subsubsection{Quantum Teleportation}
 \begin{frame}[t]
@@ -369,17 +367,28 @@
     \framesubtitle{Teleportation}
     \begin{figure}[]
       \centering
-      \caption{Illustration of Entanglement Teleportation.}
+      \caption{Illustration of Quantum Teleportation: Basis of Entanglement Swapping.}
       \includegraphics[width=8cm]{EntanglementTeleportation.png}
 	\label{fig:Tele}
     \end{figure}
 \end{frame}
 
 %add image for the 50% case -> PBS after BS
+\begin{frame}[t]
+	\frametitle{Entanglement Distribution}
+	\framesubtitle{Bell State Measurement}
+	\begin{figure}
+		\begin{center}
+			\subfloat[][]{\includegraphics[width=5cm]{BSM.png}}\quad
+			\subfloat[][]{\includegraphics[width=5cm]{FullBSM.png}}\\
+		\end{center}
+		\caption{The simplest and the not so simple Bell State Measurement.}
+		\label{fig:BSMSimple}
+	\end{figure}
+\end{frame}
 
 
 \subsubsection{Entanglement Swapping}
-\addtocounter{framenumber}{-1}
 \begin{frame}[t]
     \frametitle{Distributing entanglement}
     \framesubtitle{Swapping}
@@ -389,12 +398,10 @@
       \includegraphics[width=10cm]{EntanglementSwapping.png}
 	\label{fig:Swap}
     \end{figure}
-
 		% 	QUANTUM REPEATERS IN HANDWAVEY WAY
 \end{frame}
 
-\addtocounter{framenumber}{-1}
-\begin{frame}[t]
+\begin{frame}[t]{Possible realization of the Slovenian Network}
 	\begin{figure}
 		\begin{center}
 			\includegraphics[width=0.9\textwidth]{SI_network_with_groundstation.jpg}
@@ -466,15 +473,15 @@
 			\begin{tabular}[c|c|c]{|ll|l|}
 				\hline
 				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
-				\multicolumn{1}{c|}{\textbf{IJS}} \\
+				\multicolumn{1}{c|}{\textbf{IJS}}\\
 				\hline
 				\multicolumn{1}{|c|}{\textbf{Type-II}} &
 				\multicolumn{1}{c|}{\textbf{Type-0}} &
-				\multicolumn{1}{c|}{\textbf{Type-II}} \\
+				\multicolumn{1}{c|}{\textbf{Type-II}}\\
 				\hline
-				7,8 $\times10^6$ \footnote{Linear setup} & 2,6 $\times 10^7 $  ^1 & 0,05 $\times 10^6$ \footnote{Sagnac interferometer} \\
+				7,8 $\times10^6$ \footnote{Linear setup} & 2,6 $\times 10^7 $  ^1 & 0,05 $\times 10^6$ \footnote{Sagnac interferometer}\\
 				\hline
-				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }  \\
+				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }\\
 				\hline
 				0,81 & 0,81 & 0,81\\
 				\hline
@@ -488,7 +495,7 @@
 \begin{frame}{Outlook}
 	\begin{itemize}
 		\item Build the source
-		\item Bell State Measurements (CHSH)
+		\item Bell State Measurements %(CHSH)
 		\item Entanglement swapping between FMF and IJS
 		\item Free space link to IJS
 		\item Fiber link to reactor
@@ -497,7 +504,7 @@
 			\begin{itemize}
 				\item Building quantum network:
 					\begin{enumerate}
-						\item Experimental network and
+						\item Experimental network
 						\item Government network 
 					\end{enumerate}
 			\end{itemize}

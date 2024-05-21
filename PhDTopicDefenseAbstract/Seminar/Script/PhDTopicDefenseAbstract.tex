@@ -23,7 +23,6 @@
 
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
@@ -45,6 +44,10 @@ The present work will not only feature the first realization of a source of enta
 \textbf{Key words: Quantum Entanglement, Quantum Key Distribution, Entanglement Swapping}
 \end{abstract}
 
+\newpage
+\tableofcontents
+\newpage
+
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{~/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SagnacWithSomeAddedColoursV3.png}
@@ -53,18 +56,18 @@ The present work will not only feature the first realization of a source of enta
 \end{figure}
 
 \section{Contents and introduction}
-Today I will be speaking to you about my a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
+Today I will be speaking to you about a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
 where I will explain the basics of the Spontaneous Parametric Downconversion (SPDC). Here I will speak a bit about Phase Matching and how we try to optimize it in the lab. I will also
-speak a bit about how we plan on Distributing Entanglement, so Entanglement Teleportation and Swapping.
+speak a bit about how we plan on Distributing Entanglement, so Quantum Teleportation and Entanglement Swapping.
 Then I will speak about the present state that we are dealing with in the lab and how far we have gone so far.
 
 \section{Motivation}
 My project is in the scope of the SiQUID project. The goal of it is to demonstrate that a slovenian quantum network is possible to make,
 train young researchers in the field of Quantum Technologies, as well as creating the sources of entanglement needed for entanglement based Quantum Key Distribution.
-The main goal for me in this regard would be to create a bright source of entanglement using a Sagnac interferometer.
-The reason we chose a Sagnac in this case is due to its long term vibrational stability, and it's a convenient way to do so as it allows for a compact design.
+The main goal for me in this regard would be to create a bright source of polarization entanglemed photon pairs using a Sagnac interferometer.
+The reason we chose a Sagnac in this case is due to its vibrational stability, and it's a convenient way to do so as it allows for a compact design.
 A possible downside to this is that the alignment of this type of interferometer is a bit tedious, as you have to perfectly overlap two beams within the interferometer,
-and in the crystal.
+and in the crystal, and there is coupling between the various degrees of freedom that we have available to us.
 
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion}
@@ -129,10 +132,26 @@ using it in the end design.
 \subsection{Different Designs}
 
 \section{Entanglement}
+If we have two systems, $\ket{\psi_i}$ and $\ket{\phi_i}$ described by two seperate Hilbert spaces, the state of those two systems can be described as 
+a tensor product $\ket{\psi_i} \otimes \ket{\phi_i}$ of their state spaces. You can write this as a Schmidt decomposition: $\ket{\xi} = \sum_{i,j} 
+a_{ij} \ket{\psi_i}\ket{phi_i} \rightarrow \sum_i b_i \ket{\psi_i'} \ket{\phi_i'}$. If $b_i \ne 0$ and $b_{i \ne j} = 0$ the state is said to be separable.
+If more than one $b_i \ne 0$ then $\ket{\xi}$ is said to be entangled, and the states can no longer be described without their comprising states.
+An example of entangled states are Bell states, they are also maximally entangled:
+
+\begin{center}
+	\begin{aligned}
+		\begin{equation}
+			\ket{\Psi^-} &= \frac{1}{\sqrt{2}} \left( \ket{0}\ket{1} - \ket{1}\ket{0} \right)\\
+			\ket{\Psi^+} &= \frac{1}{\sqrt{2}} \left( \ket{0}\ket{1} + \ket{1}\ket{0} \right)\\
+			\ket{\Phi^-} &= \frac{1}{\sqrt{2}} \left( \ket{0}\ket{0} - \ket{1}\ket{1} \right)\\
+			\ket{\Phi^+} &= \frac{1}{\sqrt{2}} \left( \ket{0}\ket{0} + \ket{1}\ket{1} \right)
+		\end{equation}
+	\label{eq:bsm}
+	\end{aligned}
+\end{center}
+
 \subsection{Why do we care about entanglement?}
 Entanglement sources have many applications. Some notable ones are Quantum Computation, Quantum Imaging, and Quantum Sensing.
-
-
 As we wish to distribute these entangled states over long distances, due to fiber losses it isn't viable to do so 
 over distances larger than a couple hundred kilometers.
 \begin{center}
@@ -149,31 +168,30 @@ over distances larger than a couple hundred kilometers.
 	\end{table}
 \end{center}
 \begin{exampleblock}{Example: Loss in fiber for 1550/1560 nm}
-	200 km of fiber \rightarrow $10^4$ loss.
+	200 km of fiber \rightarrow -36 dB \rightarrow $10^4$ loss.
 	Start with 1 W, end up with 0.0001 W.
 \end{exampleblock}
 Due to this, it would be desirable to have a more robust way to transport photons from A to B.
 In our case, we generate a pair of $\ket{V}$ polarized photons in each of the branches of the Sagnac interferometer, totalling
-to 4 photons being created "at the same time". This leads us to the entangled state for type-0 SPDC
-
+to 4 photons being created "at the same time". This leads us to the entangled state for type-0 SPDC:
 \begin{equation*}
 	\ket{\Psi_{p}} = \frac{1}{\sqrt{2}} ( a_{H}^{\dagger} ( \omega_p ) + a_{V}^{\dagger} ( \omega_p ) )\ket{0}\\
 \end{equation*}
 \begin{minipage}[l]{0.48\textwidth}
-	\begin{equation*}
+	\begin{equation}
 		\begin{aligned}
 			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
 								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
 		\end{aligned}
-	\end{equation*}
+	\end{equation}
 \end{minipage}
 \begin{minipage}[r]{0.48\textwidth}
-\begin{equation*}
+\begin{equation}
 	\begin{aligned}
 		\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
 								   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
 	\end{aligned}
-\end{equation*}
+\end{equation}
 \end{minipage}
 
 \par as one branch of the phons will be rotated in polarization due to a wave plate being in one of the branches of the Sagnac interferometer.
@@ -182,13 +200,31 @@ predict the result of the polarization measurement. You can no longer tell which
 But the measurements will be perfectly anti-correlated in polarization. 
 
 \subsection{Distributing Entanglement}
-\subsubsection{Entanglement Teleportation}
+Due to condisderable losses in fibers it is not feasible to transport entangled photons over distances greater than a few hundred kilometers. Thus 
+we must find a different solution to long distance Entanglement Dirstribution. This could be solved with quantum repeater, but currently one does not exist, 
+or is difficult to create. That being said, it is reasonable to establish an entanglement swapping network beforehand.
+
+\subsubsection{Quantum Teleportation}
+The basis of Quantum Teleportation is that the sender and receiver share an initial entangled pair - in our case polarization entangled photons of the sort described
+above, then perform a Bell State Measurement (BSM) on the receiving entangled photon and an initial state which we would like to teleport to the receiver. 
+
+\begin{description}
+	\item[Bell State Measurement (BSM)] 
+		A Bell State Measurement is a coincidence measurement between different detectors. The simplest one would
+		be the $\ket{\Psi^-}$ of \ref{eq:bsm} measurement. In it you only have a 50:50 beam splitter and two detectors. The only
+		time both photons will fall on their own separate detector is when either both of them get transmitted,
+		or both get reflected. 
+\end{description}
+
+Then we report the result of the BSM via a classical communications channel to the receiver. This same procedure does not work if the entangled pair does 
+not exist.
+The amazing thing is that this should work regardless of the distance between the entangled states, and doesn't vialate any causality laws, as the cassical message
+is being sent at most at the speed of causality to the receiver.
+
+
 \subsubsection{Entanglement Swapping}
 \section{Present State}
 \subsection{Parameters}
 \subsection{Building a Sagnac interferometer}
-
-
-
 
 \end{document}
