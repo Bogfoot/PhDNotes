@@ -172,7 +172,7 @@
 	\frametitle{Phase Matching}
 	\framesubtitle{Crystal Size}
 	\begin{figure}
-		\caption{Difference in photon generation between a unpoled and poled crystal.\\\textit{Source: RP-Photonics}}
+		\caption{Difference in photon generation between a unpoled and poled crystal.\\\textit{Source: \href{https://covesion.com/en/resource/principles-of-nonlinear-frequency-conversion/}{Covesion}.}}
 		\begin{center}
 			\includegraphics[width=10cm]{PolledVsNot.png}
 		\end{center}
@@ -202,15 +202,28 @@
 
 \begin{frame}{Phase Matching}
 	\framesubtitle{Phase Matching Temperature}
-	\begin{figure}[!ht]
-	  \centering
-	  \caption{Phase Matching Temperature plots for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m. $\delta \phi = \frac{L \Delta k}{2}$}
-	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
-	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
-	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
-	  \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G6.png}}\\
-	  \label{fig:gratingstheory}
-	\end{figure}
+	% \begin{figure}[!ht]
+	%   \centering
+	%   \caption{Phase Matching Temperature plots for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m. $\delta \phi = \frac{L \Delta k}{2}$}
+	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
+	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
+	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
+	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G6.png}}\\
+	%   \label{fig:gratingstheory}
+	% \end{figure}
+
+    \begin{columns}[t]
+        \column{.5\textwidth}
+		\captionof{figure}{Phase Matching Temperature for Type-II crystal of 9,12 $\mu$m poling period, $\delta \phi = \frac{L \Delta k}{2}$}
+        \includegraphics[width=0.8\columnwidth]{PMT_Type2.png}
+        \includegraphics[width=0.8\columnwidth]{PMT_Type0G5.png}
+		\captionof{figure}{19,45 $\mu$m,}
+        \column{.5\textwidth}
+		\captionof{figure}{Type-0, 19,25 $\mu$m,}
+        \includegraphics[width=0.8\columnwidth]{PMT_Type0G4.png}
+        \includegraphics[width=0.8\columnwidth]{PMT_Type0G6.png}
+		\captionof{figure}{19,65 $\mu$m.}
+    \end{columns}
 \end{frame}
 
 \begin{frame}[t]
@@ -315,7 +328,7 @@
 	\begin{itemize}
 		\item Entanglement source applications:
 			\begin{enumerate}
-				\item Distributed Quantum Computation - Send a state then receive a result on the entangled pair,
+				\item Distributed Quantum Computation, %- Send a state then receive a result on the entangled pair,
 				% \item Quantum Algorithms,
 				% \item Quantum Metrology, % Part of quantum sensing
 				\item Quantum Sensing,
@@ -364,7 +377,7 @@
 			\subfloat[][]{\includegraphics[width=2.5cm]{BSM.png}}\quad
 			\subfloat[][]{\includegraphics[width=8cm]{FullBSM.png}}
 		\end{center}
-		\caption{The simplest and the not so simple Bell State Measurement.}
+		\caption{The simplest and the complete BSM.}
 		\label{fig:BSMSimple}
 	\end{figure}
 \end{frame}
@@ -386,7 +399,7 @@
 \begin{frame}[t]{Possible realization of the Slovenian Network}
 	\begin{figure}
 		\begin{center}
-			\includegraphics[width=0.9\textwidth]{SI_network_with_groundstation.jpg}
+			\includegraphics[width=0.85\textwidth]{SI_network_with_groundstation.jpg}
 		\end{center}
 		\caption{Example of the Slovenian Quantum Network.\\\textit{Source: \url{https://siquid.fmf.uni-lj.si/}.}}
 	\end{figure}
@@ -450,7 +463,7 @@
 \section{Outlook}
 \begin{frame}{Outlook}
 	\begin{itemize}
-		\item Build the source
+		\item Complete the source
 		\item Bell State Measurements %(CHSH)
 		\item Entanglement swapping between FMF and IJS
 		\item Free space link to IJS
