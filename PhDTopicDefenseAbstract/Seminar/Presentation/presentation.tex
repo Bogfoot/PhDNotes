@@ -226,36 +226,6 @@
 	\end{figure}
 \end{frame}
 
-
-\begin{frame}[t]
-	\frametitle{Existing sources}
-	\framesubtitle{Comparison between different groups}
-	\small
-\begin{table}
-    \caption{Comparison of different sources}\label{SotA}
-    \centering
-	\begin{tabular}{|c||c|c|c|c|c|}
-        \hline
-		& & & & & \\ % Empty line for spacing
-        \multirow{2}{*}{\shortstack{Who\\When}}& \multirow{2}{*}{\shortstack{\cite{1}\\2022 }} &\multirow{2}{*}{\shortstack{\cite{4}\\2012 }}  &\multirow{2}{*}{\shortstack{\cite{3}\\2007 }}   & \multirow{2}{*}{\shortstack{\cite{2}\\2006 }}  & \multirow{2}{*}{\shortstack{\cite{5}\\2010 }} \\
-		& & & & & \\ % Empty line for spacing
-		& & & & & \\ % Empty line for spacing
-		% add years
-		\hline
-        \hline
-        Type & 0 & 0 & II & II & II  \\
-        \hline
-		\multirow{2}{*}{\shortstack{Brightness [$\frac{\text{Hz}}{\text{mW nm}}$]}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{0,278$\times$$10^6$} & \multirow{2}{*}{0,273$\times$$10^6$} & \multirow{2}{*}{0.005$\times$$10^6$} & \multirow{2}{*}{0.087$\times$$10^6$}  \\
-		& & & & & \\ % Empty line for spacing
-        \hline
-        Bandwidth [ nm ] & 106 & 2,3 & 0,3 & 1 & 0,3  \\
-        \hline
-    \end{tabular}
-\end{table}
-\normalsize
-\end{frame}
-
-
 %	TODO: DO THIS ALREADY YOU IDIOT
 % \subsubsection{Efficiency}
 % \begin{frame}
@@ -264,7 +234,6 @@
 % 	Fiorentino Expected efficiency
 % 	Might not be important
 % \end{frame}
-
 
 %	TODO: DO THIS ALREADY
 % \subsubsection{Detectors}
@@ -276,17 +245,32 @@
 % Dead-time dependency
 % \end{frame}
 
-\begin{frame}[t]
-	\frametitle{Different Designs}
-	\begin{figure}[!ht]
-	  \centering
-	  \caption{Different design ideas from other groups. a) \cite{design4}, b) \cite{design1}, c) \cite{design3}, d) \cite{design2}}
-	  \subfloat[][]{\includegraphics[width=5cm]{Design4.png}}\quad
-	  \subfloat[][]{\includegraphics[width=5cm]{Design1.png}}\\
-	  \subfloat[][]{\includegraphics[width=4cm]{Design3.png}}\quad
-	  \subfloat[][]{\includegraphics[width=4.5cm]{Design2.png}}\\
-	  \label{fig:sub4}
-	\end{figure}
+% \begin{frame}[t]
+% 	\frametitle{Different Designs}
+% 	\begin{figure}[!ht]
+% 	  \centering
+% 	  \caption{Different design ideas from other groups. a) \cite{design4}, b) \cite{design1}, c) \cite{design3}, d) \cite{design2}}
+% 	  \subfloat[][]{\includegraphics[width=5cm]{Design4.png}}\quad
+% 	  \subfloat[][]{\includegraphics[width=5cm]{Design1.png}}\\
+% 	  \subfloat[][]{\includegraphics[width=4cm]{Design3.png}}\quad
+% 	  \subfloat[][]{\includegraphics[width=4.5cm]{Design2.png}}\\
+% 	  \label{fig:sub4}
+% 	\end{figure}
+% \end{frame}
+
+\begin{frame}
+    \begin{columns}[t]
+        \column{.5\textwidth}
+        \includegraphics[width=\columnwidth]{Design44.png}
+		\captionof{figure}{Phys. Rev. Lett. 75, 4337  \cite{design4}.}
+        \includegraphics[width=\columnwidth]{Design3.png}
+		\captionof{figure}{Phys. Rev. Lett. 121, 200502 \cite{design3}.}
+        \column{.5\textwidth}
+        \includegraphics[width=\columnwidth]{Design1.png}
+		\captionof{figure}{Opt. Express 24, 2941-2953 (2016) \cite{design1}.}
+        \includegraphics[width=\columnwidth]{Design2.png}
+		\captionof{figure}{Sci Rep 7, 12613 (2017) \cite{design2}.}
+    \end{columns}
 \end{frame}
 
 \subsection{Distributing Entanglement}
@@ -359,8 +343,6 @@
 	\end{itemize}
 \end{frame}
 
-
-
 \subsubsection{Quantum Teleportation}
 \begin{frame}[t]
     \frametitle{Distributing entanglement}
@@ -379,8 +361,8 @@
 	\framesubtitle{Bell State Measurement}
 	\begin{figure}
 		\begin{center}
-			\subfloat[][]{\includegraphics[width=5cm]{BSM.png}}\quad
-			\subfloat[][]{\includegraphics[width=5cm]{FullBSM.png}}\\
+			\subfloat[][]{\includegraphics[width=2.5cm]{BSM.png}}\quad
+			\subfloat[][]{\includegraphics[width=8cm]{FullBSM.png}}
 		\end{center}
 		\caption{The simplest and the not so simple Bell State Measurement.}
 		\label{fig:BSMSimple}
@@ -416,7 +398,7 @@
 	\frametitle{Present state}
 	\framesubtitle{Parameters}
 		\begin{itemize}
-			\item Focusing parameters \cite{bennik}
+			\item Focusing parameter \cite{bennik}
 					\begin{equation*}
 							\xi = \frac{L}{2 z_R} = 2.08
 						\label{eq:Focusing parameter}
@@ -425,7 +407,7 @@
 		\end{itemize}
 	\begin{figure}[!ht]
 	  \centering
-	  \includegraphics[width=6cm]{SagnacDesign.png}
+	  \includegraphics[width=8cm]{SagnacDesign.png}
 	  \caption{Design of the Sagnac interferometer.}
 	\end{figure}
 \end{frame}
@@ -440,8 +422,9 @@
 	\framesubtitle{Phase Matching Temperature}
 	\begin{figure}[!ht]
 	  \centering
-	  \caption{Temperature scans of Type-0 crystals with different poling periods, a) misaligned 19,25 $\mu$m, b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
-	  \subfloat[][]{\includegraphics[width=2.9cm]{Not_Aligned_Scan.png}}\quad
+	  \caption{Temperature scans of Type-II and Type-0 crystal with different poling periods, a) Type-II, 9,12 $\mu m$, 
+	  b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
+	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Type2_Data.png}}\quad
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_5.png}}\quad
 	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_6.png}}\\
@@ -463,33 +446,6 @@
 \end{frame}
 \usebackgroundtemplate{}
 
-\begin{frame}
-	\frametitle{Present State}
-	\framesubtitle{Current results}
-	\begin{table}
-		% Add measured numbers -- Quality of this model increases with the alignment.
-		\begin{center}
-			\caption{Current brightness estimation [$\frac{\text{Hz}}{\text{mWnm}}$]}
-			\begin{tabular}[c|c|c]{|ll|l|}
-				\hline
-				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
-				\multicolumn{1}{c|}{\textbf{IJS}}\\
-				\hline
-				\multicolumn{1}{|c|}{\textbf{Type-II}} &
-				\multicolumn{1}{c|}{\textbf{Type-0}} &
-				\multicolumn{1}{c|}{\textbf{Type-II}}\\
-				\hline
-				7,8 $\times10^6$ \footnote{Linear setup} & 2,6 $\times 10^7 $  ^1 & 0,05 $\times 10^6$ \footnote{Sagnac interferometer}\\
-				\hline
-				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }\\
-				\hline
-				0,81 & 0,81 & 0,81\\
-				\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
-	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
-\end{frame}
 
 \section{Outlook}
 \begin{frame}{Outlook}
@@ -519,6 +475,63 @@
 	\tiny
 	\bibliographystyle{IEEEtran}
 	\bibliography{reference}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Present State}
+	\framesubtitle{Current results}
+	\begin{table}
+		% Add measured numbers -- Quality of this model increases with the alignment.
+		\begin{center}
+			\caption{Current brightness estimation [$\frac{\text{Hz}}{\text{mWnm}}$]}
+			\begin{tabular}[c|c|c]{|ll|l|}
+				\hline
+				\multicolumn{1}{|c}{\hfill\textbf{FMF}\hfill} &&
+				\multicolumn{1}{c|}{\textbf{IJS}}\\
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Type-II}} &
+				\multicolumn{1}{c|}{\textbf{Type-0}} &
+				\multicolumn{1}{c|}{\textbf{Type-II}}\\
+				\hline
+				7,8 $\times10^6$ \footnote{Linear setup} & 2,6 $\times 10^7 $  ^1 & 0,05 $\times 10^6$ \footnote{Sagnac interferometer}\\
+				\hline
+				\multicolumn{1}{|c}{\textbf{Bandwidth} [ nm ]} &\multicolumn{1}{c}{ } & \multicolumn{1}{c|}{ }\\
+				\hline
+				0,81 & 0,81 & 0,81\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
+\end{frame}
+
+
+\begin{frame}[t]
+	\frametitle{Existing sources}
+	\framesubtitle{Comparison between different groups}
+	\small
+\begin{table}
+    \caption{Comparison of different sources}\label{SotA}
+    \centering
+	\begin{tabular}{|c||c|c|c|c|c|}
+        \hline
+		& & & & & \\ % Empty line for spacing
+        \multirow{2}{*}{\shortstack{Who\\When}}& \multirow{2}{*}{\shortstack{\cite{1}\\2022 }} &\multirow{2}{*}{\shortstack{\cite{4}\\2012 }}  &\multirow{2}{*}{\shortstack{\cite{3}\\2007 }}   & \multirow{2}{*}{\shortstack{\cite{2}\\2006 }}  & \multirow{2}{*}{\shortstack{\cite{5}\\2010 }} \\
+		& & & & & \\ % Empty line for spacing
+		& & & & & \\ % Empty line for spacing
+		% add years
+		\hline
+        \hline
+        Type & 0 & 0 & II & II & II  \\
+        \hline
+		\multirow{2}{*}{\shortstack{Brightness [$\frac{\text{Hz}}{\text{mW nm}}$]}} & \multirow{2}{*}{2,5$\times$$10^6$} & \multirow{2}{*}{0,278$\times$$10^6$} & \multirow{2}{*}{0,273$\times$$10^6$} & \multirow{2}{*}{0.005$\times$$10^6$} & \multirow{2}{*}{0.087$\times$$10^6$}  \\
+		& & & & & \\ % Empty line for spacing
+        \hline
+        Bandwidth [ nm ] & 106 & 2,3 & 0,3 & 1 & 0,3  \\
+        \hline
+    \end{tabular}
+\end{table}
+\normalsize
 \end{frame}
 
 \end{document}
