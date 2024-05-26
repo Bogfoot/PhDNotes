@@ -71,19 +71,20 @@ and in the crystal, and there is coupling between the various degrees of freedom
 
 \section{Theory}
 \subsection{Spontaneous Parametric Downconversion}
-Before talking about entanglement, we need to know how to generate photon pairs.
+Before talking about entanglement, we need to know how to generate photon pairs. A good way to do this is SPDC.
 SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconverted" to two photons of lower frequency,
 usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
 and thus this can be a degenerate process, or they can have different frequencies, being non-degenerate.
-When we started this entire design process, we wanted to have a degenerate frequencies, as we would be able to separate
-the two photons based on their polarization. This design utilited a type-II process, meaning that we would be able 
-to separate the two photons on the output of the PBS.
+When we started this entire design process, we wanted to have degenerate frequencies, as we would be able to separate
+the two photons easily based on their polarization. This design utilited a type-II process, meaning that we would be able 
+to separate the two photons on the output of the PBS. Now we have decided to go for a type-0 process, thus altering the design a bit.
 
 \subsection{Phase Matching}
-What is Phase Matching? Phase matching are the conditions at which some process will happen.
+What is Phase Matching? Phase matching refferrs to fixing the relative phase between two or more frequencies 
+of light as they propagate through the crystal. Phase matching are the conditions at which some process will happen.
 In the case of SPDC the Phase Matching conditions are energy conservation ($\hbar \omega_p = \hbar \omega_s + \hbar \omega_i$),
 and momentum conservation ($k_p = k_s + k_i$). The efficiency of this process is also dictated by how well we satisfy these 
-two conditions - being slightly off from $\Delta k = 0$ could result in large losses of efficiency.
+two conditions - being slightly off from $\Delta k = 0$ could result in large losses of photon generation efficiency.
 % DONE NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II. DONE
 % DONE NOTE: Mention the crystal properties - anisotropic stuff DONE
 % NOTE: Add for quasi phase matching
@@ -93,8 +94,9 @@ An important step is to choose the correct material for the job. In this case, n
 as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is
 impossible to satisfy in most cases as
 $n_1 \left(	\omega_1 \right) < n_2 \left( \omega_2 \right) < n_3 \left(	\omega_3 \right)$ for $\omega_1 < \omega_2 < \omega_3$.
+For this, we choose a birefringent material, which has a fast and a slow axis.
 
-\subsection{Crystal Size}
+\subsubsection{Crystal Size}
 Before periodic poling you could only have a limited size of the nonlinear material along the propagation direction.
 This means that you would only be able to generate broad signals out of the crystals and at lower intensities, as the 
 intensity and bandwidth of the process goes proportionally to $I \propto \text{sinc}^2\left(\frac{L \Delta k}{2}\right)$.
@@ -127,12 +129,34 @@ bandwidth difference. This is why Type-II was the primary choice for our group. 
 of reduced intensity. The difference in intensity was around 25 times lower compared to the type-0 crystal which led to us
 using it in the end design.
 
-\subsection{State of the Art}
-
 \subsection{Different Designs}
+First figure
+Schematic of one method to produce and select the polarization-entangled state from the down-conversion crystal.
+The extra birefringent crystals Cl and C2, along with the half wave plate HWPO, are used to compensate the birefringent
+walk-off effects from the production crystal. By appropriately setting half wave plate HWP1 and quarter wave plate QWP1,
+one can produce all four of the orthogonal EPR-Bell states. Each polarizer P1 and P2 consisted of two stacked polarizing
+beam splitters preceded by a rotatable half wave plate.
+
+Interesting thing is that here with the use of various compensating crystals and wave plates they can create any
+Bell state.
+
+2nd figure
+Similar to 1, but doesn't require realignment, also much brighter.
+
+3rd figure
+Shows a use of noncollinear phase matching at room temperature (not really,
+it's 32 °C), robust source of high brightness
+
+4th figure
+They present a source of polarization-entangled photon pairs based on time-reversed
+Hong-Ou-Mandel interference. By superimposing four pair-creation possibilities on a polarization beam
+splitter, pairs of identical photons are separated into two spatial modes without the usual requirement for
+wavelength distinguishability or noncollinear emission angles. Our source yields high-fidelity polarization entanglement and high pair-generation rates without any requirement for active interferometric
+stabilization, which makes it an ideal candidate for a variety of applications, in particular those requiring
+indistinguishable photons.
 
 \section{Entanglement}
-If we have two systems, $\ket{\psi_i}$ and $\ket{\phi_i}$ described by two seperate Hilbert spaces, the state of those two systems can be described as 
+If we have two systems, $\ket{\psi_i}$ and $\ket{\phi_i}$ described by two separate Hilbert spaces, the state of those two systems can be described as 
 a tensor product $\ket{\psi_i} \otimes \ket{\phi_i}$ of their state spaces. You can write this as a Schmidt decomposition: $\ket{\xi} = \sum_{i,j} 
 a_{ij} \ket{\psi_i}\ket{phi_i} \rightarrow \sum_i b_i \ket{\psi_i'} \ket{\phi_i'}$. If $b_i \ne 0$ and $b_{i \ne j} = 0$ the state is said to be separable.
 If more than one $b_i \ne 0$ then $\ket{\xi}$ is said to be entangled, and the states can no longer be described without their comprising states.
@@ -182,21 +206,22 @@ This leads us to the entangled state for type-II/0 SPDC:
 \begin{minipage}[l]{0.48\textwidth}
 	\begin{equation*}
 		\begin{aligned}
-			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
-								&\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
+			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
+								&a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
 		\end{aligned}
 	\end{equation*}
 \end{minipage}
 \begin{minipage}[r]{0.48\textwidth}
 \begin{equation*}
 	\begin{aligned}
-		\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(\sin(\alpha)a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
-								   &\cos(\alpha)a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
+		\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
+								   &a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
 	\end{aligned}
 \end{equation*}
 \end{minipage}
 
 \par as one branch of the phons will be rotated in polarization due to a wave plate being in one of the branches of the Sagnac interferometer.
+This leads us to one of the Bell States mentioned above.
 The reason why this is important is that if the conditions for this to happen are satisfied, you can no longer 
 predict the result of the polarization measurement. You can no longer tell which photon is which and from where it came from.
 But the measurements will be perfectly anti-correlated in polarization. 
@@ -207,12 +232,18 @@ we must find a different solution to long distance Entanglement Dirstribution. T
 or is difficult to create. That being said, it is reasonable to establish an entanglement swapping network beforehand.
 
 \subsubsection{Quantum Teleportation}
-The basis of Quantum Teleportation is that the sender and receiver share an initial entangled pair - in our case polarization entangled photons of the sort described
-above, then perform a Bell State Measurement (BSM) on the receiving entangled photon and an initial state which we would like to teleport to the receiver. 
+The basis of Quantum Teleportation is that the sender and receiver share an initial entangled pair -
+in our case polarization entangled photons of the sort described above, in one of the 4 Bell States
+so that the photons are just as likely to be horizontally or vertically polarized relative to the pump,
+then perform a Bell State Measurement (BSM) on the receiving entangled 
+photon and an initial state which we would like to teleport to the receiver. 
+By entangling the initial state photon with one of the other entangled photons, and measuring the type of entanglement that they
+share, we can then send that information to B through a classical signal change B so that it has the same polarization as X,
+all without ever knowing their polarizations.
 
 \begin{description}
-	\item[Bell State Measurement (BSM)] 
-		A Bell State Measurement is a coincidence measurement between different detectors. The simplest one would
+	\item[BSM] 
+		A BSM is a coincidence measurement between different detectors. The simplest one would
 		be the $\ket{\Psi^-}$ of \ref{eq:bsm} measurement. In it you only have a 50:50 beam splitter and two detectors. The only
 		time both photons will fall on their own separate detector is when either both of them get transmitted,
 		or both get reflected. This can be improved and the 2nd state can be measured if a PBS is added one 
@@ -221,10 +252,19 @@ above, then perform a Bell State Measurement (BSM) on the receiving entangled ph
 		elements\footnote{PhysRevLett.86.1370}.
 \end{description}
 
-Then we report the result of the BSM via a classical communications channel to the receiver. This same procedure does not work if the entangled pair does 
-not exist.
+Then we report the result of the BSM via a classical communications channel to the receiver.
+This same procedure does not work if the entangled pair does not exist.
 The amazing thing is that this should work regardless of the distance between the entangled states,
 and doesn't vialate causality, as the cassical message is being sent at most at the speed of causality to the receiver.
+
+It is also important to notice that the Bell-state measurement does not reveal any information
+on the properties of any of the particles. This is the very reason why
+quantum teleportation using coherent two-particle superpositions works,
+while any measurement on one-particle superpositions would fail.
+The fact that no information whatsoever is gained on either particle is also the reason
+why quantum teleportation escapes the verdict of the no-cloning theorem. After successful teleportation
+particle 1 is not available in its original state any more,
+and therefore particle 3 is not a clone but is really the result of teleportation.
 
 \subsubsection{Entanglement Swapping}
 The principle behind Entanglement swapping can be described in the exact same way as Quantum Teleportation. The only difference is now that the arbitrary

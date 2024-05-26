@@ -80,8 +80,8 @@
 				\begin{enumerate}
 					\item[0.] Proof of concept
 					\item Entanglement distribution
-					\item Entanglement based Quantum Key Distribution (QKD)
-					\item Training in quantum technologies in Slovenia
+					\item Quantum Key Distribution (QKD)
+					\item Training in Quantum Technologies 
 					\item Testbed for industrialized version
 				\end{enumerate}
 		\end{itemize}
@@ -96,7 +96,6 @@
 	\end{minipage}
 \end{frame}
 
-\addtocounter{framenumber}{-1}
 \begin{frame}{Motivation}
 	\begin{minipage}[l]{0.48\textwidth}
 		\begin{itemize}
@@ -104,11 +103,12 @@
 				\begin{enumerate}
 					\item[0.] Proof of concept
 					\item Entanglement distribution
-					\item Entanglement based Quantum Key Distribution (QKD)
+					\item Quantum Key Distribution (QKD)
 					\item Training in quantum technologies in Slovenia
 					\item Testbed for industrialized version
 				\end{enumerate}
 			\item Bright source of entanglement
+			\item Why Sagnac?
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}[r]{0.48\textwidth}
@@ -185,9 +185,12 @@
 	\framesubtitle{Types}
 	\begin{minipage}[l]{0.35\textwidth}
 		\begin{itemize}
-			\item Type-0 : o $\rightarrow$ o + o
-			\item Type-I : o $\rightarrow$ e + e
-			\item Type-II : e $\rightarrow$ e + o
+				\item Type-0 : o $\rightarrow$ o + o\\
+							 or : e $\rightarrow$ e + e
+				\item Type-I : o $\rightarrow$ e + e\\
+							 or : e $\rightarrow$ o + o
+				\item Type-II : e $\rightarrow$ e + o\\
+							  or : o $\rightarrow$ e + o
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}[r]{0.60\textwidth}
@@ -195,26 +198,18 @@
 			\begin{center}
 				\includegraphics[width=6cm]{TypesOfConversions}
 			\end{center}
-			\caption{Illustration of different types of polarization conversions.}
+			\caption{Illustration of different types of polarization conversions (Type-0).}
 		\end{figure}
 	\end{minipage}
 \end{frame}
 
+
+
 \begin{frame}{Phase Matching}
 	\framesubtitle{Phase Matching Temperature}
-	% \begin{figure}[!ht]
-	%   \centering
-	%   \caption{Phase Matching Temperature plots for a) Type-2 crystal of 9,12 $\mu$m poling period, b) Type-0, 19,25 $\mu$m, c) Type-0, 19,45 $\mu$m, d), Type-0 19,65 $\mu$m. $\delta \phi = \frac{L \Delta k}{2}$}
-	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type2.png}}\quad
-	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G4.png}}\\
-	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G5.png}}\quad
-	%   \subfloat[][]{\includegraphics[width=3.9cm]{PMT_Type0G6.png}}\\
-	%   \label{fig:gratingstheory}
-	% \end{figure}
-
     \begin{columns}[t]
         \column{.5\textwidth}
-		\captionof{figure}{Phase Matching Temperature for Type-II crystal of 9,12 $\mu$m poling period, $\delta \phi = \frac{L \Delta k}{2}$}
+		\captionof{figure}{Type-II, 9,12 $\mu$m poling period, $\delta \phi = \frac{L \Delta k}{2}$}
         \includegraphics[width=0.8\columnwidth]{PMT_Type2.png}
         \includegraphics[width=0.8\columnwidth]{PMT_Type0G5.png}
 		\captionof{figure}{19,45 $\mu$m,}
@@ -258,68 +253,45 @@
 % Dead-time dependency
 % \end{frame}
 
-% \begin{frame}[t]
-% 	\frametitle{Different Designs}
-% 	\begin{figure}[!ht]
-% 	  \centering
-% 	  \caption{Different design ideas from other groups. a) \cite{design4}, b) \cite{design1}, c) \cite{design3}, d) \cite{design2}}
-% 	  \subfloat[][]{\includegraphics[width=5cm]{Design4.png}}\quad
-% 	  \subfloat[][]{\includegraphics[width=5cm]{Design1.png}}\\
-% 	  \subfloat[][]{\includegraphics[width=4cm]{Design3.png}}\quad
-% 	  \subfloat[][]{\includegraphics[width=4.5cm]{Design2.png}}\\
-% 	  \label{fig:sub4}
-% 	\end{figure}
-% \end{frame}
+\begin{frame}[t]
+	\frametitle{Phase Matching}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=6cm,angle=90]{SPDCCones.png}
+	\end{center}
+	\caption{Type-II SPDC cones. Image Rotated, Phys. Rev. Lett., 75, 4337, (1995).}
+\end{figure}
 
-\begin{frame}
+\end{frame}
+\begin{frame}{Different designs}
     \begin{columns}[t]
         \column{.5\textwidth}
         \includegraphics[width=\columnwidth]{Design44.png}
-		\captionof{figure}{Phys. Rev. Lett. 75, 4337  \cite{design4}.}
-        \includegraphics[width=\columnwidth]{Design3.png}
-		\captionof{figure}{Phys. Rev. Lett. 121, 200502 \cite{design3}.}
+		\captionof{figure}{Phys. Rev. Lett. 75, 4337 (1995) \cite{design4}.}
+        \includegraphics[width=\columnwidth]{Design2.png}
+		\captionof{figure}{Sci Rep 7, 12613 (2017) \cite{design2}.}
         \column{.5\textwidth}
         \includegraphics[width=\columnwidth]{Design1.png}
 		\captionof{figure}{Opt. Express 24, 2941-2953 (2016) \cite{design1}.}
-        \includegraphics[width=\columnwidth]{Design2.png}
-		\captionof{figure}{Sci Rep 7, 12613 (2017) \cite{design2}.}
+        \includegraphics[width=\columnwidth]{Design3.png}
+		\captionof{figure}{Phys. Rev. Lett. 121,\\200502 (2018) \cite{design3}.}
     \end{columns}
 \end{frame}
 
 \subsection{Distributing Entanglement}
 \begin{frame}{Distributing Entanglement}
 	\framesubtitle{Introduction}
-	% Making source of these entangled states.
-	% \begin{equation*}
-	% 		\ket{\Psi_{p}} = \frac{1}{\sqrt{2}} ( a_{H}^{\dagger} ( \omega_p ) + a_{V}^{\dagger} ( \omega_p ) )\ket{0}\\
-	% \end{equation*}
-	\begin{minipage}[l]{0.48\textwidth}
-		\begin{equation*}
-		\begin{aligned}
-			\ket{\Psi_{\text{Type-2}}} &= \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+\\
-								&a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}\\
-		\end{aligned}
-		\end{equation*}
-	\end{minipage}
-	\begin{minipage}[r]{0.48\textwidth}
 	\begin{equation*}
-		\begin{aligned}
-			\ket{\Psi_{\text{Type-0}}} &= \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+\\
-									   &a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
-		\end{aligned}
+		\ket{\Psi_{p}} = \frac{1}{\sqrt{2}} ( a_{H}^{\dagger} ( \omega_p ) + e^{i\phi} a_{V}^{\dagger} ( \omega_p ) )\ket{0}
 	\end{equation*}
-	\end{minipage}
-	\begin{itemize}
-			%	DONE TODO: Make a graphic of this
-			%	Two pairs of maximally entangled qubits.
-			%	Pair one = qubit 1 and qubit 2
-			%	Pair two = qubit 3 and qubit 4
-			%	Teleport qubit 2: Perform Bell State Measurement on qubit 2 and qubit 3
-			%	If teleportation + success == true -> qubit 2 and qubit 3 states are destroyed (no-cloning theorem) -> Qubit 1 and Qubit 4 now in same entangled state
-			% NOTE: Distillation and repeaters - Rainer PhD ----
-		\item FMF/IJS
-		\item Nodes in Ljubljana % - Entanglement distribution
-	\end{itemize}
+	\begin{equation*}
+		\ket{\Psi_{\text{Type-2}}} = \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{V}^{\dagger}(\omega_i)+
+							e^{i\phi} a_{V}^{\dagger}(\omega_i)a_{H}^{\dagger}(\omega_s))\ket{0}
+	\end{equation*}
+	\begin{equation*}
+			\ket{\Psi_{\text{Type-0}}} = \frac{1}{\sqrt{2}}(a_{H}^{\dagger}(\omega_s)a_{H}^{\dagger}(\omega_i)+
+									  e^{i\phi} a_{V}^{\dagger}(\omega_i)a_{V}^{\dagger}(\omega_s))\ket{0}
+	\end{equation*}
 \end{frame}
 
 \begin{frame}[t]
@@ -328,12 +300,12 @@
 	\begin{itemize}
 		\item Entanglement source applications:
 			\begin{enumerate}
-				\item Distributed Quantum Computation, %- Send a state then receive a result on the entangled pair,
+				\item Distributed Quantum Computation \cite{QuComp}, %- Send a state then receive a result on the entangled pair,
 				% \item Quantum Algorithms,
 				% \item Quantum Metrology, % Part of quantum sensing
-				\item Quantum Sensing,
+				\item Quantum Sensing \cite{QuSens},
 				% \item Entanglemenet swapping,
-				\item Single Photon Source - Calibration
+				\item Single Photon Source - Calibration \cite{QuCal}.
 			\end{enumerate}
 		\item Loss in fiber $\rightarrow$ Entanglement swapping!
 	\begin{table}
@@ -368,19 +340,6 @@
     \end{figure}
 \end{frame}
 
-%add image for the 50% case -> PBS after BS
-\begin{frame}[t]
-	\frametitle{Entanglement Distribution}
-	\framesubtitle{Bell State Measurement}
-	\begin{figure}
-		\begin{center}
-			\subfloat[][]{\includegraphics[width=2.5cm]{BSM.png}}\quad
-			\subfloat[][]{\includegraphics[width=8cm]{FullBSM.png}}
-		\end{center}
-		\caption{The simplest and the complete BSM.}
-		\label{fig:BSMSimple}
-	\end{figure}
-\end{frame}
 
 
 \subsubsection{Entanglement Swapping}
@@ -396,17 +355,22 @@
 		% 	QUANTUM REPEATERS IN HANDWAVEY WAY
 \end{frame}
 
-\begin{frame}[t]{Possible realization of the Slovenian Network}
+%add image for the 50% case -> PBS after BS
+\begin{frame}[t]
+	\frametitle{Entanglement Distribution}
+	\framesubtitle{Bell State Measurement}
 	\begin{figure}
 		\begin{center}
-			\includegraphics[width=0.85\textwidth]{SI_network_with_groundstation.jpg}
+			\subfloat[][]{\includegraphics[width=2.5cm]{BSM.png}}\quad
+			\subfloat[][]{\includegraphics[width=8cm]{FullBSM.png}}
 		\end{center}
-		\caption{Example of the Slovenian Quantum Network.\\\textit{Source: \url{https://siquid.fmf.uni-lj.si/}.}}
+		\caption{The simplest and the complete (PhysRevLett.86.1370, 2000) BSM.}
+		\label{fig:BSMSimple}
 	\end{figure}
 \end{frame}
 
+
 \section{Present state}
-\subsection{Parameters}
 \begin{frame}[t]
 	\frametitle{Present state}
 	\framesubtitle{Parameters}
@@ -416,7 +380,7 @@
 							\xi = \frac{L}{2 z_R} = 2.08
 						\label{eq:Focusing parameter}
 					\end{equation*}\\
-			\item Correct lenses and distances for efficient coupling
+			\item Appropriate lenses and distances for efficient coupling
 		\end{itemize}
 	\begin{figure}[!ht]
 	  \centering
@@ -433,63 +397,110 @@
 % it may be possible to use temperatures lower than 100°C if necessary without damaging the crystal.
 \begin{frame}{Present state}
 	\framesubtitle{Phase Matching Temperature}
+
 	\begin{figure}[!ht]
 	  \centering
 	  \caption{Temperature scans of Type-II and Type-0 crystal with different poling periods, a) Type-II, 9,12 $\mu m$, 
 	  b) 19,25 $\mu$m, c) 19,45 $\mu$m, d) 19,65 $\mu$m}
-	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Type2_Data.png}}\quad
-	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_4.png}}\\
-	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_5.png}}\quad
-	  \subfloat[][]{\includegraphics[width=2.9cm]{PMT_Grating_6.png}}\\
+	  \subfloat[][]{\includegraphics[width=3cm]{PMT_Type2_Data.png}}\quad
+	  \subfloat[][]{\includegraphics[width=3cm]{PMT_Grating_4.png}}\\
+	  \subfloat[][]{\includegraphics[width=3cm]{PMT_Grating_5.png}}\quad
+	  \subfloat[][]{\includegraphics[width=3cm]{PMT_Grating_6.png}}\\
 	  \label{fig:gratings}
 	\end{figure}
 \end{frame}
 
 \subsection{Building a Sagnac Interferometer}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV3.png}}
 \begin{frame}[t]
 	\frametitle{Present state}
-	\framesubtitle{Building a Sagnac Interferometer}
-	  \pause
-	\begin{figure}[!ht]
-	  \centering
-	  \includegraphics[width=9cm]{Type0Gratings.pdf}
-	  \caption{\textcolor{white}{Specifications from the crystal manufacturer.\\\textit{Source: HC Photonics Corp.}}}
+	\framesubtitle{Completing the Sagnac Interferometer}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=0.95\textwidth]{SagnacLab.png}
+		\end{center}
+		\caption{Sagnac in the lab.}
 	\end{figure}
 \end{frame}
-\usebackgroundtemplate{}
 
 
-\section{Outlook}
+\begin{frame}[t]{Possible realization of the network in Ljubljana}
+	Where?
+	\begin{itemize}
+		\begin{itemize}
+			\item FMF/IJS
+			\item Nodes in Ljubljana % - Entanglement distribution
+		\end{itemize}	
+	\end{itemize}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{Ljubljana_Nodes.png}
+		\end{center}
+		\centering
+		\caption{Proposal for the experimental (green)
+		and governmental (red) nodes in Ljubljana.\\\textit{Source: \url{https://siquid.fmf.uni-lj.si/}.}}
+		\label{fig:LjubNode}
+	\end{figure}
+\end{frame}
+
+\section{Plans and outlook}
+\begin{frame}[t]{Possible realization of the Slovenian network}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=0.85\textwidth]{SI_network_with_groundstation.jpg}
+		\end{center}
+		\caption{Example of the Slovenian Quantum Network.\\\textit{Source: \url{https://siquid.fmf.uni-lj.si/}.}}
+	\end{figure}
+\end{frame}
+	
 \begin{frame}{Outlook}
 	\begin{itemize}
 		\item Complete the source
-		\item Bell State Measurements %(CHSH)
+		\item Characterize the source
 		\item Entanglement swapping between FMF and IJS
+			\begin{itemize}
+				\item Bell State Measurements %(CHSH)
+			\end{itemize}
 		\item Free space link to IJS
 		\item Fiber link to reactor
-		\item Use Quantum Memory from IJS group
-		\item SiQUID
-			\begin{itemize}
-				\item Building quantum network:
-					\begin{enumerate}
-						\item Experimental network
-						\item Government network 
-					\end{enumerate}
-			\end{itemize}
+		\item In future might use Quantum Memory from IJS group
+		% \item SiQUID
+		% 	\begin{itemize}
+		% 		\item Building quantum network:
+		% 			\begin{enumerate}
+		% 				\item Experimental network
+		% 				\item Government network 
+		% 			\end{enumerate}
+		% 	\end{itemize}
 	\end{itemize}
 	% Entanglement swapping over short distance, IJS, Reactor with fibers, take one of the sources and do Entanglement swapping over long distances
 \end{frame}
+
+\addtocounter{framenumber}{-1}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{SagnacWithSomeAddedColoursV3.png}}
+\begin{frame}[t]
+\end{frame}
+\usebackgroundtemplate{}
 
 \addtocounter{framenumber}{-1}
 \noPageNumber
 \begin{frame}
 	\frametitle{References}
 	\tiny
-	\bibliographystyle{IEEEtran}
-	\bibliography{reference}
+	\begin{enumerate}
+		\item[1] A. Zeilinger et al., “New high-intensity source of polarization-entangled photon pairs,” Phys. Rev. Lett., vol. 75, pp. 4337–4341, Dec 1995. 
+		\item[2] R. Ursin et al, “Polarization entanglement by time-reversed hong-ou-mandel interference,” Physical Review Letters, vol. 121, no. 20, Nov. 2018
+		\item[3] Sang Min Lee, Heonoh Kim, Opt. Express 24, 2941-2953 (2016)
+		\item[4] V. Jabir et al., “Robust, high brightness, degenerate entangled photon source at room temperature,” Sci Rep 7, 12613 (2017)
+		\item[5] M. Caleffi, M. Amoretti, D. Ferrari, D. Cuomo, J. Illiano, A. Manzalini, and A. S. Cacciapuoti, “Distributed quantum computing: a survey,” 2022
+		\item[6] C. Degen, F. Reinhard, and P. Cappellaro, “Quantum sensing,” Reviews of Modern Physics, vol. 89, no. 3, Jul. 2017. [Online]. Available: http://dx.doi.org/10.1103/RevModPhys.89.035002 
+		\item[7] S. Ku¨ck, “Single photon sources for absolute radiometry – a review about the current state of the art,” Measurement: Sensors, vol. 18, p. 100219, 2021. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S2665917421001823 
+		\item[8] R. S. Bennink, “Optimal collinear gaussian beams for spontaneous parametric down-conversion,” Phys. rev. A 81, 053805 (2010)
+	\end{enumerate}
+	% \bibliographystyle{IEEEtran}
+	% \bibliography{reference}
 \end{frame}
 
+\addtocounter{framenumber}{-1}
 \begin{frame}
 	\frametitle{Present State}
 	\framesubtitle{Current results}
@@ -518,7 +529,7 @@
 	% Overestimated for the "bad" detectors - One has to take into account the dead-time maybe so maybe no one is doing this correctly? :P
 \end{frame}
 
-
+\addtocounter{framenumber}{-1}
 \begin{frame}[t]
 	\frametitle{Existing sources}
 	\framesubtitle{Comparison between different groups}
@@ -547,4 +558,21 @@
 \normalsize
 \end{frame}
 
+\addtocounter{framenumber}{-1}
+\begin{frame}[t]
+	\frametitle{Phase Matching}
+	\framesubtitle{Choosing a crystal}
+	\begin{figure}[!ht]
+	  \centering
+	  \includegraphics[width=9cm]{Type0Gratings.pdf}
+	  \caption{Specifications from the crystal manufacturer.\\\textit{Source: HC Photonics Corp.}}
+	\end{figure}
+\end{frame}
+
+\addtocounter{framenumber}{-1}
+\begin{frame}
+	\tiny
+	\bibliographystyle{IEEEtran}
+	\bibliography{reference}
+\end{frame}
 \end{document}
