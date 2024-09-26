@@ -4,7 +4,7 @@ description:
 authors: bogfootlj
 categories: 
 created: 2023-12-10T23:07:52+0100
-updated: 2023-12-20T16:13:22+0100
+updated: 2024-09-17T17:53:35+0100
 version: 1.1.1
 @end
 
@@ -22,6 +22,7 @@ version: 1.1.1
 
 {https://www.nature.com/articles/ncomms1147}[Efficient quantum state entanglement]
 * {:notes/PHD/PPKTP(LN):}[PPKTP(LN) Crystal]
+* {:notes/PHD/QuantumTeleportation:}[Quantum Teleportation]
 * {https://www.rp-photonics.com/nonlinear_crystal_materials.html}[Nonlinear Crystal Materials]
 ** {https://en.wikipedia.org/wiki/Potassium_titanyl_phosphate}[KTP]
 **	{https://en.wikipedia.org/wiki/Monopotassium_phosphate}[KDP/DKDP]
