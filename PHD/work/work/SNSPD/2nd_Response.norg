@@ -1,0 +1,12 @@
+Channel | Voltage | Resistance
+1		|	-2.1  |		100k Ohm
+2		|	-2.25 |		100k Ohm
+
+Replaced cables I1 with I3 and I2 with I4 on both the cryostat electronics box (just above the temperature cables) I ports and the Control box I ports.
+Checking for signals with osci soon.
+Checked the signal on osci - same as before.
+Checked all channels. C1 and C2 are not working. C3 and C4 are fine.
+
+The amplification line is cable from the Control box to the time tagger I assume. Will do so now.
+Switched the A1 with A3, and A2 with A4. Checked with osci. No difference.
+Same result as above, and as last time I checked.

@@ -45,39 +45,52 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Generating and teleporting entanglement for quantum networks}
-\author{Adrian Udovičić}
-\date{}
+% \title{Generating and teleporting entanglement for quantum networks}
+% \author{Adrian Udovičić, mag. phys\\dr. soc. Rainer O. Kaltenbaek}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		{\LARGE \textbf{University of Ljubljana}} \\[0.1cm]
+		{\LARGE \textbf{Faculty of Mathematics and Physics}} \\[3cm]
+		{\large \textbf{Adrian Udovičić, mag. phys.}}\\[0.1cm]
+		{\large \textbf{Rainer O. Kaltenbaek, asoc. prof. dr.}}\\[5cm]
+		\vspace{2cm}
+		{\LARGE \textbf{PhD topic proposal}} \\[0.1cm]
+		{\LARGE \textbf{Generating and teleporting entanglement for quantum networks}} \\[4cm]
+		{\large \textbf{Field of study: Physics}} \\[0.1cm]
+		\vfill
+		\large\textbf{{Ljubljana, 2025\date{}}}
+	\end{center}
+\end{titlepage}
 \maketitle
-\newpage
 
 
-\begin{abstract}
-Entanglement is a key resource of future quantum technologies. For that reason, it will be essential to distribute 
-it in quantum networks between many and possibly very distant communication parties. To this end, it is essential 
-to generate the photons at a wavelength that is compatible with existing fiber network infrastructure. Such networks typically feature 
-very low loss for photons in the O and C band (1310nm and 1550nm, respectively). To more 
-efficiently use telecom fibers for many users, the available bandwidth is split into frequency windows to enable dense wavelength 
-division multiplexing (DWDM). In the present thesis, we will implement a Sagnac source of entanglement for photons around 1560nm 
-that is sufficiently narrowband for the entangled photons to fit into specific DWDM frequency channels. To generate the 
-entangled photons, we will use a 50 mm long nonlinear crystal inside a Sagnac interferometer. We will first 
-implement and characterize this source in our laboratory and later use it for demonstrating entanglement distribution over in an existing 
-fiber network. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell. 
-With our help, an identical source will be set up by partners at the Jozef Stefan Institute. This will allow us to demonstrate the teleportation of entanglement 
-(entanglement swapping) by performing a Bell-state measurement on two entangled photons from those two independent and distant sources. This technique is a prerequisite for quantum 
-repeaters, which will be essential to distribute entanglement over arbitrary long distances in future global quantum networks. In particular, even the low losses of photons in 
-the C band will exponentially grow with the distance. This limits the efficient distribution of entanglement to distances of a few hundred kilometers.
-The present work will not only feature the first realization of a source of entanglement in Slovenia but also the first realization of teleportation.\\
-\textbf{Key words: Quantum Entanglement, Quantum Key Distribution, Entanglement Swapping}
-\end{abstract}
 
 \newpage
 \tableofcontents
 \newpage
+
+% \begin{abstract}
+% Entanglement is a key resource of future quantum technologies. For that reason, it will be essential to distribute 
+% it in quantum networks between many and possibly very distant communication parties. To this end, it is essential 
+% to generate the photons at a wavelength that is compatible with existing fiber network infrastructure. Such networks typically feature 
+% very low loss for photons in the O and C band (1310nm and 1550nm, respectively). To more 
+% efficiently use telecom fibers for many users, the available bandwidth is split into frequency windows to enable dense wavelength 
+% division multiplexing (DWDM). In the present thesis, we will implement a Sagnac source of entanglement for photons around 1560nm 
+% that is sufficiently narrowband for the entangled photons to fit into specific DWDM frequency channels. To generate the 
+% entangled photons, we will use a 50 mm long nonlinear crystal inside a Sagnac interferometer. We will first 
+% implement and characterize this source in our laboratory and later use it for demonstrating entanglement distribution over in an existing 
+% fiber network. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell. 
+% With our help, an identical source will be set up by partners at the Jozef Stefan Institute. This will allow us to demonstrate the teleportation of entanglement 
+% (entanglement swapping) by performing a Bell-state measurement on two entangled photons from those two independent and distant sources. This technique is a prerequisite for quantum 
+% repeaters, which will be essential to distribute entanglement over arbitrary long distances in future global quantum networks. In particular, even the low losses of photons in 
+% the C band will exponentially grow with the distance. This limits the efficient distribution of entanglement to distances of a few hundred kilometers.
+% The present work will not only feature the first realization of a source of entanglement in Slovenia but also the first realization of teleportation.\\
+% \end{abstract}
 
 % \begin{figure}[h]
 % 	\begin{center}
@@ -85,6 +98,50 @@ The present work will not only feature the first realization of a source of enta
 % 	\end{center}
 % 	\caption{}\label{fig:}
 % \end{figure}
+
+\section{Objectives and the proposed research}
+In the quickly developing fields of quantum communication and quantum computing there exists a great need for efficient transfer of secure quantum information. This can be done
+by harnessing a key quantum resource, entanglement, in the form of quantum teleportation and entanglement swapping. To these ends, it is important to generate photons at wavelengths
+compatible with existing fiber network infrastructures (references) and free air (references for OAM) means for metropolitain network areas. Fiber networks are typically in the O and C near-infrared band (1310nm and 1550nm, respectively). For
+efficient use of these telecom networks for many users, the available bandwith needs to be split into many frequency windows to enable dense wavelength division multiplexing (DWDM).
+In the present thesis I will implement a Sagnac interferometer source of polarization entanglement and optical angular momentum for photons around 1560nm, that is sufficiently narrow
+to fit into specific DWDM frequency channels. The photons are generated using a 50 mm nonlinear periodically polled Lithium Niobate (PPLN, requires references) crystal in the center of the interferometer.
+The source is first implemented and characterized in the laboratory by means of quantum state tomography, Clauser-Horne-Shimony-Holt measurement, Hansbury-Brown and Twiss Interferometry, and Hong-Ou-Mandel Interferometry.
+Later, we will demonstrate quantum teleportation and entanglement swapping using the knowledge gained from the experiments mentioned above with our collegues at the Jozef Stefan Institute, who will build
+an identical source with our help. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell (requires references). These techniques are a prerequisite for quantum repeaters (references),
+which may be essential to distribute entanglement over arbitrarily long distances in the future global quantum internet networks. Even the low losses (0.18 dB/km (references)) of the O and C will grow exponentially with distance.
+This limits the efficient distribution of entanglement to only a few hundred kilometers.
+The goal of this thesis will not only be the first realization of a high yield source of entanglement at non-degenerate frequencies in Slovenia but also quantum teleportation, and entanglement swapping.
+The entanglement is generated by bi-directionally pumping the PPLN crystal in the center of the Sagnac interferometer, thus introducing indistinguishability between the photons.\\
+\textbf{Key words: Quantum Entanglement, Quantum Key Distribution, Entanglement Swapping}
+
+\section{Survery of the literature}
+First go over how to use SPDC for entanglement generation, advantages, disadvantages, types, ... 
+
+Progress up to 2000s, 2010s, 2020, 2024, present. 
+
+What is the work based on? Neumanns paper, introduce Bennik and Boyd for parameters,.... Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
+
+How to then generate entanglement
+
+How to stabilize the 780 laser to the Rubidium Gas Cell, some references for locking and such which we plan to use
+
+\section{Research goals}
+
+Goal 1 - Build the Sagnac source of entanglement and characterize it using QST, CHSH, HBT, and HOMI for different pairs of DWDM channels (references).
+
+Goal 2 - Demonstrate Quantum Teleportation within the lab, and Entanglement swapping with IJS, other distant parties.
+
+Goal 3 - Long-term stability, locking, ...?
+
+Goal 4 - Free space application using OAM modes, try to do entanglement in this regime??
+
+\section{Description of the planned work}
+
+\section{Expected results}
+
+\section{Contribution to the field}
+
 
 \section{Contents and introduction}
 Today I will be speaking to you about a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
@@ -196,10 +253,10 @@ An example of entangled states are Bell states, they are also maximally entangle
 \begin{center}
 	\begin{aligned}
 		\begin{equation}
-			\ket{\Psi^-} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{V} - \ket{V}\ket{H} \right)\\
-			\ket{\Psi^+} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{V} + \ket{V}\ket{H} \right)\\
-			\ket{\Phi^-} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{H} - \ket{V}\ket{V} \right)\\
-			\ket{\Phi^+} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{H} + \ket{V}\ket{V} \right)
+			$\ket{\Psi^-} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{V} - \ket{V}\ket{H} \right)$\\
+			$\ket{\Psi^+} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{V} + \ket{V}\ket{H} \right)$\\
+			$\ket{\Phi^-} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{H} - \ket{V}\ket{V} \right)$\\
+			$\ket{\Phi^+} &= \frac{1}{\sqrt{2}} \left( \ket{H}\ket{H} + \ket{V}\ket{V} \right)$
 		\end{equation}
 	\label{eq:bsm}
 	\end{aligned}
@@ -224,7 +281,7 @@ over distances larger than a couple hundred kilometers.
 	\end{table}
 \end{center}
 \begin{exampleblock}{Example: Loss in fiber for 1550/1560 nm}
-	200 km of fiber \rightarrow -36 dB \rightarrow $10^4$ loss.
+	200 km of fiber $\rightarrow$ -36 dB $\rightarrow$ $10^4$ loss.
 	Start with 1 W, end up with 0.0001 W.
 \end{exampleblock}
 It would be desirable to have a more robust way to transport photons from A to B.
@@ -262,7 +319,7 @@ Due to condisderable losses in fibers it is not feasible to transport entangled 
 we must find a different solution to long distance Entanglement Dirstribution. This could be solved with quantum repeater, but currently one does not exist, 
 or is difficult to create. That being said, it is reasonable to establish an entanglement swapping network beforehand.
 
-\subsubsection{Quantum Teleportation}
+\subsection{Quantum Teleportation}
 The basis of Quantum Teleportation is that the sender and receiver share an initial entangled pair -
 in our case polarization entangled photons of the sort described above, in one of the 4 Bell States
 so that the photons are just as likely to be horizontally or vertically polarized relative to the pump,
@@ -297,7 +354,7 @@ why quantum teleportation escapes the verdict of the no-cloning theorem. After s
 particle 1 is not available in its original state any more,
 and therefore particle 3 is not a clone but is really the result of teleportation.
 
-\subsubsection{Entanglement Swapping}
+\subsection{Entanglement Swapping}
 The principle behind Entanglement swapping can be described in the exact same way as Quantum Teleportation. The only difference is now that the arbitrary
 state which we're trying to teleport is part of an entangled pair. This means that if the same process of Quantum Teleportation is performed by Alice, Bob,
 Charlie and Dora, where Alice and Bob share one entangled pair, and Charlie and Dora share another. Now the teleported state will be the state of 

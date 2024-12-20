@@ -1,0 +1,13 @@
+Keep the fibers clean
+Keep flexlines clean
+Monitor the temperatures as well as possible
+...
+Possible fuckups 
+* Flexlines leak over time - they need to be serviced every few years and filled up 
+* Letting room temp air into the cryochamber - big deal if operating on cryotemps. Immediately contact IDQ and turn off detectors.
+* Messing up biases - Not that big of a deal, bias setting is a fine-tuning process: Contact IDQ if they show no counts after proper config
+* Unexpected power off - not a big deal if vacuum is preserved
+* 
+Other stuff: Try to not do the above
+Before turning on the detectors make sure all of the connections are made correctly.
+
