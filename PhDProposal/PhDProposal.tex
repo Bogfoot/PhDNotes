@@ -4,10 +4,6 @@
 \input{macros}
 \input{letterfonts}
 
-\usepackage{lipsum} % For generating dummy text
-\usepackage{titling} % For customizing title
-\usepackage{abstract} % For abstract formatting
-\usepackage{braket}
 
 % Customizing title
 \renewcommand{\maketitlehooka}{\centering}
@@ -43,15 +39,8 @@
 \theoremstyle{myproblemstyle}
 \newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \title{Generating and teleporting entanglement for quantum networks}
-% \author{Adrian Udovičić, mag. phys\\dr. soc. Rainer O. Kaltenbaek}
-
-
 \begin{titlepage}
 	\begin{center}
 		{\LARGE \textbf{University of Ljubljana}} \\[0.1cm]
@@ -61,55 +50,28 @@
 		\vspace{2cm}
 		{\LARGE \textbf{PhD topic proposal}} \\[0.1cm]
 		{\LARGE \textbf{Generating and teleporting entanglement for quantum networks}} \\[4cm]
-		{\large \textbf{Field of study: Physics}} \\[0.1cm]
+		{\large \textbf{Scientific field: Physics}} \\[0.1cm]
 		\vfill
 		\large\textbf{{Ljubljana, 2025\date{}}}
 	\end{center}
 \end{titlepage}
-% \maketitle
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+\pagenumbering{roman}
 \newpage
 \tableofcontents
 \newpage
-
-% \begin{abstract}
-% Entanglement is a key resource of future quantum technologies. For that reason, it will be essential to distribute 
-% it in quantum networks between many and possibly very distant communication parties. To this end, it is essential 
-% to generate the photons at a wavelength that is compatible with existing fiber network infrastructure. Such networks typically feature 
-% very low loss for photons in the O and C band (1310nm and 1550nm, respectively). To more 
-% efficiently use telecom fibers for many users, the available bandwidth is split into frequency windows to enable dense wavelength 
-% division multiplexing (DWDM). In the present thesis, we will implement a Sagnac source of entanglement for photons around 1560nm 
-% that is sufficiently narrowband for the entangled photons to fit into specific DWDM frequency channels. To generate the 
-% entangled photons, we will use a 50 mm long nonlinear crystal inside a Sagnac interferometer. We will first 
-% implement and characterize this source in our laboratory and later use it for demonstrating entanglement distribution over in an existing 
-% fiber network. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell. 
-% With our help, an identical source will be set up by partners at the Jozef Stefan Institute. This will allow us to demonstrate the teleportation of entanglement 
-% (entanglement swapping) by performing a Bell-state measurement on two entangled photons from those two independent and distant sources. This technique is a prerequisite for quantum 
-% repeaters, which will be essential to distribute entanglement over arbitrary long distances in future global quantum networks. In particular, even the low losses of photons in 
-% the C band will exponentially grow with the distance. This limits the efficient distribution of entanglement to distances of a few hundred kilometers.
-% The present work will not only feature the first realization of a source of entanglement in Slovenia but also the first realization of teleportation.\\
-% \end{abstract}
-
-% \begin{figure}[h]
-% 	\begin{center}
-% 		\includegraphics[width=0.95\textwidth]{~/Notes/PhDNotes/PhDTopicDefenseAbstract/Seminar/Presentation/Images/SagnacWithSomeAddedColoursV3.png}
-% 	\end{center}
-% 	\caption{}\label{fig:}
-% \end{figure}
-
+\pagenumbering{arabic}
 \section{Objectives and the proposed research}
 In the quickly developing fields of quantum communication and quantum computing there exists a great need for efficient transfer of secure quantum information. This can be done
 by harnessing a key quantum resource, entanglement, in the form of quantum teleportation and entanglement swapping. To these ends, it is important to generate photons at wavelengths
 compatible with existing fiber network infrastructures (references) and free air (references for OAM) means for metropolitain network areas. Fiber networks are typically in the O and C near-infrared band (1310nm and 1550nm, respectively). For
 efficient use of these telecom networks for many users, the available bandwith needs to be split into many frequency windows to enable dense wavelength division multiplexing (DWDM).
 In the present thesis I will implement a Sagnac interferometer source of polarization entanglement and optical angular momentum for photons around 1560nm, that is sufficiently narrow
-to fit into specific DWDM frequency channels. The photons are generated using a 50 mm nonlinear periodically polled Lithium Niobate (PPLN, requires references) crystal in the center of the interferometer.
-The source is first implemented and characterized in the laboratory by means of quantum state tomography, Clauser-Horne-Shimony-Holt measurement, Hansbury-Brown and Twiss Interferometry, and Hong-Ou-Mandel Interferometry.
-Later, we will demonstrate quantum teleportation and entanglement swapping using the knowledge gained from the experiments mentioned above with our collegues at the Jozef Stefan Institute, who will build
-an identical source with our help. The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell (requires references). These techniques are a prerequisite for quantum repeaters (references),
+to fit into specific DWDM frequency channels. The photons are generated via Spontanious Parametric Down-Conversion (SPDC) from a 50 mm nonlinear periodically polled Lithium Niobate
+(PPLN, requires references) crystal in the center of the interferometer. The source is first implemented and characterized in the laboratory by means of quantum state tomography,
+Clauser-Horne-Shimony-Holt (CHSH) measurement, Hansbury-Brown and Twiss (HBT) Interferometry, and Hong-Ou-Mandel Interferometry (HOMI). Later, we will demonstrate quantum teleportation and entanglement
+swapping using the knowledge gained from the experiments mentioned above with our collegues at the Jozef Stefan Institute, who will build an identical source with our help.
+The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell (requires references). These techniques are a prerequisite for quantum repeaters (references),
 which may be essential to distribute entanglement over arbitrarily long distances in the future global quantum internet networks. Even the low losses (0.18 dB/km (references)) of the O and C will grow exponentially with distance.
 This limits the efficient distribution of entanglement to only a few hundred kilometers (add some references).
 The goal of this thesis will not only be the first realization of a high yield source of entanglement at non-degenerate frequencies in Slovenia but also quantum teleportation, and entanglement swapping.
@@ -119,9 +81,9 @@ The entanglement is generated by bi-directionally pumping the PPLN crystal in th
 % TODO Check frequency stabilization literature, doppler broadening, ..., PDH? Single pass, double pass, toptica homepage
 
 \section{Survery of the literature}
-First go over how to use SPDC for entanglement generation, advantages, disadvantages, types, ... 
+First go over how to use SPDC for entanglement generation, advantages, disadvantages, types, ...
 
-Progress up to 2000s, 2010s, 2020, 2024, present. 
+Progress up to 2000s, 2010s, 2020, 2024, present.
 
 What is the work based on? Neumanns paper, introduce Bennik and Boyd for parameters,.... Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
 
@@ -130,21 +92,33 @@ How to then generate entanglement
 How to stabilize the 780 laser to the Rubidium Gas Cell, some references for locking and such which we plan to use
 
 \section{Research goals}
+We will use a Continous Wave (CW) 780 nm Toptica DLPro laser to pump a 50 mm nonlinear PPLN crystal which is phase matched for Type-0 SPDC (e $\rightarrow$ e + e, e meaning extraordinary polarization)
+for generating entangled photons.
 
-Goal 1 - Build the Sagnac source of entanglement and characterize it using QST, CHSH, HBT, and HOMI for different pairs of DWDM channels (references).
+Goal 0 - Build a Sagnac source of entanglement and reach the currently know state of the art in performance metrics such as brightness and heralding.
+
+Goal 1 - Once we have a working source, we need to characterize it using Quantum State Tomography (QST), CHSH, HBT, and HOMI for different pairs of DWDM channels (references).
 
 Goal 2 - might need to introduce extra filtering -- 100 GHz not enough -> Filtering cavities
-Long-term stability, locking, ...? Demonstrate Quantum Teleportation within the lab, and Entanglement swapping with IJS, IJS Reactor, Beyond Semiconductor, where to do  
+Long-term stability, locking, ...? Demonstrate Quantum Teleportation within the lab, and Entanglement swapping (we will use the same $\Phi^+$ or $\Phi^-$ Bell state,
+then perform a Bell measurement on each part of the pair) with IJS, IJS Reactor, Beyond Semiconductor, where to do
 long distance stuff (need fibers) other distant parties,
 
 Goal 3 - Free space application using OAM modes, try to do entanglement in this regime??
 topological photons
 
+Why use CW instead of Pulsed Wave (PW)?
+Advantages of Continuous Wave compared to Pulsed Laser entanglement sources:
+
 \section{Description of the planned work}
+
+An existing Dark Fiber (DF) will be used for network testing once all of the local tests have been made, including QST, HBT, and HOMI. 
+The DFs location is currently undisclosed.
 
 \section{Expected results}
 
 \section{Contribution to the field}
+Developing and demonstrating methods of postprocessing for entanglement swapping from CW polarization entangled to be used in existing telecom infrastructure.
 
 
 \section{Contents and introduction}
@@ -168,29 +142,29 @@ SPDC is a process in which a pump photon of frequency $\omega_p$ gets "downconve
 usually denoted as $\omega_s$ and $\omega_i$. These output photons can have the same frequency,
 and thus this can be a degenerate process, or they can have different frequencies, being non-degenerate.
 When we started this entire design process, we wanted to have degenerate frequencies, as we would be able to separate
-the two photons easily based on their polarization. This design utilited a type-II process, meaning that we would be able 
+the two photons easily based on their polarization. This design utilited a type-II process, meaning that we would be able
 to separate the two photons on the output of the PBS. Now we have decided to go for a type-0 process, thus altering the design a bit.
 
 \subsection{Phase Matching}
-What is Phase Matching? Phase matching refferrs to fixing the relative phase between two or more frequencies 
+What is Phase Matching? Phase matching refferrs to fixing the relative phase between two or more frequencies
 of light as they propagate through the crystal. Phase matching are the conditions at which some process will happen.
 In the case of SPDC the Phase Matching conditions are energy conservation ($\hbar \omega_p = \hbar \omega_s + \hbar \omega_i$),
-and momentum conservation ($k_p = k_s + k_i$). The efficiency of this process is also dictated by how well we satisfy these 
+and momentum conservation ($k_p = k_s + k_i$). The efficiency of this process is also dictated by how well we satisfy these
 two conditions - being slightly off from $\Delta k = 0$ could result in large losses of photon generation efficiency.
 % DONE NOTE: Add a slide after Phase Matching slide regarding type-0,-I,-II. DONE
 % DONE NOTE: Mention the crystal properties - anisotropic stuff DONE
 % NOTE: Add for quasi phase matching
 
 \subsection{Crystals}
-An important step is to choose the correct material for the job. In this case, no ordinary material can be used, 
+An important step is to choose the correct material for the job. In this case, no ordinary material can be used,
 as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is
 impossible to satisfy in most cases as
 $n_1 \left(	\omega_1 \right) < n_2 \left( \omega_2 \right) < n_3 \left(	\omega_3 \right)$ for $\omega_1 < \omega_2 < \omega_3$.
 For this, we choose a birefringent material, which has a fast and a slow axis.
 
-\subsubsection{Crystal Size}
+\par{Crystal Size}
 Before periodic poling you could only have a limited size of the nonlinear material along the propagation direction.
-This means that you would only be able to generate broad signals out of the crystals and at lower intensities, as the 
+This means that you would only be able to generate broad signals out of the crystals and at lower intensities, as the
 intensity and bandwidth of the process goes proportionally to $I \propto \text{sinc}^2\left(\frac{L \Delta k}{2}\right)$.
 Today we have periodic poling available to us which allows us to create oppositely oriented fields inside the
 crystal. This allows for higher photon generation rates, longer crystals and more narrow bandwidths.
@@ -199,7 +173,7 @@ crystal. This allows for higher photon generation rates, longer crystals and mor
 There are three different types of phase matching.
 \begin{itemize}
 	\item Type-0 is one in which a photon of some linear polarization, say $\ket{H}$ gets downconverted
-into two photons of lower energies of the same polarization - o $\rightarrow$ o + o. This process used to be physically impossible to produce 
+into two photons of lower energies of the same polarization - o $\rightarrow$ o + o. This process used to be physically impossible to produce
 as the phase matching condition $k_1 + k_2 = k_3 = \frac{n \omega_3}{c} = \frac{n \omega_1}{c} + \frac{n \omega_2}{c}$ is impossible to achieve
 in most cases.
 	\item Type-I is similar to type-0, except that the produced two photons are orthogonally polarized to the input photon - o $\rightarrow$ e + e
@@ -216,8 +190,8 @@ For Periodically Poled Lithium Niobate (PPLN), the safe operating regime up to a
 \subsection{Bandwidths}
 Next would be the bandwidth of the process. In general, you would like it to be as narrow as possible - especially for certain
 applications as entanglement swapping, and there are other methods to achieve this which I won't go into now. In general,
-type-II processes are much more narrow than type-0 ones. In the plot I have on the slide, there's about a factor of 120 in 
-bandwidth difference. This is why Type-II was the primary choice for our group. Unfortunately, this also comes at the price 
+type-II processes are much more narrow than type-0 ones. In the plot I have on the slide, there's about a factor of 120 in
+bandwidth difference. This is why Type-II was the primary choice for our group. Unfortunately, this also comes at the price
 of reduced intensity. The difference in intensity was around 25 times lower compared to the type-0 crystal which led to us
 using it in the end design.
 
@@ -248,8 +222,8 @@ stabilization, which makes it an ideal candidate for a variety of applications, 
 indistinguishable photons.
 
 \section{Entanglement}
-If we have two systems, $\ket{\psi_i}$ and $\ket{\phi_i}$ described by two separate Hilbert spaces, the state of those two systems can be described as 
-a tensor product $\ket{\psi_i} \otimes \ket{\phi_i}$ of their state spaces. You can write this as a Schmidt decomposition: $\ket{\xi} = \sum_{i,j} 
+If we have two systems, $\ket{\psi_i}$ and $\ket{\phi_i}$ described by two separate Hilbert spaces, the state of those two systems can be described as
+a tensor product $\ket{\psi_i} \otimes \ket{\phi_i}$ of their state spaces. You can write this as a Schmidt decomposition: $\ket{\xi} = \sum_{i,j}
 a_{ij} \ket{\psi_i}\ket{phi_i} \rightarrow \sum_i b_i \ket{\psi_i'} \ket{\phi_i'}$. If $b_i \ne 0$ and $b_{i \ne j} = 0$ the state is said to be separable.
 If more than one $b_i \ne 0$ then $\ket{\xi}$ is said to be entangled, and the states can no longer be described without their comprising states.
 An example of entangled states are Bell states, they are also maximally entangled:
@@ -268,8 +242,8 @@ An example of entangled states are Bell states, they are also maximally entangle
 
 \subsection{Why do we care about entanglement?}
 Entanglement sources have many applications. Some notable ones are Quantum Computation, Quantum Imaging,
-and Quantum Sensing (to be explained). % TODO: 
-As we wish to distribute these entangled states over long distances, due to fiber losses it isn't viable to do so 
+and Quantum Sensing (to be explained). % TODO:
+As we wish to distribute these entangled states over long distances, due to fiber losses it isn't viable to do so
 over distances larger than a couple hundred kilometers.
 \begin{center}
 	\begin{table}[h]
@@ -314,32 +288,32 @@ This leads us to the entangled state for type-II/0 SPDC:
 
 \par as one branch of the phons will be rotated in polarization due to a wave plate being in one of the branches of the Sagnac interferometer.
 This leads us to one of the Bell States mentioned above.
-The reason why this is important is that if the conditions for this to happen are satisfied, you can no longer 
+The reason why this is important is that if the conditions for this to happen are satisfied, you can no longer
 predict the result of the polarization measurement. You can no longer tell which photon is which and from where it came from.
-But the measurements will be perfectly anti-correlated in polarization. 
+But the measurements will be perfectly anti-correlated in polarization.
 
 \subsection{Distributing Entanglement}
-Due to condisderable losses in fibers it is not feasible to transport entangled photons over distances greater than a few hundred kilometers. Thus 
-we must find a different solution to long distance Entanglement Dirstribution. This could be solved with quantum repeater, but currently one does not exist, 
+Due to condisderable losses in fibers it is not feasible to transport entangled photons over distances greater than a few hundred kilometers. Thus
+we must find a different solution to long distance Entanglement Dirstribution. This could be solved with quantum repeater, but currently one does not exist,
 or is difficult to create. That being said, it is reasonable to establish an entanglement swapping network beforehand.
 
 \subsection{Quantum Teleportation}
 The basis of Quantum Teleportation is that the sender and receiver share an initial entangled pair -
 in our case polarization entangled photons of the sort described above, in one of the 4 Bell States
 so that the photons are just as likely to be horizontally or vertically polarized relative to the pump,
-then perform a Bell State Measurement (BSM) on the receiving entangled 
-photon and an initial state which we would like to teleport to the receiver. 
+then perform a Bell State Measurement (BSM) on the receiving entangled
+photon and an initial state which we would like to teleport to the receiver.
 By entangling the initial state photon with one of the other entangled photons, and measuring the type of entanglement that they
 share, we can then send that information to B through a classical signal change B so that it has the same polarization as X,
 all without ever knowing their polarizations.
 
 \begin{description}
-	\item[BSM] 
+	\item[BSM]
 		A BSM is a coincidence measurement between different detectors. The simplest one would
 		be the $\ket{\Psi^-}$ of \ref{eq:bsm} measurement. In it you only have a 50:50 beam splitter and two detectors. The only
 		time both photons will fall on their own separate detector is when either both of them get transmitted,
-		or both get reflected. This can be improved and the 2nd state can be measured if a PBS is added one 
-		of the branches after the BS. Thus we'd have a 50\% complete BSM. By adding another PBS in the other 
+		or both get reflected. This can be improved and the 2nd state can be measured if a PBS is added one
+		of the branches after the BS. Thus we'd have a 50\% complete BSM. By adding another PBS in the other
 		branch we can increase the completeness to 75\%. In order to reach a complete BSM, one must use nonlinear
 		elements\footnote{PhysRevLett.86.1370}.
 \end{description}
@@ -361,7 +335,7 @@ and therefore particle 3 is not a clone but is really the result of teleportatio
 \subsection{Entanglement Swapping}
 The principle behind Entanglement swapping can be described in the exact same way as Quantum Teleportation. The only difference is now that the arbitrary
 state which we're trying to teleport is part of an entangled pair. This means that if the same process of Quantum Teleportation is performed by Alice, Bob,
-Charlie and Dora, where Alice and Bob share one entangled pair, and Charlie and Dora share another. Now the teleported state will be the state of 
+Charlie and Dora, where Alice and Bob share one entangled pair, and Charlie and Dora share another. Now the teleported state will be the state of
 one of the entangled photons, thus swapping the entanglement between Charlie and Bob.
 
 \section{Present State}
