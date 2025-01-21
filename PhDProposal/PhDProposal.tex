@@ -61,18 +61,26 @@
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
+\section{Description of the immediate research area and its problems}
+% (approximately half a page)
+%• State and briefly describe the immediate research area in which research will be conducted, and to which an original contribution is expected.
+% Emphasise the importance and timeliness of the narrower field.
+%• In a few sentences, describe the essence of the problem that will be tackled in the doctoral research and motivate it.
+% (a more detailed description is required later in the "dispozicija").
 \section{Objectives and the proposed research}
 In the quickly developing fields of quantum communication and quantum computing there exists a great need for efficient transfer of secure quantum information. This can be done
 by harnessing a quantum resource called entanglement in the form of quantum teleportation and entanglement swapping. Since doing these experiments over large distances through
-fibers imposes a lot of loss, it is important to generate photons at wavelengths compatible with existing fiber network infrastructures (references) as they have the least losses,
-and possiby even in free air (references for OAM) means for metropolitain network areas. Fiber networks are typically in the O and C near-infrared band (1310nm and 1550nm, respectively). For
-efficient use of these telecom networks for many users, the available bandwith needs to be split into many frequency channels to enable dense wavelength division multiplexing (DWDM).
-In the present thesis I will implement a Sagnac interferometer source of polarization entanglement for photons around 1560nm, that is sufficiently broad
-to fit into specific DWDM frequency channels. The photons are generated via Spontanious Parametric Down-Conversion (SPDC) from a 50 mm periodically polled Lithium Niobate
-(PPLN, requires references) nonlinear crystal in the center of the interferometer. The source is first implemented and characterized in the laboratory by means of quantum state tomography,
-Clauser-Horne-Shimony-Holt (CHSH) measurement, Hansbury-Brown and Twiss (HBT) Interferometry, and Hong-Ou-Mandel Interferometry (HOMI). Later, we will demonstrate quantum teleportation and entanglement
-swapping using the knowledge gained from the experiments mentioned above with our collegues at the Jozef Stefan Institute, who will build an identical source with our help.
-The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell (requires references). These techniques are a prerequisite for quantum repeaters (references),
+fibers imposes a lot of loss, it is important to generate photons at wavelengths compatible with existing fiber network infrastructures \cite{Kimble_2008} as they have the least losses,
+and possiby even in free space \cite{Kržić_et_al_2023} means for metropolitain network areas. Fiber networks are typically in the O and C near-infrared band (1310nm and 1550nm, respectively). For
+efficient use of these telecom networks for many users, the available bandwith may need to be split into many frequency channels to enable dense wavelength division multiplexing (DWDM).
+In the present thesis I will implement a Sagnac interferometer source of polarization entanglement for photons around 1560nm, that is sufficiently broadband
+to fit into many DWDM frequency channels. The photons are generated via Spontanious Parametric Down-Conversion (SPDC) from a 50 mm periodically polled Lithium Niobate
+nonlinear crystal in the center of the interferometer. The source is first implemented and characterized in the laboratory by means of quantum state tomography,
+Clauser-Horne-Shimony-Holt \cite{Clauser_Horne_Shimony_Holt_1969} (CHSH)  measurement, Hansbury-Brown and Twiss \cite{Brown_Twiss_1954} (HBT) Interferometry, and Hong-Ou-Mandel Interferometry \cite{Hong_Ou_Mandel_1987} (HOMI).
+Later, we will demonstrate quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997} and entanglement swapping \cite{Jennewein_Weihs_Pan_Zeilinger_2001} using the knowledge 
+gained from the experiments mentioned above with our collegues at the Jozef Stefan Institute, who will build an identical source with our help.
+The wavelength of the pump laser will be stabilized to an absorption line in a Rubidium gas cell using the $^{87}Rb$ $D_2$ transition via atomic spectroscopy locking (requires references).
+These techniques are a prerequisite for quantum repeaters (references),
 which may be essential to distribute entanglement over arbitrarily long distances in the future global quantum internet networks. Even the low losses (0.18 dB/km (references)) of the O and C
 will grow exponentially with distance. This limits the efficient distribution of entanglement to only a few hundred kilometers (add some references).
 The goal of this thesis will not only be the first realization of a high yield source of entanglement at non-degenerate frequencies in Slovenia but also quantum teleportation, and entanglement swapping.
@@ -81,7 +89,12 @@ The entanglement is generated by bi-directionally pumping the PPLN crystal in th
 
 % TODO Check frequency stabilization literature, doppler broadening, ..., PDH? Single pass, double pass, toptica homepage
 
-\section{Survery of the literature}
+\section{Overview of related research and relevant literature}
+% (approximately one page)
+% • Briefly summarise the state-of-the-art. Review and briefly analyse the relevant literature including the most recent research in the area.
+% • Explain how the proposed topic leads on from existing research, and outline the importance of the proposed line of research and the challenges it poses.
+% • Explain the relevance and timeliness of the proposed research in the context of the literature reviewed above. 
+
 First go over how to use SPDC for entanglement generation, advantages, disadvantages, types, ...
 
 Progress up to 2000s, 2010s, 2020, 2024, present.
@@ -93,6 +106,16 @@ How to then generate entanglement
 How to stabilize the 780 laser to the Rubidium Gas Cell, some references for locking and such which we plan to use
 
 \section{Research goals}
+% Statement of hypotheses, research questions and research goals
+% (approximately one page)
+%• First, briefly recall the research problem. 
+%• Next, clearly present the principal hypotheses (H) and/or research questions (R) and/or detailed research objectives (C). 
+% In most cases, just one of these three categories will be relevant. Clearly state which category it is; list the individual hypotheses (H1, H2, ..),
+% research questions (R1, R2, ..) and/or detailed objectives (C1, C2, ..); and explain them briefly.
+% In most PhD projects, the options of defining hypotheses or setting research questions are recommended.
+% However, the possibility of stating detailed research objectives is permitted under the new University rules.
+% Doctoral research projects are usually based on around three main research hypotheses, research questions or more detailed objectives, but this depends on the nature of the research.
+
 We will use a Continous Wave (CW) 780 nm Toptica DLPro laser to pump a 50 mm nonlinear PPLN crystal which is phase matched for Type-0 SPDC (e $\rightarrow$ e + e, e meaning extraordinary polarization)
 for generating entangled photons.
 
@@ -111,16 +134,23 @@ topological photons
 Why use CW instead of Pulsed Wave (PW)?
 Advantages of Continuous Wave compared to Pulsed Laser entanglement sources:
 
-\section{Description of the planned work}
-
+% \section{Description of the planned work}
+\section{Outline of research and research methods}
+% (approximately one page)
+% • Briefly outline the research and the planned research methodology.
+% • Provide a more detailed outline of the planned research and its methodology; for example, approaches, methods (e.g., theoretical, experimental, simulation), phases of research, if applicable, also the planned scheduling of the phases.
 An existing Dark Fiber (DF) will be used for network testing once all of the local tests have been made, including QST, HBT, and HOMI. 
 The DFs location is currently undisclosed.
 
-\section{Expected results}
-
-\section{Contribution to the field}
-Developing and demonstrating methods of postprocessing for entanglement swapping from CW polarization entangled to be used in existing telecom infrastructure.
-
+\section{Expected results and original contributions to science}
+% (approximately one side)
+% • State the expected results of the research. 
+% • Clearly identify the expected original contributions to science deriving from the above results.
+% (It is recommended to enumerate these contributions as an itemised list of usually up to five contributions.)
+% • Briefly elaborate on the expected contributions. Since they are typically hypothetical at this stage, the contributions may be expressed in very broad or narrow terms, as appropriate.
+% Original contributions include, e.g., original knowledge or findings, new theoretical models, original experimental or simulation methods, new approaches, newly opened areas, etc.
+% Original contributions do not include, e.g., implementation of known methods, solutions of practical problems with known methods and similar.
+% Developing and demonstrating methods of postprocessing for entanglement swapping from CW polarization entangled to be used in existing telecom infrastructure.
 
 \section{Contents and introduction}
 Today I will be speaking to you about a part of my thesis, which is generating and teleporting entanglement for quantum networks. I will begin with a bit of theory,
