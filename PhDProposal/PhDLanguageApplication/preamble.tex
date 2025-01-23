@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PACKAGE IMPORTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{amsthm}
+\usepackage{tikzsymbols}
+\usepackage[tmargin=2.5cm,rmargin=2cm,lmargin=2.5cm,margin=0.85in,bmargin=2.5cm,footskip=.2in]{geometry}
+\linespread{1.3}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathtools}
+\usepackage[varbb]{newpxmath}
+\usepackage{xfrac}
+\usepackage[makeroom]{cancel}
+\usepackage{bookmark}
+\usepackage{enumitem}
+\usepackage{hyperref,theoremref}
+\hypersetup{
+	pdftitle={Assignment},
+	colorlinks=true, linkcolor=doc!90,
+	bookmarksnumbered=true,
+	bookmarksopen=true
+}
+\usepackage[most,many,breakable]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{varwidth}
+\usepackage{etoolbox}
+\usepackage{nameref}
+\usepackage{multicol,array}
+\usepackage{tikz-cd}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage[bottom]{footmisc}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage{braket}
+\usepackage{titling} % For customizing title
+\usepackage{abstract} % For abstract formatting
+\usepackage{wrapfig}			  %Kontekstom osjetljivo navođenje
+\usepackage{csquotes}			  %Kontekstom osjetljivo navođenje
+\usepackage{graphicx}       %Slike i slično
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{titlesec}				%Za naslovnu stranicu
+\usepackage[T1]{fontenc}
+\usepackage{import}
+
+
+
+\counterwithin{figure}{section}
+\urlstyle{same}
+\numberwithin{equation}{section}
+\hyphenation{pergamon} % riječ u argumentu (pergamon) se ne rastavlja s crticom; ne smije imat specijalna slova. č. ž... - rastavljam ju naredbom \- (npr. išče\-zava)
+\setlength\parindent{0pt} % u novom paragrafu: indent=0
+\setlength{\parskip}{10pt} % postavlja željeni vertikalni razmak između paragrafa
+\setlength{\skip\footins}{2cm} % razmak između glavnog teksta i fusnota
+\renewcommand{\thefootnote}{$\ddagger$} % želim dagger za oznaku fusnota
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}} % nova naredba za horizontalne linije na naslovnoj stranici
+\newlength{\mylen}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TABLE OF CONTENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikz}
+\definecolor{doc}{RGB}{0,60,110}
+\usepackage{titletoc}
+\contentsmargin{0cm}
+\titlecontents{chapter}[3.7pc]
+{\addvspace{30pt}
+	\begin{tikzpicture}[remember picture, overlay]
+		\draw[fill=doc!60,draw=doc!60] (-7,-.1) rectangle (-0.9,.5);
+		\pgftext[left,x=-3.5cm,y=0.2cm]{\color{white}\Large\sc\bfseries Chapter\ \thecontentslabel};
+	\end{tikzpicture}\color{doc!60}\large\sc\bfseries}
+{}
+{}
+{\;\titlerule\;\large\sc\bfseries Page \thecontentspage
+	\begin{tikzpicture}[remember picture, overlay]
+		\draw[fill=doc!60,draw=doc!60] (2pt,0) rectangle (4,0.1pt);
+	\end{tikzpicture}}
+\titlecontents{section}[1.7pc]
+{\addvspace{8pt}}
+{\contentslabel[\thecontentslabel]{1pc}}
+{}
+{\ \hrulefill\ \small\thecontentspage}
+[\vspace{-0.4cm}]
+\titlecontents*{subsection}[3.7pc]
+{\addvspace{-0pt}\small}
+{}
+{}
+{\dotfill \small\thecontentspage\\}
+[][\vspace{-1cm}]
+
+\makeatletter
+\renewcommand{\tableofcontents}{
+	\chapter{
+	  \vspace{-20\p@}
+	  \begin{tikzpicture}[remember picture, overlay]
+		  \pgftext[right,x=15cm,y=0.2cm]{\color{doc!60}\Huge\sc\bfseries \contentsname};
+		  \draw[fill=doc!60,draw=doc!60] (13,-.75) rectangle (20,1);
+		  \clip (13,-.75) rectangle (20,1);
+		  \pgftext[right,x=15cm,y=0.2cm]{\color{white}\Huge\sc\bfseries \contentsname};
+	  \end{tikzpicture}}
+	\@starttoc{toc}}
+\makeatother
+
+
+%%%%%%%%%%%%
+%% KUTIJE %%
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Theorem
+\newcounter{teorem}[section] \setcounter{teorem}{0}
+\renewcommand{\theteorem}{\arabic{section}.\arabic{teorem}}
+\newenvironment{teorem}[2][]{%
+	\refstepcounter{teorem}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=blue!20]
+					{\strut Teorem~\thetheo};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=blue!20]
+					{\strut Teorem~\thetheo:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=blue!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Proof
+\newcounter{dokaz}[section]\setcounter{dokaz}{0}
+\renewcommand{\thedokaz}{\arabic{section}.\arabic{dokaz}}
+\newenvironment{dokaz}[2][]{%
+	\refstepcounter{dokaz}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Dokaz~\theprf};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Dokaz~\theprf:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=red!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\qed\end{mdframed}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Primjer
+\newcounter{primjer}[section]\setcounter{primjer}{0}
+\renewcommand{\theprimjer}{\arabic{section}.\arabic{primjer}}
+\newenvironment{primjer}[2][]{%
+	\refstepcounter{primjer}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Primjer~\theprf};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+					\tikz[baseline=(current bounding box.east),outer sep=0pt]
+					\node[anchor=east,rectangle,fill=red!20]
+					{\strut Primjer~\theprf:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=red!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\qed\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%================================
+% NOTE BOX
+%================================
+
+\usetikzlibrary{arrows,calc,shadows.blur}
+\tcbuselibrary{skins}
+\newtcolorbox{Bilješka}[1][]{%
+	enhanced jigsaw,
+	colback=gray!20!white,%
+	colframe=gray!80!black,
+	size=small,
+	boxrule=1pt,
+	title=Bilješka,
+	halign title=flush center,
+	coltitle=black,
+	breakable,
+	drop shadow=black!50!white,
+	attach boxed title to top left={xshift=1cm,yshift=-\tcboxedtitleheight/2,yshifttext=-\tcboxedtitleheight/2},
+	minipage boxed title=1.5cm,
+	boxed title style={%
+			colback=white,
+			size=fbox,
+			boxrule=1pt,
+			boxsep=2pt,
+			underlay={%
+					\coordinate (dotA) at ($(interior.west) + (-0.5pt,0)$);
+					\coordinate (dotB) at ($(interior.east) + (0.5pt,0)$);
+					\begin{scope}
+						\clip (interior.north west) rectangle ([xshift=3ex]interior.east);
+						\filldraw [white, blur shadow={shadow opacity=60, shadow yshift=-.75ex}, rounded corners=2pt] (interior.north west) rectangle (interior.south east);
+					\end{scope}
+					\begin{scope}[gray!80!black]
+						\fill (dotA) circle (2pt);
+						\fill (dotB) circle (2pt);
+					\end{scope}
+				},
+		},
+	#1,
+}
