@@ -145,7 +145,6 @@ enhancing cryptographic methods, as well as creating new quantum cryptographic m
 Some of the more feasible ideas like BB84\cite{BB84} E91 \cite{E91}, and BBM92 \cite{Bennett_Brassard_Mermin_1992} of which now there exist many
 devices for a commercial setting, and a large amount of research has been done in improving and fine tuning these methods and 
 also providing proofs of security \cite{Rusca_Boaron_Curty_Martin_Zbinden_2018,Rusca_Boaron_Grünenfelder_Martin_Zbinden_2018}.
-
 Unlike prepare-and-measure protocosl like BB84, in order for some of these new methods (E91 and BBM92) to be used in applications there needs to exist sources of entanglement.
 After one of the first \cite{Kwiat_1995} demonstrations of a high intensity polarization entangled source was realized it also became
 apparent that they can be fully done on chip \cite{S_G_S_C_F_B_L_G_B_2022} for frequency-bin entanglement, polarization entangled \cite{L_Z_F_F_L_L_W_R_D_X_etal._2017}
@@ -159,17 +158,24 @@ Some notable mentions using a similar design with a Sagnac loop are by
 \cite{Neumann_Buchner_Bulla_Bohmann_Ursin_2022_PW,Chen_Ecker_Wengerowsky_Bulla_Joshi_Steinlechner_Ursin_2018_CW}.
 In these works the entanglement is "generated" due to an ambiguity of of the origin of the photons.
 There are also many linear, or single pass, designs such as \cite{Lee_Kim_Cha_Moon_2016,Kwiat_Mattle_Weinfurter_Zeilinger_Sergienko_Shih_1995}.
-Here, the entanglement is a product of ambiguity of momentum conservation, as only specific cross sections of the two generated light cones are indistinguishable.
-An important measure on wether a source is performing well is it's brightness and heralding. The brightness being a measure of how many "useful" photon pairs are produced,
-and the heralding being the probability, when measuring two photon correlations, of finding a correlated photon when detecting the 1st one.
-Both of these measures should be as high as possible in order to mitigate loss in fiber for fiber based networks,
-reduce preprocessing load, and for coupling to certain quantum devices such as quantum memories or repeaters.
-
-In the case of the current thesis I will use a 50 mm PPLN Type-0 SPDC crystal placed in a bulk Sagnac interferometer which will be bi-directionally pumped by a CW 780.24 nm laser.
+Here, the entanglement is a product of ambiguity of momentum conservation, as only specific cross sections of the two generated SPDC light cones are spatially indistinguishable.
+An important measure on wether a source is performing well is it's brightness, bandwidth, and heralding. The brightness being a measure of how many "useful" photon pairs are produced,
+bandwidth corresponds to how defined they are in frequency, as this is a limiting factor for certain interference measurements and also for coupling
+to quantum memories, and the heralding being the probability, when measuring two photon correlations,
+of finding a correlated photon when detecting the 1st one.
+Brightness and heralding should be as high as possible in order to mitigate loss in fiber for fiber based networks,
+reduce preprocessing load, and the bandidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters, 
+or for certain measurements as HBT and HOMI, which will need to be performed for a full characteristic of the source.
+In the case of the current thesis I will use a 50 mm PPLN Type-0 SPDC crystal placed in a bulk Sagnac interferometer which will be bi-directionally 
+pumped by a CW 780,24 nm laser. (explain this)
 % The laser will be stabilized by using a $Rb$ gas cell using atomic spectroscopy.
 The output beams of the crystals are rotated in polarization in such a way that both beams exit through the same output port of the Polarization Beam Splitter (PBS).
 The advantage of using SPDC for entanglement generation is that one can relatively efficiently generate the necesarry biphoton pairs compared to other methods (what are some other methods).
-% The main challenge thus far will be 
+% The main challenge thus far will be
+% Active polarization control
+Another important part of a Quantum Network is polarization control \cite{CCSHDCDRS}. In order to measure the correct states the 
+idea is to use an electronic polarization controller in the experimental network to create an algorithm which will be able to 
+ensure the correct polarization state is being received on the measurement stage.
 
 
 % TODO: First go over how to use SPDC for entanglement generation, advantages, disadvantages, types, ...
