@@ -41,8 +41,7 @@
 		{\LARGE \textbf{University of Ljubljana}} \\[0.1cm]
 		{\LARGE \textbf{Faculty of Mathematics and Physics}} \\[3cm]
 		{\large \textbf{Adrian Udovičić, mag. phys.}}\\[0.1cm]
-		{\large \textbf{Rainer O. Kaltenbaek, asoc. prof. dr.}}\\[5cm]
-		\vspace{2cm}
+		{\large \textbf{Rainer O. Kaltenbaek, asoc. prof. dr.}}\\[3cm]
 		{\LARGE \textbf{PhD topic proposal}} \\[0.1cm]
 		{\LARGE \textbf{Generating and teleporting entanglement for quantum networks}} \\[4cm]
 		{\large \textbf{Scientific field: Physics}} \\[0.1cm]
@@ -65,35 +64,25 @@
 
 In the rapidly advancing fields of quantum communication and quantum computing, sensing, and simulators
 the efficient transfer of secure quantum information is of great importance.
-% NOTE: Be more descriptive here if you're gonna use this. Change up the terminoligy, stick to one "processes" -> "experiments"
 A key quantum resource is entanglement, which facilitates experiments such as quantum teleportation and entanglement swapping.
 Conducting these experiments over long distances through optical fibers presents significant challenges due to transmission losses.
 To mitigate this, photons must be generated at wavelengths compatible with existing fiber-optic networks,
-particularly in the C near-infrared bands where transmission losses are minimal.
+particularly in the C near-infrared band where transmission losses are minimal.
 These advances contribute to the broader goal of realizing quantum networks,
-which require robust capabilities for generating and characterizing (afforementioned quantum processes) quantum coherence and entanglement.
-Such networks rely on quantum interconnects (maybe this is not the correct term for this), which convert quantum states between physical systems in a reversible manner,
+which require robust capabilities for generating and characterizing afforementioned quantum processes. %) quantum coherence and entanglement.
+Such networks rely on quantum interconnects, which convert quantum states between physical systems in a reversible manner,
 enabling the distribution of entanglement and the teleportation of quantum states across network nodes \cite{Kimble_2008}.
-Additionally, free-space communication methods are being explored for applications in metropolitan areas \cite{Kržić_et_al_2023}.
-\par To maximize the efficiency of these telecom networks for multiple users,
-the available bandwidth is divided into many frequency channels using Dense Wavelength Division Multiplexing (DWDM).
-% NOTE: Move this to methodology or something
-The focus of this thesis is to implement a Sagnac interferometer source of polarization-entangled photons centered around 1560 nm,
-designed to be sufficiently broadband to accommodate multiple DWDM frequency channels.
-These photons will be generated via Spontaneous Parametric Down-Conversion \cite{jesseSPDC} (SPDC) from a
-50 mm (DETAILS LATER) periodically poled lithium niobate (PPLN) nonlinear crystal located at the center of the interferometer.
-The source will first be implemented and characterized in the laboratory through techniques such as Quantum State Tomography (QST),
-Clauser-Horne-Shimony-Holt (CHSH) inequality measurements \cite{Clauser_Horne_Shimony_Holt_1969},
-Hanbury-Brown and Twiss (HBT) interferometry \cite{Brown_Twiss_1954}, and Hong-Ou-Mandel (HOM) interferometry \cite{Hong_Ou_Mandel_1987}.
-Subsequently, quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
-and entanglement swapping \cite{Jennewein_Weihs_Pan_Zeilinger_2001} experiments will be conducted in collaboration with the Jožef Stefan Institute,
-which will develop an identical entanglement source as a part of the collaboration.
-
-These efforts are foundational for the development of quantum repeaters, a critical component for the future global quantum internet.
+Additionally, free-space communication methods \cite{Kržić_et_al_2023} are being explored for applications in metropolitan areas.
+\par While these technologies are essential for local and metropolitan quantum networks, scaling to a global level requires overcoming
+the inherent limitations of photon loss over long distances. This is where quantum repeaters and high-yield entanglement sources
+play a critical role for the future global quantum internet.
 Quantum repeaters may enable the distribution of entanglement over arbitrarily long distances by overcoming exponential loss scaling,
-even in low-loss fiber networks where attenuation low. Without such repeaters, entanglement distribution is limited to distances 
-of only a few hundred kilometers. This thesis aims to achieve not only the first realization of a high-yield polarization entanglement
-source at non-degenerate frequencies in Slovenia but also to demonstrate quantum teleportation and entanglement swapping.
+even in fiber networks where attenuation is low. Without such repeaters, entanglement distribution is limited to distances
+of only a few hundred kilometers.
+\par This work seeks to establish the technical bedrock for future scalable quantum networks. These efforts do not exist in isolation;
+they directly feed into the broader mission of transforming theoretical quantum advantages into real-world systems.
+I aim to achieve not only the first realization of a high-yield polarization entanglement source at non-degenerate
+frequencies in Slovenia but also to demonstrate quantum teleportation and entanglement swapping.
 Ongoing research efforts aim to bridge the gap between theoretical advancements and practical applications,
 driving the quest for more efficient and accessible quantum systems that could transform various sectors,
 including telecommunications and healthcare. As these technologies mature, they are poised to redefine our
@@ -105,62 +94,42 @@ understanding of information processing and secure communications in the quantum
 % • Briefly summarise the state-of-the-art. Review and briefly analyse the relevant literature including the most recent research in the area.
 % • Explain how the proposed topic leads on from existing research, and outline the importance of the proposed line of research and the challenges it poses.
 % • Explain the relevance and timeliness of the proposed research in the context of the literature reviewed above.
-% Think of this as the "big picture" view of where the field currently stands.
-% Highlight key milestones in quantum communication and entanglement-based research. For example:
-% Mention notable developments in entangled photon sources, including Sagnac interferometers and SPDC.
-% Discuss existing quantum teleportation and entanglement swapping experiments, especially those that have focused on telecom wavelengths.
-% Reference the challenges of entanglement distribution in fiber networks and the steps taken toward realizing quantum repeaters and networks.
-Quantum entanglement sources are pivotal components in the field of quantum mechanics, enabling the generation of entangled states 
-that are essential for a range of applications, including quantum computing, cryptography, and communication.
-These sources can produce pairs of entangled photons through various techniques, such as Spontaneous Parametric Down-Conversion (SPDC),
-cavity-enhanced configurations, and quantum dot mechanisms. The ability to create reliable and efficient entangled states
-has garnered significant interest due to their implications for advancing quantum technologies and facilitating secure information transfer 
-across long distances.
-The field has witnessed rapid advancements, particularly in the development of innovative materials and techniques that enhance the 
+Quantum entanglement sources are pivotal components in the field of quantum mechanics, enabling the generation of entangled states
+that are essential for a range of applications, including quantum computing, cryptography, simulations, and communication.
+These sources can produce pairs of entangled photons through various techniques such as cavity-enhanced configurations,
+quantum dot mechanisms, and by far the most widely used method being Spontaneous Parametric Down-Conversion (SPDC).
+The ability to create reliable and efficient entangled states has garnered significant interest due to their 
+implications for advancing quantum technologies and facilitating secure information transfer across long distances.
+\par The field has witnessed rapid advancements, particularly in the development of innovative materials and techniques that enhance the
 performance of entanglement sources. Recent breakthroughs, including quantum repeaters and high-fidelity entanglement distribution methods,
 have addressed challenges related to signal loss and fidelity in quantum communication networks.
 Despite these advances, challenges remain in terms of scalability, resource efficiency, and operational reliability.
 Many existing systems struggle to meet the demands for large-scale entanglement required for practical applications,
 with issues such as room temperature operation and the complexity of quantum protocols posing significant hurdles.
 The importance of entanglement sources in the realm of quantum technologies cannot be overstated,
-as they serve as the foundation for cutting-edge innovations in quantum communication, computing, and security.
-% Rephrase this: Since the idea of using entanglement for a means of superluminal communication has been debunked \cite{Dieks_1982} there have been a great efforts
-% in finding ways to circumvent these restrictions, not in hopes of breaking causality, but in secure commuication between two parties and 
-% enhancing cryptographic methods, as well as creating new quantum cryptographic methods of encoding data.
-Some of the more feasible ideas like BB84 \cite{BB84} E91 \cite{E91}, and BBM92 \cite{Bennett_Brassard_Mermin_1992} of which now there exist many
-devices for a commercial setting, and a large amount of research has been done in improving and fine tuning these methods and 
-also providing proofs of security \cite{Rusca_Boaron_Curty_Martin_Zbinden_2018,Rusca_Boaron_Grünenfelder_Martin_Zbinden_2018}.
-Unlike prepare-and-measure protocosl like BB84, in order for some of these new methods (E91 and BBM92)
-to be used in applications there needs to exist sources of entanglement. After one of the first \cite{Kwiat_1995} demonstrations of a high-intensity
-polarization entangled source was realized it also became apparent that they can be fully done on chip \cite{S_G_S_C_F_B_L_G_B_2022} for
-frequency-bin entanglement, polarization entangled \cite{L_Z_F_F_L_L_W_R_D_X_etal._2017} and also for hybrid frequency-polarization
-entangled states \cite{F_R_D_F_L_M_A_B_D_2023}. Latest research in this field is advancing quickly, specifically for Pulsed Laser (PL) sources which offer higher peak
-power and fewer synchronization constraints. 
-% NOTE: (Change this as it's not true apparently) 
-There are fewer such papers for Continous Wave laser (CW) sources which have lower power and require higher levels of synchronization as
-well as postprocessing as we plan to use. A benefit to using CW as compared to PW is less maintainace, for instance in an industrial or government
-setting where access may be limited. Another benefit would be the ability to store data for postprocessing pourpuses (meh).
-Some notable mentions using a similar design with a Sagnac loop are by
-\cite{Neumann_Buchner_Bulla_Bohmann_Ursin_2022_PW,Chen_Ecker_Wengerowsky_Bulla_Joshi_Steinlechner_Ursin_2018_CW}.
-In these works the entanglement is generated due to an ambiguity of of the origin of the photons.
-There are also many linear, or single pass, designs such as \cite{Lee_Kim_Cha_Moon_2016,Kwiat_Mattle_Weinfurter_Zeilinger_Sergienko_Shih_1995}.
-Here, the entanglement is a product of ambiguity of momentum conservation, as only specific cross sections of the two generated SPDC light cones are spatially indistinguishable.
-An important measure on wether a source is performing well is it's brightness, bandwidth, and heralding. The brightness being a measure of how many "useful" photon pairs are produced,
-bandwidth corresponds to how defined they are in frequency, as this is a limiting factor for certain interference measurements and also for coupling
-to quantum memories, and the heralding being the probability, when measuring two photon correlations,
-of finding a correlated photon when detecting the 1st one.
+as they serve as the foundation for cutting-edge innovations in the quantum information fields.
+\par After one of the first \cite{Kwiat_1995} demonstrations of a high-intensity polarization entangled source was realized it also
+became apparent that they can be fully done on chip \cite{S_G_S_C_F_B_L_G_B_2022} for frequency-bin entanglement,
+polarization entangled \cite{L_Z_F_F_L_L_W_R_D_X_etal._2017} and also for hybrid frequency-polarization
+entangled states \cite{F_R_D_F_L_M_A_B_D_2023}. Latest research in this field is advancing quickly, specifically for
+Pulsed Laser (PL) sources which offer higher peak power and fewer synchronization constraints.
+A benefit to using Continous Wave lasers (CW) as compared to PW is less maintainace and lower cost, for instance in an industrial or government
+setting where access may be limited. Some notable mentions using a similar design with a Sagnac loop
+\cite{Neumann_Buchner_Bulla_Bohmann_Ursin_2022_CW,Chen_Ecker_Wengerowsky_Bulla_Joshi_Steinlechner_Ursin_2018_CW}
+in which the entanglement is generated due to an ambiguity of the origin of the photons.
+There are also many linear, or single pass, designs such as \cite{Lee_Kim_Cha_Moon_2016,Kwiat_Mattle_Weinfurter_Zeilinger_Sergienko_Shih_1995}
+where the entanglement is a product of ambiguity of momentum conservation, as only specific cross sections of the two generated SPDC light
+cones are spatially indistinguishable.
+\par An important measure on wether a source is performing well is its brightness, bandwidth, and heralding \cite{Bennink_2010,Ljunggren_Tengner_Marsden_Pelton_2006}.
+The brightness being a measure of how many photon pairs are produced, bandwidth corresponds to how defined they are in frequency,
+as this is a limiting factor for certain interference measurements and also for coupling to quantum memories,
+and the heralding being the probability, when measuring two photon correlations, of finding a correlated photon when detecting the 1st one.
 Brightness and heralding should be as high as possible in order to mitigate loss in fiber for fiber based networks,
-reduce preprocessing load, and the bandidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters, 
+reduce preprocessing load, and the bandwidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters,
 or for certain measurements as HBT and HOM, which will need to be performed for a full characterisation of the source.
 % NOTE: What you want to do, how to do it, why important and how different from others
-In the case of the current thesis I will use a 50 mm PPLN Type-0 SPDC crystal placed in a bulk Sagnac interferometer which will be bi-directionally 
-pumped by a CW 780,24 nm laser. The pump will be set to a diagonal state ($\frac{1}{\sqrt{2}}(\ket{H} + \ket{V})$). On ariving to the 
-PBS the beam is split into two. The reflected ($\ket{V}$) beam first passes through a halfwaveplate in order to rotate the polarization from $\ket{H}$ to $\ket{V}$
-then through the crystal where it generates two $\ket{H}$ photons around 1560 nm, and then through the PBS $\ket{H}$ output where it gets combined 
-with the now two $\ket{V}$ photons from the counter propagating branch.
-The advantage of using SPDC for entanglement generation is that one can relatively efficiently generate the necesarry biphoton pairs 
-compared to other methods (what are some other methods).
-% The main challenge thus far will be
+The advantage of using SPDC for entanglement generation is that one can relatively efficiently generate the necesarry biphoton pairs
+compared to other methods. 
 
 \section{Statement of hypotheses, research questions and research goals}
 % (approximately one page)
@@ -173,52 +142,86 @@ compared to other methods (what are some other methods).
 % Doctoral research projects are usually based on around three main research hypotheses,
 % research questions or more detailed objectives, but this depends on the nature of the research.
 
+% NOTE: What you want to do, how to do it, why important and how different from others
+
+In the current state of the field there exist various sources which 
+Research hypotheses (H), research questions (R), and research goals (C)
+
+H1 - It is possible to build an enetanglement source which would be bright enough to supply the demand entangled photons with high fidelity to Bell States and
+high value of tangle.
+
+H2 - Be able to perform various quantum tests on specific combinations of DWDM channels and get satisfying results for the bandwidth which we can
+produce.
+
+C1 - Build a Sagnac source of entanglement and reach the currently know state of the art in performance metrics such as brightness and heralding. 
+This goal is directly connected to H1 
+
+% Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
+C2 - Once we have a fully working source, we need to characterize it using QST, CHSH, HBT, and HOM for different pairs of DWDM channels (references). Directly 
+% TODO Check frequency stabilization literature, doppler broadening, ..., PDH? Single pass, double pass, toptica homepage
+
+C3 - might need to introduce extra filtering -- 100 GHz not enough -> Filtering cavities
+Long-term stability, locking, ...? Demonstrate Quantum Teleportation within the lab, and Entanglement swapping (we will use the same $\Phi^+$ or $\Phi^-$ Bell state,
+then perform a Bell measurement on each part of the pair) with IJS, IJS Reactor, Beyond Semiconductor, where to do
+long distance stuff (need fibers) other distant parties,
+
+C4* - Free space application using OAM modes, try to do entanglement in this regime?? topological photons
+Put an SLM in one branch of the Sagnac and generate also OAM modes
+Currently source creates Polarization and Frequency entanglement, adding the SLM thin film would make it a 3 for 1 source. A pulsed laser source would give
+also the possibility of time bin entanglement.
+
+% NOTE: Possibly put this in the future \ket{H;+;\omega_s}\ket{H;+;\omega_i}+\ket{V;-;\omega_s}\ket{V;-;\omega_i}
+
 \newpage
 \section{Outline of research and research methods}
 % (approximately one page)
 % • Briefly outline the research and the planned research methodology.
 % • Provide a more detailed outline of the planned research and its methodology; for example, approaches, methods (e.g., theoretical, experimental, simulation), phases of research, if applicable, also the planned scheduling of the phases.
 
+
+% NOTE: Why use CW instead of Pulsed Wave (PW)?
+Why use CW instead of Pulsed Wave (PW)?
+The focus of this thesis is to implement a Sagnac interferometer source of polarization-entangled photons centered around 1560 nm,
+designed to be sufficiently broadband to accommodate multiple DWDM frequency channels.
+These photons will be generated via SPDC \cite{jesseSPDC} from a
+50 mm periodically poled lithium niobate (PPLN) nonlinear crystal located at the center of the interferometer.
+The source will first be implemented and characterized in the laboratory through techniques such as QST,
+CHSH inequality measurements \cite{Clauser_Horne_Shimony_Holt_1969},
+HBT interferometry \cite{Brown_Twiss_1954}, and HOM interferometry \cite{Hong_Ou_Mandel_1987}.
+Subsequently, quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
+and entanglement swapping \cite{Jennewein_Weihs_Pan_Zeilinger_2001} experiments will be conducted in collaboration with the Jožef Stefan Institute,
+% NOTE: Maybe write the group names here
+which will develop an identical entanglement source as a part of the collaboration.
+We will use a Continous Wave (CW) 780 nm Toptica DLPro laser to pump a 50 mm nonlinear PPLN crystal which is phase matched for Type-0 SPDC ($e_{pump} \rightarrow e_{signal} + e_{idler}$, e meaning extraordinary polarization)
+for generating entangled photons.
+An existing Dark Fiber (DF) will be used for network testing once all of the local tests have been made, including QST, HBT, and HOM.
+
+The DFs location is currently undisclosed.
+
+In the case of the current thesis I will use a 50 mm PPLN Type-0 SPDC crystal placed in a bulk Sagnac interferometer which will be bi-directionally
+pumped by a CW 780,24 nm laser. The pump will be set to a diagonal state ($\frac{1}{\sqrt{2}}(\ket{H} + \ket{V})$). On ariving to the
+PBS the beam is split into two. The reflected ($\ket{V}$) beam first passes through a halfwaveplate in order to rotate the polarization from $\ket{V}$ to $\ket{H}$
+then through the crystal where it generates two $\ket{H}$ photons around 1560 nm, and then through the PBS $\ket{H}$ output where it gets combined
+with the now two $\ket{V}$ photons from the counter propagating branch.
+
+% NOTE: Somewhere when talking about the generated photons
+To maximize the efficiency of these telecom networks for multiple users,
+the available bandwidth is divided into many frequency channels using Dense Wavelength Division Multiplexing (DWDM).
+
+% TODO: How to stabilize the 780 laser to the Rubidium Gas Cell, some references for locking and such which we plan to use
 To ensure stability, the pump laser wavelength will be locked to an absorption line in Rubidium gas using atomic spectroscopy via the $^{87}Rb$ $D_2$ transition \cite{metger2017sas}.
 The entanglement will be generated by bi-directionally pumping the PPLN crystal in the center of the Sagnac interferometer,
 introducing photon indistinguishability essential for these protocols.
 
-We will use a Continous Wave (CW) 780 nm Toptica DLPro laser to pump a 50 mm nonlinear PPLN crystal which is phase matched for Type-0 SPDC (e $\rightarrow$ e + e, e meaning extraordinary polarization)
-for generating entangled photons.
-An existing Dark Fiber (DF) will be used for network testing once all of the local tests have been made, including QST, HBT, and HOM.
-The DFs location is currently undisclosed.
-
-Goal 0 - Build a Sagnac source of entanglement and reach the currently know state of the art in performance metrics such as brightness and heralding.
-
-Goal 1 - Once we have a fully working source, we need to characterize it using QST, CHSH, HBT, and HOM for different pairs of DWDM channels (references).
-% TODO Check frequency stabilization literature, doppler broadening, ..., PDH? Single pass, double pass, toptica homepage
-
-Goal 2 - might need to introduce extra filtering -- 100 GHz not enough -> Filtering cavities
-Long-term stability, locking, ...? Demonstrate Quantum Teleportation within the lab, and Entanglement swapping (we will use the same $\Phi^+$ or $\Phi^-$ Bell state,
-then perform a Bell measurement on each part of the pair) with IJS, IJS Reactor, Beyond Semiconductor, where to do
-long distance stuff (need fibers) other distant parties,
-
-TODO: What is the work based on? Neumanns paper, introduce Bennik and Boyd for parameters,....
-
-Goal 3 - Free space application using OAM modes, try to do entanglement in this regime?? topological photons
-Put an SLM in one branch of the Sagnac and generate also OAM modes
-Currently source creates Polarization and Frequency entanglement, adding the SLM thin film would make it a 3 for 1 source. A pulsed laser source would give 
-also the possibility of time bin entanglement.
-
-$\ket{H;+;\omega_s}\ket{H;+;\omega_i}+\ket{V;-;\omega_s}\ket{V;-;\omega_i}$
-
-Why use CW instead of Pulsed Wave (PW)?
 Advantages of Continuous Wave compared to Pulsed Laser entanglement sources:
+% TODO: Talk about how to do this
 How to then generate entanglement
-How to stabilize the 780 laser to the Rubidium Gas Cell, some references for locking and such which we plan to use
-Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
 
 % Active polarization control
-Another important part of a Quantum Network is polarization control \cite{CCSHDCDRS}. In order to measure the correct states the 
-idea is to use an electronic polarization controller in the experimental network to create an algorithm which will be able to 
+Another important part of a Quantum Network is polarization control \cite{CCSHDCDRS}. In order to measure the correct states the
+idea is to use an electronic polarization controller in the experimental network to create an algorithm which will be able to
 ensure the correct polarization state is being received on the measurement stage.
 
-\newpage
 \section{Expected results and original contributions to science}
 % (approximately one side)
 % • State the expected results of the research.
@@ -233,14 +236,13 @@ Maybe need a compromise between integrading and stuff
 Depending on visibility of the HOM this reduces the tangle of the source and whatnot
 Check when visibility destroys entanglement
 
-Original contributions: More engineering - filtering, jitter, 
+Original contributions: More engineering - filtering, jitter,
 Getting good SNR with CW -> In future maybe go to PL - working principle may be the same and might bring great imrpovement of HOM
 
 Currently making good progress with brightness - but needs improvement of coupling/heralding
 
 Working together with a company (mention maybe the experimental network from SiQuid)
 
-\newpage
 \section{Draft plan for management of research data}
 % (Note the data management plan is a required part of the "dispozicija" from 1/10/2021.)
 % (approximately half a page)
@@ -248,6 +250,8 @@ Working together with a company (mention maybe the experimental network from SiQ
 % • Declare in which data repositories research data is expected to be made available, how the data will be organised,
 % etc. (* For more information, see Article 50 of the Rules on Doctoral Study at the University of Ljubljana since 2020, copied below,
 % as well as other relevant published instructions of the University of Ljubljana.).
+
+\newpage
 \bibliographystyle{IEEEtran}
 \bibliography{reference}
 \end{document}
