@@ -51,14 +51,14 @@
 
 		{\bf \Large Ustvarjanje in teleportiranje prepletenosti za kvantna omrežja}\\
 		\vspace{1cm}
-		
+
 		{\bf \Large Generating and teleporting entanglement for quantum networks}\\
-		
-		
+
+
 		\vspace{3cm}
-		
+
 		{\large ADVISER: Rainer O. Kaltenbaek, assoc. prof. dr.\\
-		
+
 		\vspace{2cm}
 		Znanstveno področje: Fizika\\
 		\vspace{1cm}
@@ -74,7 +74,7 @@
 \pagenumbering{roman}
 
 \vspace{1cm}
-    
+
 \noindent Senat UL FMF\\
     Fakulteta za matematiko in fiziko\\
     Jadranska ulica 19\\
@@ -180,12 +180,12 @@ I hope this message finds you well. I am writing to formally request permission 
 As an international student and non-native speaker of Slovenian, I believe that completing my thesis in English would be beneficial for both academic and practical reasons.
 Firstly, English is the primary language in my field of study, and the majority of relevant literature, research articles, and publications are available in English.
 Writing my thesis in English would enable me to engage more directly with this body of work and ensure that my research is positioned within the global academic discourse.
-Secondly, my supervisor, Assoc. Prof. Dr. Rainer Oliver Kaltenbaek, who is also a non-native speaker of Slovenian, has advised that conducting and evaluating the research in 
-English would facilitate clearer communication and collaboration throughout the thesis process. Furthermore, writing in English would allow for smoother peer review 
+Secondly, my supervisor, Assoc. Prof. Dr. Rainer Oliver Kaltenbaek, who is also a non-native speaker of Slovenian, has advised that conducting and evaluating the research in
+English would facilitate clearer communication and collaboration throughout the thesis process. Furthermore, writing in English would allow for smoother peer review
 and potential publication in international journals.
 Lastly, most, if not all of the literature that I am using in my doctoral studies are in English and I believe it would slow down my progress to translate
 all of the terminoligy and nomenclature to Slovenian.
-I greatly appreciate your understanding and consideration of this request. I am confident that writing my thesis in English will enhance its academic 
+I greatly appreciate your understanding and consideration of this request. I am confident that writing my thesis in English will enhance its academic
 impact and contribute positively to my development as a researcher. Please let me know if further clarification or documentation is required to support this appeal.
 Thank you for your time and attention. I look forward to your response.
 
@@ -205,7 +205,7 @@ adrian.udovicic@fmf.uni-lj.si
 \pagestyle{plain}
 
 \begin{center}
-  \textbf{\Large Disposition of doctoral dissertation (in English)}  
+  \textbf{\Large Disposition of doctoral dissertation (in English)}
 \end{center}
 
 %-----------------------------------------------------------------------------------------------
@@ -240,7 +240,7 @@ enabling the distribution of entanglement and the teleportation of quantum state
 Additionally, free-space communication methods \cite{Kržić_et_al_2023} are being explored for applications in metropolitan areas.
 \par While these technologies are essential for local and metropolitan quantum networks, scaling to a global level requires overcoming
 the inherent limitations of photon loss over long distances. This is where quantum repeaters and high-yield entanglement sources
-play a critical role for the future global quantum internet. High-yield entanglement sources in in-between nodes, coupled to 
+play a critical role for the future global quantum internet. High-yield entanglement sources in in-between nodes, coupled to
 quantum repeaters may enable the distribution of entanglement over arbitrarily long distances by overcoming exponential loss scaling,
 even in fiber networks where attenuation is low. Without such sources and repeaters, entanglement distribution is limited to distances
 of only a few hundred kilometers.
@@ -266,7 +266,7 @@ quantum dot mechanisms, and by far the most widely used method being Spontaneous
 The ability to create reliable and efficient entangled states has garnered significant interest due to their
 implications for advancing quantum technologies and facilitating secure information transfer across long distances.
 \par The field has witnessed rapid advancements, particularly in the development of innovative materials and techniques that enhance the
-performance of entanglement sources. Recent breakthroughs, including quantum repeaters and high-fidelity entanglement distribution methods,
+performance of entanglement sources. Recent breakthroughs, including quantum repeaters and high-yield entanglement distribution methods,
 have addressed challenges related to signal loss and fidelity in quantum communication networks.
 Despite these advances, challenges remain in terms of scalability, resource efficiency, and operational reliability.
 Many existing systems struggle to meet the demands for large-scale entanglement required for practical applications,
@@ -294,9 +294,15 @@ Brightness and heralding should be as high as possible in order to mitigate loss
 reduce preprocessing load, and the bandwidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters,
 or for certain measurements as HBT and HOM, which will need to be performed for a full characterisation of the source.
 We will also perform Quantum State Tomography (QST) measurements, and CHSH inequality measurements \cite{Clauser_Horne_Shimony_Holt_1969}.
-% NOTE: What you want to do, how to do it, why important and how different from others
 The advantage of using SPDC for entanglement generation is that one can relatively efficiently generate the necesarry biphoton pairs
 compared to the other methods mentioned above.
+
+% NOTE: What you want to do, how to do it, why important and how different from others
+We want to build a new high-yielding source of entangled photons which can later be used as part of a research network
+for conducting multiple experiments simultaneously. It should be braod enough to supply these demands, and bright enough
+that further filtering does not diminish the signal to an unusable amount. This will become important for future quantum
+networks as well, as they may require narrower bandwiths for efficient coupling to quantum memories or quantum repeaters.
+
 
 \section{Statement of hypotheses, research questions and research goals}
 % (approximately one page)
@@ -312,25 +318,26 @@ compared to the other methods mentioned above.
 % NOTE: What you want to do, how to do it, why important and how different from others
 
 % In the current state of the field there exist various sources which
-The thesis goal is to produce a high-fidelity broadband source of entanglement for use in
-Quantum Networks. There a great demand for this in order for future Quantum Networks to be able
-to supply multiple users. The source is supposed to be broadband enough to supply a large amount of 
-users roughly with the same efficiency.
-The thesis can be separated into two hypotheses (H), two research questions (R), and two research goals (C).
-
-H1 - It is possible to build an enetanglement source which would be bright enough to supply the demand of entangled photons with high
-fidelity to Bell States and high tangle, and also broadband enough to supply multiple users.
+The thesis goal is to produce a high-yield broadband source of entanglement for use in
+Quantum Networks, and also as part of a research network. There is a great demand for this in order for future 
+Quantum Networks to be able to supply multiple users. The source is supposed to be broadband enough to facilitate
+many experiments and also possibly supply a large amount of users with roughly the same efficiency.
+% The thesis can be separated into two hypotheses (H), two research questions (R), and two research goals (C).
 
 % H2 - Be able to perform various quantum tests on specific combinations of DWDM channels and get satisfying results for the bandwidth
 % which we can produce.
 
+
+C1 - Build an enetanglement source which would be bright enough to supply entangled photons with high
+fidelity to Bell States and high tangle, and also broadband enough to supply multiple experiments and users in the lab.
+
 R1 - Can we obtain better results than the current state of the art with current technologies?
 
-R2 - Is it possible by using the DWDM channels, which are 100 GHz bandwidth channels, to perform certain interferometric 
+R2 - Is it possible by using the DWDM channels, which are 100 GHz bandwidth channels, to perform certain interferometric
 measurements such as HBT or HOM?
 
-C1 - Build a Sagnac source of entanglement and reach the currently know state of the art in performance metrics such as brightness and heralding,
-characterize it using QST, CHSH, HBT, and HOM for different pairs of DWDM channels.
+% C1 - Build a Sagnac source of entanglement and reach the currently know state of the art in performance metrics such as brightness and heralding,
+% characterize it using QST, CHSH, HBT, and HOM for different pairs of DWDM channels.
 
 % TODO: Check frequency stabilization literature, doppler broadening, ...? Single pass, double pass, toptica homepage
 
@@ -358,28 +365,28 @@ The focus of this thesis is to implement a Sagnac interferometer source of polar
 designed to be sufficiently broadband to accommodate multiple Dense Wavelength Division Multiplexing (DWDM) frequency channels.
 In the case of the current thesis I will use a 50 mm Periodically polled Lithium Niobate (PPLN)
 Type-0 SPDC \cite{jesseSPDC} ($e_{pump} \rightarrow e_{signal} + e_{idler}$,
-e meaning extraordinary polarization) crystal placed in a Sagnac interferometer 
+e meaning extraordinary polarization) crystal placed in a Sagnac interferometer
 which will be bi-directionally pumped by a CW 780.24 nm laser.
 \par The pump will be set to a diagonal polarization state ($\frac{1}{\sqrt{2}}(\ket{H_{pump}} + \ket{V_{pump}})$). On ariving to the
-PBS the beam is split into two. The reflected ($\ket{V_{pump}}$) beam first passes through a halfwaveplate in order to rotate the 
+PBS the beam is split into two. The reflected ($\ket{V_{pump}}$) beam first passes through a halfwaveplate in order to rotate the
 polarization from $\ket{V_{pump}}$ to $\ket{H_{pump}}$, as is required by phase matching conditions (reference), then through
 the crystal where it generates two $\ket{H_{signal\ (idler)}}$ photons around 1560 nm, and then through the PBSs $\ket{H}$ output where it gets combined
 with the now two $\ket{V_{signal\ (idler)}}$ photons from the counter propagating branch.
 After the two bi-photon pairs pass through the PBS they are reflected by a dichroic mirror, and diverted into a collimating lens
-after which they are finally coupled into fiber. The photons from opposing directions will then be in a 
+after which they are finally coupled into fiber. The photons from opposing directions will then be in a
 $\Phi = \frac{1}{\sqrt{2}}\left( \ket{H_{signal}H_{idler}} + e^{i \phi}\ket{V_{signal}V_{idler}}\right)$ Bell state.
 In order to choose any of the four available Bell states (including the two complex ones), in the pump beam path, we will have
 a relative phase setter between the two counterpropagating paths, consisting of a two quarter-wave plates (QWP), and a half-wave plate (HWP) between them.
 The QWPs are set to $\frac{\pi}{4}$, and the HWP is used to set the appropriate phase to select one of the $\Phi$ Bell states.
 % DONE Mention at the end that we can set any arbitrary phase of the pump such that we can get any of the two (+ two) $\Phi$ Bell states.
 
-% NOTE: Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
-% NOTE: Somewhere when talking about the generated photons
+% NOTE/DONE: Introduce HBT, HOM, Teleportation, Entanglement Swapping, Zeillinger, Rainer, others,
+% NOTE/DONE: Somewhere when talking about the generated photons
 To maximize the efficiency of these telecom networks for multiple users, the available bandwidth (approximately 7400 GHz, or 60 nm)
 is divided into many frequency channels using a DWDM.
 For all of the tests a DWDM of roughly 100 GHz channel bandwidth, or 0.81 nm, will be used. For simply checking wether the source
 produces entangled pairs it is enough to do a CHSH measurements. We have chosen to do this in the linear basis as it requires
-only two half-wave plates (HWP) and two PBSs. The measurement basis for this are on each channel are offset by $\frac{\pi}{8}$. After this 
+only two half-wave plates (HWP) and two PBSs. The measurement basis for this are on each channel are offset by $\frac{\pi}{8}$. After this
 we will perform a QST measurement to reconstruct \cite{James_Kwiat_Munro_White_2001} the density matrix of the entangled state.
 In order to measure the actual bandwidth of our DWDM channels a HBT measurement will be performed, and also a HOM measurement.
 Subsequently, quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
