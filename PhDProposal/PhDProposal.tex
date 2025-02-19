@@ -222,74 +222,69 @@ A key quantum resource is entanglement, which enables experiments such as quantu
 Conducting these experiments over long distances through optical fibers presents significant challenges due to transmission losses.
 To mitigate this, photons must be generated at wavelengths compatible with existing fiber-optic networks,
 particularly in the C band (near-infrared) where transmission losses are minimal.
-One also has to use standard Wavelength Division Multiplexing due to high traffic of
-such networks.
-These advances contribute to the broader goal of realizing quantum networks,
-which require robust capabilities for generating and characterizing aforementioned quantum processes.
-Such networks rely on the distribution of entanglement and the teleportation of quantum states across network nodes \cite{Kimble_2008}.
+One also has to use standard Wavelength Division Multiplexing due to high traffic of such networks.
+% These advances contribute to the broader goal of realizing quantum networks,
+% which require robust capabilities for generating and characterizing aforementioned quantum processes.
+The requirements to the advancement of the field would be robust generation and characterization of the aforementioned quantum processes.
+Future quantum networks may rely on the distribution of entanglement and the teleportation of quantum states across network nodes \cite{Kimble_2008}.
 Additionally, in areas where fiber connections are sparse,
-free-space communication methods \cite{Kržić_et_al_2023} are being explored for applications in metropolitan areas. Sometimes,
+free-space communication methods are being explored for applications in metropolitan areas \cite{Kržić_et_al_2023}. Sometimes,
 these solutions are more practical and cost effective.
 \par While these technologies are essential for local and metropolitan quantum networks, scaling to a global level requires overcoming
 the inherent limitations of photon loss over long distances. This is where quantum repeaters and high-yield entanglement sources
-play a critical role for the future global quantum internet. High-yield entanglement sources in in-between nodes, coupled to % NOTE: Explain this a bit more maybe
-quantum repeaters may enable the distribution of entanglement over arbitrarily long distances by overcoming exponential loss scaling in fiber.
+will play a critical role for the future global quantum internet.
+In particular, quantum repeaters rely on splitting distances into shorter segments. High-yield entanglement sources will distribute entanglement over these shorter segments.
+Quantum memories can be used to store that entanglement before it is teleported along adjoining segments.
+This way quantum repeaters can enable the distribution of entanglement over arbitrarily long distances by overcoming exponential loss in fibers.
 With no such in between nodes, entanglement distribution via fiber networks would be limited to distances of only a few hundred kilometers.
 \par This work seeks to establish the technical bedrock for future scalable quantum networks. These efforts do not exist in isolation;
 they directly feed into the broader goal of transforming theoretical quantum advantages into real-world systems.
 I aim to achieve not only the first realization of a high-yield polarization entanglement source at non-degenerate
 frequencies in Slovenia but also to demonstrate quantum teleportation and entanglement swapping using
-continuous wave pump lasers which should be doable with the current technology. In the future, there is
-also a possibility of using a pulsed laser for increased swapping efficiency.
-Ongoing research efforts aim to bridge the gap between theoretical advancements and practical applications,
-driving the quest for more efficient and accessible quantum systems that could transform various sectors.
-As these technologies mature, they are poised to redefine our understanding of information
-processing and secure communications in the quantum era.
+continuous wave pump lasers.
+In the future we will aim to use a pulsed laser to increased the efficiency of entanglement swapping.
+% Ongoing research efforts aim to bridge the gap between theoretical advancements and practical applications,
+% driving the quest for more efficient and accessible quantum systems that could transform various sectors.
+% As quantum technologies mature, they are poised to redefine our understanding of information
+% processing and secure communications in the quantum era.
 \par\textbf{Key words: Quantum Entanglement, Quantum Communication, Entanglement Swapping}
 
 \section{Overview of related research and relevant literature}
 Quantum entanglement sources are pivotal components in the field of quantum technologies, enabling the generation of entangled states
-that are essential for a range of applications, including distributed quantum computing, cryptography, and communication.
+that are essential for a range of applications, including distributed quantum computing, quantum cryptography, and quantum communication.
 These sources can produce pairs of entangled photons through various techniques such as micro-ring resonators \cite{Wakabayashi_2015},
-quantum dot mechanisms \cite{Rota_2024}, and by far the most widely used method being Spontaneous Parametric Down-Conversion \cite{jesseSPDC} (SPDC).
+quantum dot \cite{Rota_2024}, and by far the most widely used method being Spontaneous Parametric Down-Conversion \cite{jesseSPDC} (SPDC).
 The ability to create reliable and efficient entangled states has garnered significant interest due to their
 implications for advancing quantum technologies and facilitating secure information transfer across long distances.
-\par After one of the first \cite{Kwiat_1995} demonstrations of a polarization entangled source was realized,
+\par After one of the first \cite{Kwiat_1995} demonstrations of a high-intensity polarization entangled source was realized,
 research in this field advanced quickly. Some notable mentions using a similar design with a Sagnac loop
 \cite{Neumann_Buchner_Bulla_Bohmann_Ursin_2022_CW,Chen_Ecker_Wengerowsky_Bulla_Joshi_Steinlechner_Ursin_2018_CW}
-in which the entanglement is generated due to an ambiguity of the origin of the photons being overlapped on the Polarization Beam-Splitter (PBS).
-There are also many linear, or single pass, designs such as \cite{Lee_Kim_Cha_Moon_2016,Kwiat_Mattle_Weinfurter_Zeilinger_Sergienko_Shih_1995}
-where the entanglement is a product of ambiguity of momentum conservation, as only specific cross sections of the two generated SPDC light
-cones are spatially indistinguishable.
-\par An important measure of whether a source is performing well is its brightness, bandwidth, and heralding \cite{Bennink_2010,Ljunggren_Tengner_Marsden_Pelton_2006}.
-The brightness being a measure of how many photon pairs are being produced, bandwidth corresponds to how well defined they are in frequency,
+in which the entanglement is generated due to the ambiguity of the origin of the photons overlapped at a Polarization Beam-Splitter (PBS).
+There are also many linear, or single-pass designs such as \cite{Lee_Kim_Cha_Moon_2016}
+where the entanglement is a result of the photon pairs originating from two overlapping cones of SPDC light.
+\par Important measures of a sources performance are its brightness, bandwidth, and heralding \cite{Bennink_2010,Ljunggren_Tengner_Marsden_Pelton_2006}.
+The brightness is a measure of how many photon pairs are being produced, bandwidth corresponds to how well defined they are in frequency,
 as this is a limiting factor for certain interference measurements like
-Hong Oh and Mandel (HOM) \cite{Hong_Ou_Mandel_1987}, and also for coupling to quantum memories,
+Hong, Ou, and Mandel (HOM) \cite{Hong_Ou_Mandel_1987}, and also for coupling to quantum memories,
 and the heralding being the probability, when measuring two photon correlations, of finding a correlated photon when detecting the 1st one.
 Brightness and heralding should be as high as possible in order to mitigate loss in fiber for fiber based networks,
 reduce preprocessing load, and the bandwidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters,
 or for measurements as HOM, which will need to be performed for a full characterisation of the source.
-Afterwards, one can also perform a Hanbury Brown and Twiss \cite{Brown_Twiss_1954} experiment to check the line width of the filtered photons.
-We will also perform Quantum State Tomography (QST) measurements, and CHSH inequality measurements \cite{Clauser_Horne_Shimony_Holt_1969}.
-\par One of the first \cite{Halder_Beveratos_Jorel_Zbinden_Simon_Scarani_Gisin_2007} experimental demonstrations of entanglement
+Afterwards, one can also perform a Hanbury-Brown and Twiss \cite{Brown_Twiss_1954} experiment to check the line width of the filtered photons.
+\par It was shown \cite{Zukowski_1993} that two independent entangled photon sources can be used to implement
+"event-ready" Einstein-Podolsky-Rosen (EPR) experiments \cite{EPR1935}, a scheme now known as entanglement swapping.
+This process allows two particles that have never directly interacted to become entangled by performing a
+joint measurement on their respective partners, effectively transferring entanglement from one pair to another.
+Among the first such realizations of entanglement swapping was performed using pulsed lasers \cite{Kaltenbaek_2006}.
+One of the first \cite{Halder_Beveratos_Jorel_Zbinden_Simon_Scarani_Gisin_2007} experimental demonstrations of entanglement
 swapping by use of Continuous Wave (CW) lasers has shown that it is entirely possible to not use pulsed lasers for this purpose, but with less efficiency.
 Afterwards, there were very few reports
 on this. Somewhat recently, two \cite{Samara_Maring_Martin_Raja_Kippenberg_Zbinden_Thew_2021,Tsujimoto_Tanaka_Iwasaki_Ikuta_Miki_Yamashita_Terai_Yamamoto_Koashi_Imoto_2018}
 interesting papers came out showing entanglement swapping using a micro-ring resonator and a PPLN waveguide. In the case of the micro-ring resonator, four-wave mixing
 was used in order to generate the entangled pairs in the two source setups, while in the case of the PPLN waveguide a single laser was used for pumping both SPDC crystals.
-To the best of my knowledge, we will be the first to try to show entanglement swapping by two completely independent bulk sources, using completely independent measurement
-and analysis tools while pumping with a CW laser.
-% TODO: Talk to Rainer about the one above
-\par We want to build a new high-yielding source of entangled photons which can later be used as part of a research network
-for conducting multiple experiments simultaneously. It should be broad enough to supply these demands, and bright enough
-that further filtering does not diminish the signal to an unusable amount. This will become important for future quantum
-networks as well, as they may require narrower bandwidths for efficient coupling to quantum memories or quantum repeaters.
-Pulsed Laser (PL) sources, which offer higher peak power and possibly fewer synchronization constraints.
-A benefit to using CW lasers as compared to pulsed lasers is less maintenance and lower cost, for instance in an industrial or government
-setting where access may be limited. This is the research path in which I will be going.
-The main reason for using a CW laser instead of a PL is due to our involvement in a EuroQCI project called the Slovenian
-Quantum Communication Infrastructure Demonstration (\href{https://siquid.fmf.uni-lj.si/}{SiQUID}). The source will be used also for various Quantum
-Key Distribution (QKD) protocols based on entanglement in the scope of the SiQUID project.
+% To the best of my knowledge, we will be the first to try to show entanglement swapping by two completely independent bulk sources, using completely independent measurement
+% and analysis tools while pumping with a CW laser.
+
 \par Another possible approach for the future is to miniaturize the source and create
 an on chip variant, as has been shown by different groups for frequency-bin entanglement \cite{S_G_S_C_F_B_L_G_B_2022},
 polarization entanglement \cite{L_Z_F_F_L_L_W_R_D_X_etal._2017}, and also for hybrid frequency-polarization
@@ -297,20 +292,24 @@ entangled states \cite{F_R_D_F_L_M_A_B_D_2023}.
 Creating a chip based source is another possible avenue for the future which may be explored at some time in our group.
 
 \section{Research questions and goals}
-The overarching goal of this thesis is to develop a high-yield,
-broadband source of entangled photons suitable for quantum networks and laboratory-based quantum research,
-as well as to demonstrate entanglement swapping with another completely independent source.
-Future quantum networks must be capable of supplying entangled photon pairs to multiple users with high fidelity and efficiency.
-This requires a source that is not only bright and stable but also spectrally broad enough to support multiple experiments and network nodes.
+This thesis aims to develop a high-yield, broadband source of entangled photons suitable for both
+laboratory-based quantum research and future quantum networks. A bright and spectrally broad source is essential for
+supporting multiple simultaneous experiments while ensuring that further spectral filtering does not reduce the signal to an unusable level.
+Such capabilities are particularly important for quantum networks, where narrower bandwidths are often required
+for efficient coupling to quantum memories and quantum repeaters. The primary motivation for using a
+continuous-wave (CW) laser instead of a pulsed laser (PL) stems from our involvement in the EuroQCI project,
+specifically the Slovenian Quantum Communication Infrastructure Demonstration (\href{https://siquid.fmf.uni-lj.si/}{SiQUID}),
+which focuses on entanglement-based Quantum Key Distribution (QKD) protocols. Additionally, this work will demonstrate
+entanglement swapping between two completely independent sources, a crucial step toward scalable quantum
+networks capable of distributing entangled photon pairs to multiple users with high fidelity and efficiency.
 The main goals (C) and questions (R) of this thesis are listed as follows:
 
-% TODO: Finish making this pretty
 \begin{minipage}{0.95\textwidth}
 	\begin{itemize}
 		\item[] \textbf{\textit{$\mathcal{C}$\textcal{1}}} - Develop a state of the art source of broadband entanglement that generates states with high tangle
 		      and fidelity to maximally entangled Bell states.
 		      The source should be bright enough to support multiple concurrent experiments and users in a research setting.
-		      It will also be used for a number of other experiments by different students in the group.
+		      It will also be used for a number of other experiments by other students in the group.
 
 		\item[] \textbf{\textit{$\mathcal{C}$\textcal{2}}} - Use the source to demonstrate quantum teleportation and entanglement swapping between independent
 		      sources at quantum nodes at FMF and JSI, contributing to the development of real-world quantum network architectures.
@@ -325,8 +324,10 @@ The main goals (C) and questions (R) of this thesis are listed as follows:
 		      % the bandwidth of the SPDC photons for the HOM interference measurement?
 
 		\item[] \textbf{\textit{$\mathcal{R}$\textcal{2}}} - Under which conditions can Dense Wavelength Division Multiplexing (DWDM) channels,
-		      each with a 100 GHz bandwidth, be utilized to perform quantum optical measurements such as HOM interference,
-		      and after filtering what would be the new bandwidth by performing a HBT experiment and brightness of the source for that channel?
+		      each with a 100 GHz bandwidth, be utilized to perform quantum optical measurements such as HOM interference?
+		      If not, what can be done in addition to observe HOM interference?
+		      After filtering what would be the new bandwidth and brightness of the source for that channel?
+		      % Try to find optimum between the two.
 	\end{itemize}
 \end{minipage}
 \par These objectives and research questions define the scope of this thesis,
@@ -347,40 +348,45 @@ with the now two $\ket{V_{\mathrm{signal}\ (\mathrm{idler})}}$ photons from the 
 
 After the two bi-photon pairs pass through the PBS they are reflected by a dichroic mirror, and diverted into a collimating lens
 after which they are finally coupled into single mode fiber. The photons from opposing directions will then be in a
-$\Phi = \frac{1}{\sqrt{2}}\left( \ket{H_{\mathrm{signal}}H_{\mathrm{idler}}} + e^{i \phi}\ket{V_{\mathrm{signal}}V_{\mathrm{idler}}}\right)$ Bell state.
+$\Phi = \frac{1}{\sqrt{2}}\left( \ket{H_{\mathrm{signal}}H_{\mathrm{idler}}} + e^{i \phi}\ket{V_{\mathrm{signal}}V_{\mathrm{idler}}}\right)$ Bell state\footnote{There
+	are four Bell states which form an orthonormal basis for two qubit systems
+	$\Psi^{+,-}=\frac{1}{\sqrt{2}}\left(\ket{HV} \pm \ket{VH}\right),\\\Phi^{+,-} = \frac{1}{\sqrt{2}} \left( \ket{HH} \pm \ket{VV} \right)\}$.}.
 In order to choose any of the two available Bell states, in the pump beam path, we will have
 a relative phase setter between the two counter propagating paths, consisting of a two quarter-wave plates (QWP), and a HWP between them.
 The QWPs are set to $\frac{\pi}{4}$, and the HWP is used to set the appropriate phase to select one of the $\Phi$ Bell states.
+
 \par To maximize the efficiency of these telecom networks for multiple users, the available bandwidth (approximately 7400 GHz, or 60 nm)
 is divided into many frequency channels using a DWDM.
-
-For all of the tests a DWDM of roughly 100 GHz channel bandwidth, or 0.81 nm, will be used. For simply checking whether the source
-produces entangled pairs it is enough violate the CHSH inequality. We have chosen to do this in the linear basis as it requires
-only two HWPs and two PBSs. The measurement basis' here are then offset by $\frac{\pi}{8}$. After this
+For all of the tests a DWDM of 100 GHz channel bandwidth, or roughly 0.81 nm, will be used.
+For simply checking whether the source produces entangled pairs it is enough
+to violate the Bell inequality by doing a CHSH \cite{Clauser_Horne_Shimony_Holt_1969} inequality.
+We have chosen to do this in the linear basis as it requires
+only two HWPs and two PBSs. The measurement bases here are then offset by $\frac{\pi}{8}$. After this
 we will perform a QST measurement to reconstruct \cite{James_Kwiat_Munro_White_2001} the density matrix of the entangled state.
-In order to measure the actual bandwidth of our DWDM channels a HBT measurement will be performed, and also a HOM measurement.
-Subsequently, quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
+In order to measure the actual bandwidth of our DWDM channels a HBT measurement will be performed.
+Subsequently, a HOM measurement will be conducted, as well as quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
 and entanglement swapping \cite{Jennewein_Weihs_Pan_Zeilinger_2001} experiments will be conducted in collaboration with the Jožef Stefan Institute (JSI)
 entanglement lab, who will develop a similar entanglement source with our assistance.
 
 To ensure stability, the pump laser wavelength will be locked to an absorption line in Rubidium gas using atomic spectroscopy
-via the $^{87}Rb$ $D_2$ transition \cite{metger2017sas}. A small percentage of the pump beam will be diverted into a separate
+via the $\mathrm{^{87}Rb\ D_2}$ transition \cite{metger2017sas}. A small percentage of the pump beam will be diverted into a separate
 setup where it will be further split into counter two propagating beams passing through a gas cell for cancelling Doppler broadening,
 and a reference beam going straight through the gas cell. The reference beam and one of the counter propagating signal beams will be
 coupled to a balanced photodiode, and the error signal will be fed into the laser controller for locking.
 
 In order for two distant parties to be able to measure the correct time tags for analysis, each party will have to synchronize
-to a reference. Options are currently being explored on how to exactly do this. A proposed idea is to use GPS clocks which are disciplined
-regularly in both locations which will be set as the external clock input of the time taggers. Currently, tests are being made
-to see whether this approach will works for us. Another idea was to use an atomic reference.%, but as one might imagine, these are an expensive solution.
+to a reference to minimize the relative timing jitter between measurements in the two labs. Options are currently being explored on how to exactly do this.
+A proposed idea is to use GPS clocks which are disciplined regularly in both locations which will be set as the external clock input of the time taggers.
+Currently, tests are being made to see whether this approach will works for us. Another idea was to use an atomic reference.
 
-Regarding the short distance free space test, we will likely engineer or buy a basic telescope sender and receiver station.
+Regarding the short distance free space test, we will likely engineer or buy basic telescope sender and receiver stations.
 We will follow the procedure developed here by \cite{Kržič_2024}. Upon completion, I will test entanglement swapping via free space
 link. This setup will be used primarily for another project of the group, where 1324 nm photons will be generated in a non-degenerate SPDC process
-along with 852 nm photons in order to couple to a quantum memory device built by JSI. For this purpose, they must teleport the entanglement from a local 852 nm photon
-generated by our group to the IJS group, and in order to do so we need the 1560 nm free space link continuous wave swapping protocol completed.
+along with 852 nm photons in order to couple to a quantum memory device built by JSI. For this purpose, they must send the 852 nm photon
+to the corresponding JSI group. This will also give us experience for the future if given the opportunity to create a connection between
+far away nodes via a ground-space-ground link.
 
-The last part of the thesis will be about active polarization control % via a closed loop algorithm such as neural networks.
+The last part of the thesis will be about active polarization control
 \cite{CCSHDCDRS}. In order to measure the correct states, the
 idea is to use an electronic polarization controller in the experimental network to create an algorithm which will be able to
 ensure the correct polarization state is being received on the measurement stage.
@@ -392,8 +398,9 @@ measurements at JSI will be performed using SNSPDs from Single Quantum.
 \section{Expected results and original contributions to science}
 Lastly, I will talk about the expected entanglement swapping rate that we hope to achieve, and also the HOM interference visibility, which
 is an important measurement for achieving entanglement swapping. Currently, without any optimizations in regards to heralding
-or brightness the source is capable of producing around 35000 correlated pairs per second, per branch of the Sagnac loop.
-Using this, and the estimated coincidence window of 300 ps, a rate of around 0.3 four-folds per second should be achievable.
+or brightness the source is capable of producing around 35000 correlated pairs per second per mW, per branch of the Sagnac loop.
+To the best of my knowledge, this is already a considerably high amount of correlated pairs for such a source, and I will aim to improve it
+farther. Using this, and the estimated coincidence window of 300 ps, a rate of around 0.3 four-folds per second should be achievable.
 This would mean that in order to gather enough four-folds for a HOM measurement, one would have to integrate for roughly 10 minutes per point.
 To the best of my knowledge, this would be a new record result for CW HOM, and it might open other possibilities for further research.
 I have assumed that the jitter of the detectors and time tagger is Gaussian. The goal of the thesis is also to improve the above mentioned
