@@ -1,0 +1,84 @@
+TEXT FOR THE MENTOR'S CONSENT - START
+
+\clearpage
+\pagestyle{plain}
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{Mentor's consent (Soglasje mentorja)}
+\end{center}
+
+\vspace{1cm}
+
+\noindent Senate UL FMF,
+
+\vspace{0.5cm}
+
+\noindent As the mentor of my PhD student Adrian Udovi\v{c}i\'c, I hereby give my consent to his disposition of the doctoral dissertation with the title ``XXX''. In the following, I list references to five of my publications in the field of the thesis topic of my student.
+
+\vspace{0.5cm}
+
+\noindent Sincerely,\
+\noindent assoc.~prof.~dr.~Rainer Oliver Kaltenbaek\
+
+\vspace{1cm}
+
+\noindent \textbf{SICRIS} number: 53022
+
+\noindent \textbf{References:}
+
+MENTOR'S CONSENT - END
+
+
+ENTER THE FOLLOWING REFERENCES LIKE THE WOULD APPEAR IN YOUR BIBLIOGRAPHY:
+
+@article{prevedel2007high,
+  title={High-speed linear optics quantum computing using active feed-forward},
+  author={Prevedel, Robert and Walther, Philip and Tiefenbacher, Felix and B{\"o}hi, Pascal and Kaltenbaek, Rainer and Jennewein, Thomas and Zeilinger, Anton},
+  journal={Nature},
+  volume={445},
+  number={7123},
+  pages={65--69},
+  year={2007},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{kaltenbaek2009high,
+  title={High-fidelity entanglement swapping with fully independent sources},
+  author={Kaltenbaek, Rainer and Prevedel, Robert and Aspelmeyer, Markus and Zeilinger, Anton},
+  journal={Physical Review A—Atomic, Molecular, and Optical Physics},
+  volume={79},
+  number={4},
+  pages={040302},
+  year={2009},
+  publisher={American Physical Society}
+}
+
+@article{kaltenbaek2021quantum,
+  title={Quantum technologies in space},
+  author={Kaltenbaek, Rainer and Acin, Antonio and Bacsardi, Laszlo and Bianco, Paolo and Bouyer, Philippe and Diamanti, Eleni and Marquardt, Christoph and Omar, Yasser and Pruneri, Valerio and Rasel, Ernst and others},
+  journal={Experimental Astronomy},
+  volume={51},
+  number={3},
+  pages={1677--1694},
+  year={2021},
+  publisher={Springer Netherlands}
+}
+
+@article{ribezzo2023deploying,
+  title={Deploying an inter-European quantum network},
+  author={Ribezzo, Domenico and Zahidy, Mujtaba and Vagniluca, Ilaria and Biagi, Nicola and Francesconi, Saverio and Occhipinti, Tommaso and Oxenl{\o}we, Leif K and Lon{\v{c}}ari{\'c}, Martin and Cviti{\'c}, Ivan and Stip{\v{c}}evi{\'c}, Mario and others},
+  journal={Advanced Quantum Technologies},
+  volume={6},
+  number={2},
+  pages={2200061},
+  year={2023}
+}
+
+@article{puvsavec2024designing,
+  title={Designing a compact cavity-enhanced source of entangled photons},
+  author={Pu{\v{s}}avec, {\v{Z}}iga and Ul{\v{c}}akar, Lara and Kaltenbaek, Rainer},
+  journal={arXiv preprint arXiv:2408.16666},
+  year={2024}
+}

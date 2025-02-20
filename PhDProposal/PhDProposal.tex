@@ -12,27 +12,6 @@
 \renewcommand{\abstracttextfont}{\normalfont\normalsize}
 \graphicspath{{./Images/}} % Where to take images from
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
-\definecolor{ocre}{RGB}{243,102,25}
-\definecolor{mygray}{RGB}{243,243,244}
-\definecolor{deepGreen}{RGB}{26,111,0}
-\definecolor{shallowGreen}{RGB}{235,255,255}
-\definecolor{deepBlue}{RGB}{61,124,222}
-\definecolor{shallowBlue}{RGB}{235,249,255}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
-\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
-\theoremstyle{mytheoremstyle}
-\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
-\theoremstyle{mytheoremstyle}
-\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
-\theoremstyle{myproblemstyle}
-\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -145,22 +124,6 @@ in diplomiral iz fizike z nalogo o spektralni analizi AGN Markarian 421 v območ
 Izkušnje na področju kvantne in nelinearne optike imam iz dela v laboratoriju svojega mentorja na FMF.
 
 
-%-----------------------------------------------------------------------------------------------
-%         Soglasje mentorja or Mentor's consent
-%----------------------------------------------------------------------------------------------
-
-\clearpage
-\pagestyle{plain}
-
-\vspace{1cm}
-
-\begin{center}
-	\textbf{Mentor's consent}
-\end{center}
-
-\vspace{1cm}
-
-\noindent (Mentor's consent addressing Senate UL FMF)
 
 %-----------------------------------------------------------------------------------------------
 %         Predlog za odobritev pisanja doktorske disertacije v angleščini
@@ -168,7 +131,7 @@ Izkušnje na področju kvantne in nelinearne optike imam iz dela v laboratoriju 
 
 \clearpage
 \pagestyle{plain}
-
+\setcounter{page}{4}
 \begin{center}
 	\textbf{Application for writing a doctoral dissertation in English}\\
 \end{center}
@@ -267,7 +230,7 @@ The brightness is a measure of how many photon pairs are being produced, bandwid
 as this is a limiting factor for certain interference measurements like
 Hong, Ou, and Mandel (HOM) \cite{Hong_Ou_Mandel_1987}, and also for coupling to quantum memories,
 and the heralding being the probability, when measuring two photon correlations, of finding a correlated photon when detecting the 1st one.
-Brightness and heralding should be as high as possible in order to mitigate loss in fiber for fiber based networks,
+Brightness and heralding should be as high as possible to mitigate loss in fiber for fiber based networks,
 reduce preprocessing load, and the bandwidth to be as narrow as needed for efficient coupling to quantum devices such as quantum memories or repeaters,
 or for measurements as HOM, which will need to be performed for a full characterisation of the source.
 Afterwards, one can also perform a Hanbury-Brown and Twiss \cite{Brown_Twiss_1954} experiment to check the line width of the filtered photons.
@@ -281,7 +244,7 @@ swapping by use of Continuous Wave (CW) lasers has shown that it is entirely pos
 Afterwards, there were very few reports
 on this. Somewhat recently, two \cite{Samara_Maring_Martin_Raja_Kippenberg_Zbinden_Thew_2021,Tsujimoto_Tanaka_Iwasaki_Ikuta_Miki_Yamashita_Terai_Yamamoto_Koashi_Imoto_2018}
 interesting papers came out showing entanglement swapping using a micro-ring resonator and a PPLN waveguide. In the case of the micro-ring resonator, four-wave mixing
-was used in order to generate the entangled pairs in the two source setups, while in the case of the PPLN waveguide a single laser was used for pumping both SPDC crystals.
+was used to generate the entangled pairs in the two source setups, while in the case of the PPLN waveguide a single laser was used for pumping both SPDC crystals.
 % To the best of my knowledge, we will be the first to try to show entanglement swapping by two completely independent bulk sources, using completely independent measurement
 % and analysis tools while pumping with a CW laser.
 
@@ -341,7 +304,7 @@ In the case of the current thesis I will use a 50 mm Periodically polled Lithium
 Type-0 SPDC ($e_{\mathrm{pump}} \rightarrow e_{\mathrm{signal}} + e_{\mathrm{idler}}$) crystal placed in a Sagnac interferometer
 which will be bi-directionally pumped by a CW 780.24 nm laser.
 \par The CW pump will be set to a diagonal polarization state ($\frac{1}{\sqrt{2}}(\ket{H_{\mathrm{pump}}} + \ket{V_{\mathrm{pump}}})$). On arriving to the
-PBS the beam is split into two. The reflected ($\ket{V_{\mathrm{pump}}}$) beam first passes through a half-wave plate (HWP) in order to rotate the
+PBS the beam is split into two. The reflected ($\ket{V_{\mathrm{pump}}}$) beam first passes through a half-wave plate (HWP) to rotate the
 polarization from $\ket{V_{\mathrm{pump}}}$ to $\ket{H_{\mathrm{pump}}}$, as is required by phase matching conditions (in the actual setup the crystal is rotated by 90° along the beam axis), then through
 the crystal where it generates two $\ket{H_{\mathrm{signal}\ (\mathrm{idler})}}$ photons around 1560 nm, and then through the PBSs $\ket{H}$ output where it gets recombined
 with the now two $\ket{V_{\mathrm{signal}\ (\mathrm{idler})}}$ photons from the counter propagating branch.
@@ -363,7 +326,7 @@ to violate the Bell inequality by doing a CHSH \cite{Clauser_Horne_Shimony_Holt_
 We have chosen to do this in the linear basis as it requires
 only two HWPs and two PBSs. The measurement bases here are then offset by $\frac{\pi}{8}$. After this
 we will perform a QST measurement to reconstruct \cite{James_Kwiat_Munro_White_2001} the density matrix of the entangled state.
-In order to measure the actual bandwidth of our DWDM channels a HBT measurement will be performed.
+To measure the actual bandwidth of our DWDM channels a HBT measurement will be performed.
 Subsequently, a HOM measurement will be conducted, as well as quantum teleportation \cite{Bouwmeester_Pan_Mattle_Eibl_Weinfurter_Zeilinger_1997}
 and entanglement swapping \cite{Jennewein_Weihs_Pan_Zeilinger_2001} experiments will be conducted in collaboration with the Jožef Stefan Institute (JSI)
 entanglement lab, who will develop a similar entanglement source with our assistance.
@@ -382,12 +345,12 @@ Currently, tests are being made to see whether this approach will works for us. 
 Regarding the short distance free space test, we will likely engineer or buy basic telescope sender and receiver stations.
 We will follow the procedure developed here by \cite{Kržič_2024}. Upon completion, I will test entanglement swapping via free space
 link. This setup will be used primarily for another project of the group, where 1324 nm photons will be generated in a non-degenerate SPDC process
-along with 852 nm photons in order to couple to a quantum memory device built by JSI. For this purpose, they must send the 852 nm photon
+along with 852 nm photons to couple to a quantum memory device built by JSI. For this purpose, they must send the 852 nm photon
 to the corresponding JSI group. This will also give us experience for the future if given the opportunity to create a connection between
 far away nodes via a ground-space-ground link.
 
 The last part of the thesis will be about active polarization control
-\cite{CCSHDCDRS}. In order to measure the correct states, the
+\cite{CCSHDCDRS}. To measure the correct states, the
 idea is to use an electronic polarization controller in the experimental network to create an algorithm which will be able to
 ensure the correct polarization state is being received on the measurement stage.
 
@@ -401,7 +364,7 @@ is an important measurement for achieving entanglement swapping. Currently, with
 or brightness the source is capable of producing around 35000 correlated pairs per second per mW, per branch of the Sagnac loop.
 To the best of my knowledge, this is already a considerably high amount of correlated pairs for such a source, and I will aim to improve it
 farther. Using this, and the estimated coincidence window of 300 ps, a rate of around 0.3 four-folds per second should be achievable.
-This would mean that in order to gather enough four-folds for a HOM measurement, one would have to integrate for roughly 10 minutes per point.
+This would mean that to gather enough four-folds for a HOM measurement, one would have to integrate for roughly 10 minutes per point.
 To the best of my knowledge, this would be a new record result for CW HOM, and it might open other possibilities for further research.
 I have assumed that the jitter of the detectors and time tagger is Gaussian. The goal of the thesis is also to improve the above mentioned
 values to their respective theoretical limits.
