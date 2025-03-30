@@ -4,7 +4,7 @@ description:
 authors: bogfootlj
 categories: 
 created: 2023-12-10T23:07:52+0100
-updated: 2024-12-26T14:25:33+0100
+updated: 2025-03-12T10:12:17+0100
 version: 1.1.1
 @end
 
@@ -18,6 +18,10 @@ version: 1.1.1
 {:notes/PHD/Hong-Ou-Mandel:}[Hong-Ou-Mandel]
 {:Cavity:}[Cavity stuff]
 
+Seminar in physics (Ziherl)
+* {:notes/PHD/Quantum_Noise:}[Quantum noise from the inception of the universe to the quantum computer]
+
+
 {https://www.nature.com/articles/ncomms1147}[Efficient quantum state entanglement]
 * {:notes/PHD/PPKTP(LN):}[PPKTP(LN) Crystal]
 * {:notes/PHD/QuantumTeleportation:}[Quantum Teleportation]
@@ -30,4 +34,5 @@ version: 1.1.1
 -- Copying or reading changes it's state
 -- Identical copying an unknown quantum state without causing irreversible changes to it is impossible
 * {:notes/PHD/SPDC:}[- Spontanious Parametric DownConversion]
+* {:notes/PHD/DelayStuff:}[- DelayStuff]
 	{https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion}[SPDC] 
